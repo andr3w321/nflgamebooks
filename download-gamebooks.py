@@ -47,7 +47,8 @@ def download_xml(season_year, week, season_type, gamekey):
     time.sleep(1)
 
 db = nfldb.connect()
-years = range(1998, 2015)
+#years = range(1998, 2015)
+years = [2015]
 for year in years:
     q = nfldb.Query(db)
     q.game(season_year=year)
