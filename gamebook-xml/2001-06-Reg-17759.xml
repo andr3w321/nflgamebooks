@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gamebook>
+	<GamebookSummary Title="National Football League Game Summary" AuxiliaryTitle="" Copyright="NFL Copyright © 2001 by The National Football League. All rights reserved. This summary and play-by-play is for the express purpose of assisting media in their coverage of the game; any other use of this material is prohibited without the written permission of the National Football League." ScheduleDate="10/21/2001" VisitingTeam="Carolina Panthers" HomeTeam="Washington Redskins" StartTime="13:01" Stadium="FedExField" GameWeather="Sunny" Temperature="71" Humidity="69" WindSpeed="7" TurfType="Grass" OutdoorWeather="Sunny" WindChill="" Referee="Bill Carollo (63)" Umpire="Charles Hannah" HeadLinesman="Tom Johnson (114)" LineJudge="Ben Montgomery (117)" SideJudge="John Parry (132)" BackJudge="Robert Waggoner" FieldJudge="Tim Millis (80)" ReplayOfficial="Jim Blackwood" VideoOperator="" Attendance="74480" GameLength="3:20" VisitorScoreQ1="7" VisitorScoreQ2="0" VisitorScoreQ3="0" VisitorScoreQ4="7" VisitorScoreOT="0" HomeScoreQ1="0" HomeScoreQ2="0" HomeScoreQ3="0" HomeScoreQ4="14" HomeScoreOT="3">
+		<OffensiveStarterVisitor Player="M.Muhammad" Position="WR" UniformNumber="87"/>
+		<OffensiveStarterVisitor Player="T.Steussie" Position="LT" UniformNumber="75"/>
+		<OffensiveStarterVisitor Player="J.Nesbit" Position="LG" UniformNumber="63"/>
+		<OffensiveStarterVisitor Player="J.Mitchell" Position="C" UniformNumber="60"/>
+		<OffensiveStarterVisitor Player="K.Donnalley" Position="RG" UniformNumber="65"/>
+		<OffensiveStarterVisitor Player="C.Terry" Position="RT" UniformNumber="70"/>
+		<OffensiveStarterVisitor Player="W.Walls" Position="TE" UniformNumber="85"/>
+		<OffensiveStarterVisitor Player="D.Hayes" Position="WR" UniformNumber="81"/>
+		<OffensiveStarterVisitor Player="C.Weinke" Position="QB" UniformNumber="16"/>
+		<OffensiveStarterVisitor Player="I.Byrd" Position="WR" UniformNumber="82"/>
+		<OffensiveStarterVisitor Player="T.Biakabutuka" Position="RB" UniformNumber="21"/>
+		<DefensiveStarterVisitor Player="J.Williams" Position="LDE" UniformNumber="96"/>
+		<DefensiveStarterVisitor Player="S.Gilbert" Position="LDT" UniformNumber="94"/>
+		<DefensiveStarterVisitor Player="K.Jenkins" Position="RDT" UniformNumber="77"/>
+		<DefensiveStarterVisitor Player="M.Rucker" Position="RDE" UniformNumber="93"/>
+		<DefensiveStarterVisitor Player="H.Navies" Position="SLB" UniformNumber="53"/>
+		<DefensiveStarterVisitor Player="L.Towns" Position="MLB" UniformNumber="57"/>
+		<DefensiveStarterVisitor Player="D.Wells" Position="WLB" UniformNumber="95"/>
+		<DefensiveStarterVisitor Player="R.Anderson" Position="LCB" UniformNumber="46"/>
+		<DefensiveStarterVisitor Player="D.Evans" Position="RCB" UniformNumber="33"/>
+		<DefensiveStarterVisitor Player="M.Minter" Position="SS" UniformNumber="30"/>
+		<DefensiveStarterVisitor Player="D.Grant" Position="FS" UniformNumber="27"/>
+		<SubstitutionsVisitor Player="J.Kasay" Position="K" UniformNumber="4"/>
+		<SubstitutionsVisitor Player="T.Sauerbrun" Position="P" UniformNumber="10"/>
+		<SubstitutionsVisitor Player="R.Howard" Position="CB" UniformNumber="23"/>
+		<SubstitutionsVisitor Player="R.Huntley" Position="RB" UniformNumber="34"/>
+		<SubstitutionsVisitor Player="J.Hitchcock" Position="CB" UniformNumber="37"/>
+		<SubstitutionsVisitor Player="D.Richardson" Position="S" UniformNumber="39"/>
+		<SubstitutionsVisitor Player="J.Cooper" Position="S" UniformNumber="40"/>
+		<SubstitutionsVisitor Player="C.Hetherington" Position="FB" UniformNumber="44"/>
+		<SubstitutionsVisitor Player="B.Hoover" Position="FB" UniformNumber="45"/>
+		<SubstitutionsVisitor Player="C.Slade" Position="DE" UniformNumber="50"/>
+		<SubstitutionsVisitor Player="N.Hemsley" Position="LB" UniformNumber="54"/>
+		<SubstitutionsVisitor Player="J.Kyle" Position="LB" UniformNumber="56"/>
+		<SubstitutionsVisitor Player="M.Hawkes" Position="LB" UniformNumber="59"/>
+		<SubstitutionsVisitor Player="L.Chester" Position="DT" UniformNumber="64"/>
+		<SubstitutionsVisitor Player="M.Tuten" Position="T" UniformNumber="73"/>
+		<SubstitutionsVisitor Player="L.Jordan" Position="G" UniformNumber="76"/>
+		<SubstitutionsVisitor Player="L.Broughton" Position="TE" UniformNumber="80"/>
+		<SubstitutionsVisitor Player="K.Mangum" Position="TE" UniformNumber="86"/>
+		<SubstitutionsVisitor Player="K.Hankton" Position="WR" UniformNumber="88"/>
+		<SubstitutionsVisitor Player="S.Smith" Position="WR" UniformNumber="89"/>
+		<SubstitutionsVisitor Player="B.Buckner" Position="DT" UniformNumber="99"/>
+		<DidNotPlayVisitor Player="D.Craig" Position="QB" UniformNumber="2"/>
+		<DidNotPlayVisitor Player="N.Goings" Position="RB" UniformNumber="36"/>
+		<NotActiveVisitor Player="M.Lytle" Position="QB" UniformNumber="9"/>
+		<NotActiveVisitor Player="D.Harper" Position="CB" UniformNumber="28"/>
+		<NotActiveVisitor Player="K.Minor" Position="LB" UniformNumber="52"/>
+		<NotActiveVisitor Player="D.Morgan" Position="LB" UniformNumber="55"/>
+		<NotActiveVisitor Player="J.James" Position="G" UniformNumber="78"/>
+		<NotActiveVisitor Player="P.Jeffers" Position="WR" UniformNumber="83"/>
+		<NotActiveVisitor Player="C.Crawford" Position="TE" UniformNumber="84"/>
+		<NotActiveVisitor Player="J.Peter" Position="DE" UniformNumber="97"/>
+		<OffensiveStarterHome Player="R.Gardner" Position="WR" UniformNumber="87"/>
+		<OffensiveStarterHome Player="C.Samuels" Position="LT" UniformNumber="60"/>
+		<OffensiveStarterHome Player="D.Szott" Position="LG" UniformNumber="79"/>
+		<OffensiveStarterHome Player="C.Raymer" Position="C" UniformNumber="52"/>
+		<OffensiveStarterHome Player="B.Coleman" Position="RG" UniformNumber="62"/>
+		<OffensiveStarterHome Player="J.Jansen" Position="RT" UniformNumber="76"/>
+		<OffensiveStarterHome Player="W.Rasby" Position="TE" UniformNumber="86"/>
+		<OffensiveStarterHome Player="M.Westbrook" Position="WR" UniformNumber="82"/>
+		<OffensiveStarterHome Player="T.Banks" Position="QB" UniformNumber="12"/>
+		<OffensiveStarterHome Player="D.Bennett" Position="FB" UniformNumber="32"/>
+		<OffensiveStarterHome Player="S.Davis" Position="RB" UniformNumber="48"/>
+		<DefensiveStarterHome Player="D.Boose" Position="RE" UniformNumber="72"/>
+		<DefensiveStarterHome Player="J.DeLoach" Position="RT" UniformNumber="92"/>
+		<DefensiveStarterHome Player="D.Wilkinson" Position="LT" UniformNumber="95"/>
+		<DefensiveStarterHome Player="K.Lang" Position="LE" UniformNumber="90"/>
+		<DefensiveStarterHome Player="A.Pierce" Position="WLB" UniformNumber="58"/>
+		<DefensiveStarterHome Player="K.Mitchell" Position="MLB" UniformNumber="55"/>
+		<DefensiveStarterHome Player="L.Arrington" Position="SLB" UniformNumber="56"/>
+		<DefensiveStarterHome Player="D.Green" Position="RCB" UniformNumber="28"/>
+		<DefensiveStarterHome Player="C.Bailey" Position="LCB" UniformNumber="24"/>
+		<DefensiveStarterHome Player="S.Shade" Position="SS" UniformNumber="29"/>
+		<DefensiveStarterHome Player="D.Terrell" Position="FS" UniformNumber="31"/>
+		<SubstitutionsHome Player="B.Barker" Position="P" UniformNumber="4"/>
+		<SubstitutionsHome Player="B.Conway" Position="K" UniformNumber="5"/>
+		<SubstitutionsHome Player="K.Graham" Position="3QB" UniformNumber="10"/>
+		<SubstitutionsHome Player="M.Bates" Position="RB" UniformNumber="20"/>
+		<SubstitutionsHome Player="K.Serwanga" Position="CB" UniformNumber="22"/>
+		<SubstitutionsHome Player="K.Carter" Position="RB" UniformNumber="23"/>
+		<SubstitutionsHome Player="I.Ohalete" Position="DB" UniformNumber="26"/>
+		<SubstitutionsHome Player="C.McClellion" Position="CB" UniformNumber="27"/>
+		<SubstitutionsHome Player="K.Lyle" Position="S" UniformNumber="35"/>
+		<SubstitutionsHome Player="B.Johnson" Position="FB" UniformNumber="47"/>
+		<SubstitutionsHome Player="R.Jones" Position="LB" UniformNumber="50"/>
+		<SubstitutionsHome Player="E.Mason" Position="LB" UniformNumber="53"/>
+		<SubstitutionsHome Player="D.Brandt" Position="OL" UniformNumber="54"/>
+		<SubstitutionsHome Player="D.Curry" Position="LB" UniformNumber="57"/>
+		<SubstitutionsHome Player="M.Campbell" Position="OL" UniformNumber="66"/>
+		<SubstitutionsHome Player="E.Albright" Position="LS" UniformNumber="77"/>
+		<SubstitutionsHome Player="K.Lockett" Position="WR" UniformNumber="83"/>
+		<SubstitutionsHome Player="D.Thompson" Position="WR" UniformNumber="88"/>
+		<SubstitutionsHome Player="Z.Flemister" Position="TE" UniformNumber="89"/>
+		<SubstitutionsHome Player="D.Cowsette" Position="DT" UniformNumber="91"/>
+		<SubstitutionsHome Player="O.Leverette" Position="DE" UniformNumber="93"/>
+		<SubstitutionsHome Player="T.Williams" Position="DT" UniformNumber="96"/>
+		<DidNotPlayHome Player="D.Arp" Position="DT" UniformNumber="74"/>
+		<NotActiveHome Player="S.Rosenfels" Position="QB" UniformNumber="18"/>
+		<NotActiveHome Player="F.Smoot" Position="CB" UniformNumber="21"/>
+		<NotActiveHome Player="M.Fischer" Position="C" UniformNumber="51"/>
+		<NotActiveHome Player="R.Tucker" Position="OL" UniformNumber="68"/>
+		<NotActiveHome Player="B.Smith" Position="DE" UniformNumber="78"/>
+		<NotActiveHome Player="S.Alexander" Position="TE" UniformNumber="80"/>
+		<NotActiveHome Player="D.McCants" Position="WR" UniformNumber="85"/>
+		<NotActiveHome Player="M.Coleman" Position="DE" UniformNumber="99"/>
+		<FieldGoalSummaryHome Player="B.Conway" FieldGoals="32WR (23)"/>
+		<ScoringPlay Team="Panthers" Quarter="1" Time="5:04" PlayDescription="W.Walls 2 yd. pass from C.Weinke (J.Kasay kick) (6-53, 3:22)" VisitorScore="7" HomeScore="0"/>
+		<ScoringPlay Team="Panthers" Quarter="4" Time="12:58" PlayDescription="T.Biakabutuka 10 yd. run (J.Kasay kick) (9-83, 5:13)" VisitorScore="14" HomeScore="0"/>
+		<ScoringPlay Team="Redskins" Quarter="4" Time="10:10" PlayDescription="L.Arrington 67 yd. interception return (B.Conway kick)" VisitorScore="14" HomeScore="7"/>
+		<ScoringPlay Team="Redskins" Quarter="4" Time="7:25" PlayDescription="R.Gardner 85 yd. pass from T.Banks (B.Conway kick) (1-85, 0:12)" VisitorScore="14" HomeScore="14"/>
+		<ScoringPlay Team="Redskins" Quarter="5" Time="13:08" PlayDescription="B.Conway 23 yd. Field Goal (4-81, 1:52)" VisitorScore="14" HomeScore="17"/>
+	</GamebookSummary>
+	<IndividualStatistics>
+		<RusherVisitor Player="T.Biakabutuka" Attempts="20" Yards="121" Average="6.1" Touchdowns="1" Long="27"/>
+		<RusherVisitor Player="B.Hoover" Attempts="3" Yards="12" Average="4.0" Touchdowns="0" Long="8"/>
+		<RusherVisitor Player="S.Smith" Attempts="1" Yards="-8" Average="-8.0" Touchdowns="0" Long="-8"/>
+		<RusherVisitor Player="C.Weinke" Attempts="1" Yards="-1" Average="-1.0" Touchdowns="0" Long="-1"/>
+		<RusherVisitor Player="Total" Attempts="25" Yards="124" Average="5.0" Touchdowns="1" Long="27"/>
+		<RusherHome Player="S.Davis" Attempts="26" Yards="99" Average="3.8" Touchdowns="0" Long="24"/>
+		<RusherHome Player="T.Banks" Attempts="2" Yards="-1" Average="-0.5" Touchdowns="0" Long="0"/>
+		<RusherHome Player="Total" Attempts="28" Yards="98" Average="3.5" Touchdowns="0" Long="24"/>
+		<PasserVisitor Player="C.Weinke" Attempts="35" Completions="24" Yards="226" Sacks="1" SackYardage="8" Touchdowns="1" Long="36" Interceptions="4" Rating="56.1"/>
+		<PasserVisitor Player="Total" Attempts="35" Completions="24" Yards="226" Sacks="1" SackYardage="8" Touchdowns="1" Long="36" Interceptions="4" Rating="56.1"/>
+		<PasserHome Player="T.Banks" Attempts="30" Completions="17" Yards="346" Sacks="1" SackYardage="1" Touchdowns="1" Long="85t" Interceptions="1" Rating="94.6"/>
+		<PasserHome Player="Total" Attempts="30" Completions="17" Yards="346" Sacks="1" SackYardage="1" Touchdowns="1" Long="85t" Interceptions="1" Rating="94.6"/>
+		<ReceiverVisitor Player="D.Hayes" Number="6" Yards="75" Average="12.5" Touchdowns="0" Long="27"/>
+		<ReceiverVisitor Player="I.Byrd" Number="5" Yards="73" Average="14.6" Touchdowns="0" Long="36"/>
+		<ReceiverVisitor Player="T.Biakabutuka" Number="4" Yards="29" Average="7.3" Touchdowns="0" Long="14"/>
+		<ReceiverVisitor Player="W.Walls" Number="3" Yards="15" Average="5.0" Touchdowns="1" Long="8"/>
+		<ReceiverVisitor Player="C.Hetherington" Number="3" Yards="1" Average="0.3" Touchdowns="0" Long="2"/>
+		<ReceiverVisitor Player="M.Muhammad" Number="2" Yards="27" Average="13.5" Touchdowns="0" Long="16"/>
+		<ReceiverVisitor Player="B.Hoover" Number="1" Yards="6" Average="6.0" Touchdowns="0" Long="6"/>
+		<ReceiverVisitor Player="Total" Number="24" Yards="226" Average="9.4" Touchdowns="1" Long="36"/>
+		<ReceiverHome Player="R.Gardner" Number="6" Yards="208" Average="34.7" Touchdowns="1" Long="85t"/>
+		<ReceiverHome Player="K.Lockett" Number="3" Yards="33" Average="11.0" Touchdowns="0" Long="17"/>
+		<ReceiverHome Player="B.Johnson" Number="2" Yards="47" Average="23.5" Touchdowns="0" Long="32"/>
+		<ReceiverHome Player="S.Davis" Number="2" Yards="20" Average="10.0" Touchdowns="0" Long="15"/>
+		<ReceiverHome Player="D.Thompson" Number="1" Yards="19" Average="19.0" Touchdowns="0" Long="19"/>
+		<ReceiverHome Player="M.Westbrook" Number="1" Yards="19" Average="19.0" Touchdowns="0" Long="19"/>
+		<ReceiverHome Player="W.Rasby" Number="1" Yards="3" Average="3.0" Touchdowns="0" Long="3"/>
+		<ReceiverHome Player="K.Carter" Number="1" Yards="-3" Average="-3.0" Touchdowns="0" Long="-3"/>
+		<ReceiverHome Player="Total" Number="17" Yards="346" Average="20.4" Touchdowns="1" Long="85t"/>
+		<InterceptorVisitor Player="D.Evans" Number="1" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorVisitor Player="Total" Number="1" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorHome Player="L.Arrington" Number="1" Yards="67" Average="67.0" Long="67t" Touchdowns="1"/>
+		<InterceptorHome Player="K.Lang" Number="1" Yards="14" Average="14.0" Long="14" Touchdowns="0"/>
+		<InterceptorHome Player="O.Leverette" Number="1" Yards="1" Average="1.0" Long="1" Touchdowns="0"/>
+		<InterceptorHome Player="D.Terrell" Number="1" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorHome Player="Total" Number="4" Yards="82" Average="20.5" Long="67t" Touchdowns="1"/>
+		<PunterVisitor Player="T.Sauerbrun" Number="6" Yards="335" Average="55.8" Touchbacks="1" Inside20="4" Long="72"/>
+		<PunterVisitor Player="Total" Number="6" Yards="335" Average="55.8" Touchbacks="1" Inside20="4" Long="72"/>
+		<PunterHome Player="B.Barker" Number="6" Yards="279" Average="46.5" Touchbacks="1" Inside20="1" Long="53"/>
+		<PunterHome Player="Total" Number="6" Yards="279" Average="46.5" Touchbacks="1" Inside20="1" Long="53"/>
+		<PuntReturnerVisitor Player="S.Smith" Number="3" Yards="46" Average="15.3" FairCatches="0" Long="28" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="[OUT OF BOUNDS]" Number="2" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="[TOUCHBACK]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="Returns" Number="3" Yards="46" Average="15.3" FairCatches="0" Long="28" Touchdowns="0"/>
+		<PuntReturnerHome Player="K.Lockett" Number="1" Yards="5" Average="5.0" FairCatches="1" Long="5" Touchdowns="0"/>
+		<PuntReturnerHome Player="M.Bates" Number="1" Yards="5" Average="5.0" FairCatches="0" Long="5" Touchdowns="0"/>
+		<PuntReturnerHome Player="[DOWNED]" Number="2" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="[TOUCHBACK]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="Returns" Number="2" Yards="10" Average="5.0" FairCatches="1" Long="5" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="S.Smith" Number="2" Yards="27" Average="13.5" FairCatches="0" Long="18" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="[TOUCHBACK]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="Returns" Number="2" Yards="27" Average="13.5" FairCatches="0" Long="18" Touchdowns="0"/>
+		<KickOffReturnerHome Player="M.Bates" Number="2" Yards="35" Average="17.5" FairCatches="0" Long="18" Touchdowns="0"/>
+		<KickOffReturnerHome Player="[TOUCHBACK]" Number="2" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<KickOffReturnerHome Player="Returns" Number="2" Yards="35" Average="17.5" FairCatches="0" Long="18" Touchdowns="0"/>
+		<FumblesVisitor Player="M.Rucker" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="L.Chester" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="Total" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="S.Davis" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="Total" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+	</IndividualStatistics>
+	<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="19" HomeStats="16"/>
+	<TeamStatistics Description="By Rushing" VisitorStats="7" HomeStats="3"/>
+	<TeamStatistics Description="By Passing" VisitorStats="11" HomeStats="12"/>
+	<TeamStatistics Description="By Penalty" VisitorStats="1" HomeStats="1"/>
+	<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="4-12-33%" HomeStats="3-12-25%"/>
+	<TeamStatistics Description="FOURTH DOWN EFFICIENCY" VisitorStats="0-0-0%" HomeStats="0-1-0%"/>
+	<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="342" HomeStats="443"/>
+	<TeamStatistics Description="Total Offensive Plays (inc. times thrown passing)" VisitorStats="61" HomeStats="59"/>
+	<TeamStatistics Description="Average gain per offensive play" VisitorStats="5.6" HomeStats="7.5"/>
+	<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="124" HomeStats="98"/>
+	<TeamStatistics Description="Total Rushing Plays" VisitorStats="25" HomeStats="28"/>
+	<TeamStatistics Description="Average gain per rushing play" VisitorStats="5.0" HomeStats="3.5"/>
+	<TeamStatistics Description="Tackles for a loss-number and yards" VisitorStats="3-12" HomeStats="1-1"/>
+	<TeamStatistics Description="NET YARDS PASSING" VisitorStats="218" HomeStats="345"/>
+	<TeamStatistics Description="Times thrown - yards lost attempting to pass" VisitorStats="1-8" HomeStats="1-1"/>
+	<TeamStatistics Description="Gross yards passing" VisitorStats="226" HomeStats="346"/>
+	<TeamStatistics Description="PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED" VisitorStats="35-24-4" HomeStats="30-17-1"/>
+	<TeamStatistics Description="Avg gain per pass play (inc.# thrown passing)" VisitorStats="6.1" HomeStats="11.1"/>
+	<TeamStatistics Description="KICKOFFS Number-In End Zone-Touchbacks" VisitorStats="4-3-2" HomeStats="3-1-1"/>
+	<TeamStatistics Description="PUNTS Number and Average" VisitorStats="6-55.8" HomeStats="6-46.5"/>
+	<TeamStatistics Description="Had Blocked" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FGs - PATs Had Blocked" VisitorStats="0-0" HomeStats="0-0"/>
+	<TeamStatistics Description="Net Punting Average" VisitorStats="50.8" HomeStats="35.5"/>
+	<TeamStatistics Description="TOTAL RETURN YARDAGE (Not Including Kickoffs)" VisitorStats="46" HomeStats="92"/>
+	<TeamStatistics Description="No. and Yards Punt Returns" VisitorStats="3-46" HomeStats="2-10"/>
+	<TeamStatistics Description="No. and Yards Kickoff Returns" VisitorStats="2-27" HomeStats="2-35"/>
+	<TeamStatistics Description="No. and Yards Interception Returns" VisitorStats="1-0" HomeStats="4-82"/>
+	<TeamStatistics Description="PENALTIES Number and Yards" VisitorStats="7-51" HomeStats="5-50"/>
+	<TeamStatistics Description="FUMBLES Number and Lost" VisitorStats="0-0" HomeStats="1-1"/>
+	<TeamStatistics Description="TOUCHDOWNS" VisitorStats="2" HomeStats="2"/>
+	<TeamStatistics Description="Rushing" VisitorStats="1" HomeStats="0"/>
+	<TeamStatistics Description="Passing" VisitorStats="1" HomeStats="1"/>
+	<TeamStatistics Description="Interceptions" VisitorStats="0" HomeStats="1"/>
+	<TeamStatistics Description="EXTRA POINTS Made-Attempts" VisitorStats="2-2" HomeStats="2-2"/>
+	<TeamStatistics Description="Kicking Made-Attempts" VisitorStats="2-2" HomeStats="2-2"/>
+	<TeamStatistics Description="FIELD GOALS Made-Attempts" VisitorStats="0-0" HomeStats="1-2"/>
+	<TeamStatistics Description="RED ZONE EFFICIENCY" VisitorStats="2-4-50%" HomeStats="0-2-0%"/>
+	<TeamStatistics Description="GOAL TO GO EFFICIENCY" VisitorStats="2-4-50%" HomeStats="0-1-0%"/>
+	<TeamStatistics Description="SAFETIES" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FINAL SCORE" VisitorStats="14" HomeStats="17"/>
+	<TeamStatistics Description="TIME OF POSSESSION" VisitorStats="32:39" HomeStats="29:13"/>
+	<DriveChart AverageDriveStartVisitor="(431) Average CAR 33" KickoffDriveInfoVisitor="Panthers: 3 - CAR 22" AverageDriveStartHome="(223) Average WAS 17" KickoffDriveInfoHome="Redskins: 4 - WAS 19" TimeOfPossessionTotalVisitor="32:39" TimeOfPossessionTotalHome="29:13" TimeOfPossessionQ1Visitor="7:26" TimeOfPossessionQ1Home="7:34" TimeOfPossessionQ2Visitor="7:19" TimeOfPossessionQ2Home="7:41" TimeOfPossessionQ3Visitor="8:08" TimeOfPossessionQ3Home="6:52" TimeOfPossessionQ4Visitor="9:46" TimeOfPossessionQ4Home="5:14" TimeOfPossessionQ5Visitor="0:00" TimeOfPossessionQ5Home="1:52">
+		<DriveVisitor Number="1" Quarter="1" TimeReceived="12:21" TimeLost="10:06" TimeOfPossession="2:15" HowBallObtained="Punt" DriveBegan="CAR 39" PlayCount="3" YardsGained="8" YardsPenalized="5" NetYards="13" FirstDowns="1" LastScrimmage="WAS 48" HowGivenUp="Punt"/>
+		<DriveVisitor Number="2" Quarter="1" TimeReceived="8:26" TimeLost="5:04" TimeOfPossession="3:22" HowBallObtained="Punt" DriveBegan="CAR 47" PlayCount="6" YardsGained="53" YardsPenalized="0" NetYards="53" FirstDowns="4" LastScrimmage="*WAS 2" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="3" Quarter="1" TimeReceived="3:02" TimeLost="1:13" TimeOfPossession="1:49" HowBallObtained="Downs" DriveBegan="CAR 47" PlayCount="4" YardsGained="11" YardsPenalized="0" NetYards="11" FirstDowns="1" LastScrimmage="WAS 42" HowGivenUp="Interception"/>
+		<DriveVisitor Number="4" Quarter="2" TimeReceived="11:49" TimeLost="10:50" TimeOfPossession="0:59" HowBallObtained="Punt" DriveBegan="CAR 20" PlayCount="3" YardsGained="5" YardsPenalized="-15" NetYards="-10" FirstDowns="0" LastScrimmage="CAR 10" HowGivenUp="Punt"/>
+		<DriveVisitor Number="5" Quarter="2" TimeReceived="9:59" TimeLost="6:20" TimeOfPossession="3:39" HowBallObtained="Interception" DriveBegan="WAS 47" PlayCount="8" YardsGained="39" YardsPenalized="0" NetYards="39" FirstDowns="3" LastScrimmage="*WAS 8" HowGivenUp="Interception"/>
+		<DriveVisitor Number="6" Quarter="2" TimeReceived="2:49" TimeLost="0:08" TimeOfPossession="2:41" HowBallObtained="Fumble" DriveBegan="CAR 42" PlayCount="10" YardsGained="57" YardsPenalized="0" NetYards="57" FirstDowns="4" LastScrimmage="*WAS 1" HowGivenUp="Interception"/>
+		<DriveVisitor Number="7" Quarter="3" TimeReceived="15:00" TimeLost="11:55" TimeOfPossession="3:05" HowBallObtained="Kickoff" DriveBegan="CAR 25" PlayCount="4" YardsGained="21" YardsPenalized="0" NetYards="21" FirstDowns="1" LastScrimmage="CAR 46" HowGivenUp="Punt"/>
+		<DriveVisitor Number="8" Quarter="3" TimeReceived="10:35" TimeLost="8:43" TimeOfPossession="1:52" HowBallObtained="Punt" DriveBegan="CAR 35" PlayCount="3" YardsGained="11" YardsPenalized="-10" NetYards="1" FirstDowns="0" LastScrimmage="CAR 36" HowGivenUp="Punt"/>
+		<DriveVisitor Number="9" Quarter="4" TimeReceived="3:11" TimeLost="12:58" TimeOfPossession="5:13" HowBallObtained="Punt" DriveBegan="CAR 17" PlayCount="9" YardsGained="83" YardsPenalized="0" NetYards="83" FirstDowns="4" LastScrimmage="*WAS 10" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="10" Quarter="4" TimeReceived="12:24" TimeLost="10:10" TimeOfPossession="2:14" HowBallObtained="Punt" DriveBegan="CAR 42" PlayCount="4" YardsGained="30" YardsPenalized="0" NetYards="30" FirstDowns="1" LastScrimmage="WAS 28" HowGivenUp="Interception"/>
+		<DriveVisitor Number="11" Quarter="4" TimeReceived="10:10" TimeLost="7:37" TimeOfPossession="2:33" HowBallObtained="Kickoff" DriveBegan="CAR 20" PlayCount="3" YardsGained="14" YardsPenalized="-10" NetYards="4" FirstDowns="0" LastScrimmage="CAR 24" HowGivenUp="Punt"/>
+		<DriveVisitor Number="12" Quarter="4" TimeReceived="7:25" TimeLost="5:04" TimeOfPossession="2:21" HowBallObtained="Kickoff" DriveBegan="CAR 22" PlayCount="3" YardsGained="11" YardsPenalized="-5" NetYards="6" FirstDowns="0" LastScrimmage="CAR 28" HowGivenUp="Punt"/>
+		<DriveVisitor Number="13" Quarter="4" TimeReceived="0:36" TimeLost="0:00" TimeOfPossession="0:36" HowBallObtained="Missed FG" DriveBegan="CAR 22" PlayCount="1" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="CAR 22" HowGivenUp="End of Half"/>
+		<DriveHome Number="1" Quarter="1" TimeReceived="15:00" TimeLost="12:21" TimeOfPossession="2:39" HowBallObtained="Kickoff" DriveBegan="WAS 20" PlayCount="7" YardsGained="25" YardsPenalized="0" NetYards="25" FirstDowns="2" LastScrimmage="WAS 45" HowGivenUp="Punt"/>
+		<DriveHome Number="2" Quarter="1" TimeReceived="10:06" TimeLost="8:26" TimeOfPossession="1:40" HowBallObtained="Punt" DriveBegan="WAS 9" PlayCount="3" YardsGained="6" YardsPenalized="0" NetYards="6" FirstDowns="0" LastScrimmage="WAS 15" HowGivenUp="Punt"/>
+		<DriveHome Number="3" Quarter="1" TimeReceived="5:04" TimeLost="3:02" TimeOfPossession="2:02" HowBallObtained="Kickoff" DriveBegan="WAS 20" PlayCount="5" YardsGained="33" YardsPenalized="0" NetYards="33" FirstDowns="1" LastScrimmage="CAR 47" HowGivenUp="Downs"/>
+		<DriveHome Number="4" Quarter="2" TimeReceived="1:13" TimeLost="11:49" TimeOfPossession="4:24" HowBallObtained="Interception" DriveBegan="WAS 18" PlayCount="7" YardsGained="48" YardsPenalized="-15" NetYards="33" FirstDowns="2" LastScrimmage="CAR 49" HowGivenUp="Punt"/>
+		<DriveHome Number="5" Quarter="2" TimeReceived="10:50" TimeLost="9:59" TimeOfPossession="0:51" HowBallObtained="Punt" DriveBegan="WAS 37" PlayCount="3" YardsGained="5" YardsPenalized="0" NetYards="5" FirstDowns="0" LastScrimmage="WAS 42" HowGivenUp="Interception"/>
+		<DriveHome Number="6" Quarter="2" TimeReceived="6:20" TimeLost="2:49" TimeOfPossession="3:31" HowBallObtained="Interception" DriveBegan="WAS 21" PlayCount="6" YardsGained="32" YardsPenalized="5" NetYards="37" FirstDowns="2" LastScrimmage="CAR 41" HowGivenUp="Fumble"/>
+		<DriveHome Number="7" Quarter="2" TimeReceived="0:08" TimeLost="0:00" TimeOfPossession="0:08" HowBallObtained="Interception" DriveBegan="WAS 10" PlayCount="1" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="WAS 10" HowGivenUp="End of Half"/>
+		<DriveHome Number="8" Quarter="3" TimeReceived="11:55" TimeLost="10:35" TimeOfPossession="1:20" HowBallObtained="Punt" DriveBegan="WAS 8" PlayCount="3" YardsGained="9" YardsPenalized="0" NetYards="9" FirstDowns="0" LastScrimmage="WAS 17" HowGivenUp="Punt"/>
+		<DriveHome Number="9" Quarter="3" TimeReceived="8:43" TimeLost="3:11" TimeOfPossession="5:32" HowBallObtained="Punt" DriveBegan="WAS 10" PlayCount="8" YardsGained="59" YardsPenalized="-25" NetYards="34" FirstDowns="3" LastScrimmage="WAS 44" HowGivenUp="Punt"/>
+		<DriveHome Number="10" Quarter="4" TimeReceived="12:58" TimeLost="12:24" TimeOfPossession="0:34" HowBallObtained="Kickoff" DriveBegan="WAS 21" PlayCount="3" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="WAS 21" HowGivenUp="Punt"/>
+		<DriveHome Number="11" Quarter="4" TimeReceived="7:37" TimeLost="7:25" TimeOfPossession="0:12" HowBallObtained="Punt" DriveBegan="WAS 15" PlayCount="1" YardsGained="85" YardsPenalized="0" NetYards="85" FirstDowns="1" LastScrimmage="WAS 15" HowGivenUp="Touchdown"/>
+		<DriveHome Number="12" Quarter="4" TimeReceived="5:04" TimeLost="0:36" TimeOfPossession="4:28" HowBallObtained="Punt" DriveBegan="WAS 20" PlayCount="10" YardsGained="61" YardsPenalized="6" NetYards="67" FirstDowns="3" LastScrimmage="*CAR 13" HowGivenUp="Missed FG"/>
+		<DriveHome Number="13" Quarter="5" TimeReceived="15:00" TimeLost="13:08" TimeOfPossession="1:52" HowBallObtained="Kickoff" DriveBegan="WAS 14" PlayCount="4" YardsGained="81" YardsPenalized="0" NetYards="81" FirstDowns="2" LastScrimmage="*CAR 5" HowGivenUp="Field Goal"/>
+	</DriveChart>
+	<DefensiveStatistics>
+		<DefenderVisitor Player="D.Wells" Tackles="5" Assists="3" Combined="8" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Minter" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Rucker" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Chester" Tackles="3" Assists="2" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Towns" Tackles="2" Assists="3" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Evans" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Anderson" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Grant" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="H.Navies" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Gilbert" Tackles="2" Assists="1" Combined="3" Sacks="1" SackYards="1" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Jenkins" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="N.Hemsley" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="C.Slade" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Williams" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Cooper" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Hawkes" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Hitchcock" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Donnalley" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Hankton" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Mangum" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Muhammad" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Richardson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="44" Assists="13" Combined="57" Sacks="1" SackYards="1" Interceptions="1" PassDefences="7" ForcedFumbles="1" FumbleRecoveries="1" SpecialTeamsTackles="4" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="2" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Green" Tackles="7" Assists="0" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="S.Shade" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="L.Arrington" Tackles="5" Assists="1" Combined="6" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Mitchell" Tackles="5" Assists="1" Combined="6" Sacks="1" SackYards="8" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C.Bailey" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C.McClellion" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Terrell" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Jones" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Lang" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Boose" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Mason" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.DeLoach" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Wilkinson" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Pierce" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Barker" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Curry" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Z.Flemister" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Johnson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="O.Leverette" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Lyle" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="W.Rasby" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Thompson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="47" Assists="5" Combined="52" Sacks="1" SackYards="8" Interceptions="4" PassDefences="9" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="5" SpecialTeamsAssists="3" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</DefensiveStatistics>
+	<FirstHalfSummary Title="First Half Summary" PeriodScoresVisitor="7  0 = 7" PeriodScoresHome="0  0 = 0" TimeOfPossessionVisitor="14:45" TimeOfPossessionHome="15:15">
+		<ScoringPlay Team="Panthers" Quarter="1" Time="5:04" PlayDescription="W.Walls 2 yd. pass from C.Weinke (J.Kasay kick) (6-53, 3:22)" VisitorScore="7" HomeScore="0"/>
+		<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="13" HomeStats="7"/>
+		<TeamStatistics Description="First Downs Rushing-Passing-by Penalty" VisitorStats="3 - 9 - 1" HomeStats="2 - 5 - 0"/>
+		<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="2-5-40%" HomeStats="2-7-29%"/>
+		<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="173" HomeStats="148"/>
+		<TeamStatistics Description="Total Offensive Plays" VisitorStats="34" HomeStats="32"/>
+		<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="34" HomeStats="53"/>
+		<TeamStatistics Description="NET YARDS PASSING" VisitorStats="139" HomeStats="95"/>
+		<TeamStatistics Description="Gross Yards Passing" VisitorStats="139" HomeStats="95"/>
+		<TeamStatistics Description="Times thrown-yards lost attempting to pass" VisitorStats="0-0" HomeStats="0-0"/>
+		<TeamStatistics Description="Pass Attempts-Completions-Had Intercepted" VisitorStats="22 - 13 - 3" HomeStats="17 - 8 - 1"/>
+		<TeamStatistics Description="Punts-Number and Average" VisitorStats="2 - 46" HomeStats="3 - 49.7"/>
+		<TeamStatistics Description="Penalties-Number and Yards" VisitorStats="2 - 20" HomeStats="3 - 25"/>
+		<TeamStatistics Description="Fumbles-Number and Lost" VisitorStats="0 - 0" HomeStats="1 - 1"/>
+		<RusherVisitor Player="T.Biakabutuka" Attempts="8" Yards="30" Average="3.8" Touchdowns="0" Long="10"/>
+		<RusherVisitor Player="B.Hoover" Attempts="3" Yards="12" Average="4.0" Touchdowns="0" Long="8"/>
+		<RusherVisitor Player="S.Smith" Attempts="1" Yards="-8" Average="-8.0" Touchdowns="0" Long="-8"/>
+		<RusherVisitor Player="Total" Attempts="12" Yards="34" Average="2.8" Touchdowns="0" Long="10"/>
+		<RusherHome Player="S.Davis" Attempts="13" Yards="54" Average="4.2" Touchdowns="0" Long="24"/>
+		<RusherHome Player="T.Banks" Attempts="2" Yards="-1" Average="-0.5" Touchdowns="0" Long="0"/>
+		<RusherHome Player="Total" Attempts="15" Yards="53" Average="3.5" Touchdowns="0" Long="24"/>
+		<PasserVisitor Player="C.Weinke" Attempts="22" Completions="13" Yards="139" Sacks="0" SackYardage="0" Touchdowns="1" Long="27" Interceptions="3" Rating="53.2"/>
+		<PasserVisitor Player="Total" Attempts="22" Completions="13" Yards="139" Sacks="0" SackYardage="0" Touchdowns="1" Long="27" Interceptions="3" Rating="53.2"/>
+		<PasserHome Player="T.Banks" Attempts="17" Completions="8" Yards="95" Sacks="0" SackYardage="0" Touchdowns="0" Long="19" Interceptions="1" Rating="40.1"/>
+		<PasserHome Player="Total" Attempts="17" Completions="8" Yards="95" Sacks="0" SackYardage="0" Touchdowns="0" Long="19" Interceptions="1" Rating="40.1"/>
+		<ReceiverVisitor Player="D.Hayes" Number="5" Yards="70" Average="14.0" Touchdowns="0" Long="27"/>
+		<ReceiverVisitor Player="M.Muhammad" Number="2" Yards="27" Average="13.5" Touchdowns="0" Long="16"/>
+		<ReceiverVisitor Player="I.Byrd" Number="2" Yards="19" Average="9.5" Touchdowns="0" Long="14"/>
+		<ReceiverVisitor Player="W.Walls" Number="2" Yards="7" Average="3.5" Touchdowns="1" Long="5"/>
+		<ReceiverVisitor Player="T.Biakabutuka" Number="1" Yards="10" Average="10.0" Touchdowns="0" Long="10"/>
+		<ReceiverVisitor Player="B.Hoover" Number="1" Yards="6" Average="6.0" Touchdowns="0" Long="6"/>
+		<ReceiverVisitor Player="Total" Number="13" Yards="139" Average="10.7" Touchdowns="1" Long="27"/>
+		<ReceiverHome Player="K.Lockett" Number="3" Yards="33" Average="11.0" Touchdowns="0" Long="17"/>
+		<ReceiverHome Player="R.Gardner" Number="2" Yards="27" Average="13.5" Touchdowns="0" Long="19"/>
+		<ReceiverHome Player="S.Davis" Number="2" Yards="20" Average="10.0" Touchdowns="0" Long="15"/>
+		<ReceiverHome Player="B.Johnson" Number="1" Yards="15" Average="15.0" Touchdowns="0" Long="15"/>
+		<ReceiverHome Player="Total" Number="8" Yards="95" Average="11.9" Touchdowns="0" Long="19"/>
+		<DefenderVisitor Player="M.Rucker" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Evans" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="H.Navies" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Wells" Tackles="1" Assists="2" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="N.Hemsley" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Jenkins" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Minter" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Chester" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Towns" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Anderson" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Cooper" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Grant" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Gilbert" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="C.Slade" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Williams" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Donnalley" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Muhammad" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="22" Assists="8" Combined="30" Sacks="0" SackYards="0" Interceptions="1" PassDefences="5" ForcedFumbles="1" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="2" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="L.Arrington" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Green" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Jones" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="S.Shade" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C.Bailey" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Boose" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C.McClellion" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Mitchell" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Terrell" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.DeLoach" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Mason" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Wilkinson" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Pierce" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Barker" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Curry" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Lang" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="O.Leverette" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Lyle" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="W.Rasby" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="24" Assists="3" Combined="27" Sacks="0" SackYards="0" Interceptions="3" PassDefences="8" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</FirstHalfSummary>
+	<PlayByPlay>
+		<_1stQuarter>
+			<Play Header="WAS wins toss, elects to Receive, and CAR elects to defend the East goal."/>
+			<Play Header="10-T.Sauerbrun kicks 70 yards from CAR 30 to end zone, Touchback."/>
+			<Play Header="Washington Redskins at 15:00, (1st play from scrimmage 14:55)"/>
+			<Play DownDistanceYardline="1-10-WAS 20" EarnedFirstDown="False" PlayDescription="(14:55) 12-T.Banks pass incomplete to 86-W.Rasby (30-M.Minter)."/>
+			<Play DownDistanceYardline="2-10-WAS 20" EarnedFirstDown="False" PlayDescription="(14:50) 12-T.Banks pass to 47-B.Johnson to WAS 35 for 15 yards (30-M.Minter)." FirstDownType="P1"/>
+			<Play DownDistanceYardline="1-10-WAS 35" EarnedFirstDown="True" PlayDescription="(14:09) 48-S.Davis left end to WAS 38 for 3 yards (77-K.Jenkins)."/>
+			<Play DownDistanceYardline="2-7-WAS 38" EarnedFirstDown="False" PlayDescription="(13:34) 48-S.Davis up the middle to WAS 45 for 7 yards (93-M.Rucker, 95-D.Wells)." FirstDownType="R2"/>
+			<Play DownDistanceYardline="1-10-WAS 45" EarnedFirstDown="True" PlayDescription="(12:52) 12-T.Banks pass incomplete to 88-D.Thompson."/>
+			<Play DownDistanceYardline="2-10-WAS 45" EarnedFirstDown="False" PlayDescription="(12:46) 12-T.Banks pass incomplete to 87-R.Gardner."/>
+			<Play PlayDescription="Timeout #1 by WAS at 12:42."/>
+			<Play DownDistanceYardline="3-10-WAS 45" EarnedFirstDown="False" PlayDescription="(12:42) (Shotgun) 12-T.Banks pass incomplete to 82-M.Westbrook (46-R.Anderson)."/>
+			<Play DownDistanceYardline="4-10-WAS 45" EarnedFirstDown="False" PlayDescription="(12:38) 4-B.Barker punts 49 yards to CAR 6, Center-77-E.Albright. 89-S.Smith to CAR 34 for 28 yards (4-B.Barker)."/>
+			<Play PlayDescription="PENALTY on WAS-22-K.Serwanga, Face Mask (5 Yards), 5 yards, enforced at CAR 34."/>
+			<Play Header="Carolina Panthers at 12:21"/>
+			<Play DownDistanceYardline="1-10-CAR 39" EarnedFirstDown="False" PlayDescription="(12:21) 16-C.Weinke pass incomplete to 87-M.Muhammad."/>
+			<Play PlayDescription="PENALTY on WAS-58-A.Pierce, Defensive Holding, 5 yards, enforced at CAR 39 - No Play." FirstDownType="X1"/>
+			<Play DownDistanceYardline="1-10-CAR 44" EarnedFirstDown="True" PlayDescription="(12:15) 21-T.Biakabutuka up the middle to CAR 49 for 5 yards (56-L.Arrington). Arrington shaken up"/>
+			<Play DownDistanceYardline="2-5-CAR 49" EarnedFirstDown="False" PlayDescription="(11:27) 21-T.Biakabutuka up the middle to WAS 49 for 2 yards (72-D.Boose)."/>
+			<Play DownDistanceYardline="3-3-WAS 49" EarnedFirstDown="False" PlayDescription="(10:48) 21-T.Biakabutuka left end to WAS 48 for 1 yard (28-D.Green)."/>
+			<Play DownDistanceYardline="4-2-WAS 48" EarnedFirstDown="False" PlayDescription="(10:13) 10-T.Sauerbrun punts 39 yards to WAS 9, Center-56-J.Kyle, fair catch by 83-K.Lockett."/>
+			<Play Header="Washington Redskins at 10:06"/>
+			<Play DownDistanceYardline="1-10-WAS 9" EarnedFirstDown="False" PlayDescription="(10:06) 48-S.Davis left end to WAS 12 for 3 yards (64-L.Chester, 96-J.Williams)."/>
+			<Play DownDistanceYardline="2-7-WAS 12" EarnedFirstDown="False" PlayDescription="(9:31) 48-S.Davis left end to WAS 15 for 3 yards (53-H.Navies, 95-D.Wells)."/>
+			<Play DownDistanceYardline="3-4-WAS 15" EarnedFirstDown="False" PlayDescription="(8:45) 12-T.Banks pass incomplete to 82-M.Westbrook (33-D.Evans)."/>
+			<Play PlayDescription="Penalty on WAS, Illegal Formation, declined."/>
+			<Play DownDistanceYardline="4-4-WAS 15" EarnedFirstDown="False" PlayDescription="(8:38) 4-B.Barker punts 51 yards to CAR 34, Center-77-E.Albright. 89-S.Smith pushed ob at CAR 47 for 13 yards (57-D.Curry, 35-K.Lyle)."/>
+			<Play Header="Carolina Panthers at 8:26"/>
+			<Play DownDistanceYardline="1-10-CAR 47" EarnedFirstDown="False" PlayDescription="(8:26) 16-C.Weinke pass to 81-D.Hayes to WAS 26 for 27 yards (72-D.Boose)." FirstDownType="P2"/>
+			<Play DownDistanceYardline="1-10-WAS 26" EarnedFirstDown="True" PlayDescription="(7:49) 16-C.Weinke pass to 87-M.Muhammad to WAS 15 for 11 yards (24-C.Bailey)." FirstDownType="P3"/>
+			<Play DownDistanceYardline="1-10-WAS 15" EarnedFirstDown="True" PlayDescription="(7:11) 21-T.Biakabutuka up the middle to WAS 15 for no gain (92-J.DeLoach)."/>
+			<Play PlayDescription="Timeout #2 by WAS at 06:29."/>
+			<Play DownDistanceYardline="2-10-WAS 15" EarnedFirstDown="False" PlayDescription="(6:29) 16-C.Weinke pass to 81-D.Hayes to WAS 1 for 14 yards (55-K.Mitchell, 58-A.Pierce)." FirstDownType="P4"/>
+			<Play DownDistanceYardline="1-1-WAS 1" EarnedFirstDown="True" PlayDescription="(5:50) 45-B.Hoover up the middle to WAS 2 for -1 yards (50-R.Jones)."/>
+			<Play DownDistanceYardline="2-2-WAS 2" EarnedFirstDown="False" PlayDescription="(5:14) 16-C.Weinke pass to 85-W.Walls for 2 yards, TOUCHDOWN." FirstDownType="P5"/>
+			<Play PlayDescription="4-J.Kasay extra point is GOOD, Center-56-J.Kyle, Holder-10-T.Sauerbrun."/>
+			<Play Header="CAR 7 WAS 0,  6 plays, 53 yards,  3:22 drive,  9:56 elapsed"/>
+			<Play Header="10-T.Sauerbrun kicks 70 yards from CAR 30 to end zone, Touchback."/>
+			<Play Header="Washington Redskins at 5:04, (1st play from scrimmage 4:58)"/>
+			<Play DownDistanceYardline="1-10-WAS 20" EarnedFirstDown="False" PlayDescription="(4:58) 48-S.Davis up the middle to WAS 44 for 24 yards (46-R.Anderson, 33-D.Evans)." FirstDownType="R3"/>
+			<Play DownDistanceYardline="1-10-WAS 44" EarnedFirstDown="True" PlayDescription="(4:21) 12-T.Banks pass incomplete to 86-W.Rasby."/>
+			<Play DownDistanceYardline="2-10-WAS 44" EarnedFirstDown="False" PlayDescription="(4:15) 12-T.Banks pass to 87-R.Gardner to CAR 48 for 8 yards (33-D.Evans)."/>
+			<Play DownDistanceYardline="3-2-CAR 48" EarnedFirstDown="False" PlayDescription="(3:39) 48-S.Davis left end to CAR 47 for 1 yard (57-L.Towns)."/>
+			<Play DownDistanceYardline="4-1-CAR 47" EarnedFirstDown="False" PlayDescription="(3:10) 12-T.Banks up the middle to CAR 47 for no gain (93-M.Rucker)."/>
+			<Play Header="Carolina Panthers at 3:02"/>
+			<Play DownDistanceYardline="1-10-CAR 47" EarnedFirstDown="False" PlayDescription="(3:02) 16-C.Weinke pass incomplete to 85-W.Walls (50-R.Jones)."/>
+			<Play DownDistanceYardline="2-10-CAR 47" EarnedFirstDown="False" PlayDescription="(2:56) 16-C.Weinke pass to 81-D.Hayes pushed ob at WAS 34 for 19 yards (31-D.Terrell)." FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-WAS 34" EarnedFirstDown="True" PlayDescription="(2:14) 89-S.Smith left end to WAS 42 for -8 yards (28-D.Green). Reverse from Baikabutuka"/>
+			<Play DownDistanceYardline="2-18-WAS 42" EarnedFirstDown="False" PlayDescription="(1:27) 16-C.Weinke pass intended for 81-D.Hayes INTERCEPTED by 31-D.Terrell (29-S.Shade) at WAS 18. 31-D.Terrell to WAS 18 for no gain."/>
+			<Play Header="Washington Redskins at 1:13"/>
+			<Play DownDistanceYardline="1-10-WAS 18" EarnedFirstDown="False" PlayDescription="(1:13) 12-T.Banks pass to 48-S.Davis pushed ob at WAS 33 for 15 yards (95-D.Wells)." FirstDownType="P4"/>
+			<Play DownDistanceYardline="1-10-WAS 33" EarnedFirstDown="True" PlayDescription="(:29) 48-S.Davis right end to WAS 36 for 3 yards (64-L.Chester)."/>
+			<Play PlayDescription="PENALTY on WAS-82-M.Westbrook, Illegal Crackback, 15 yards, enforced at WAS 33 - No Play."/>
+			<Play DownDistanceYardline="1-25-WAS 18" EarnedFirstDown="False" PlayDescription="(:08) 12-T.Banks pass to 87-R.Gardner to WAS 37 for 19 yards (27-D.Grant)."/>
+			<QuarterSummary Team="Carolina Panthers" Score="7" TimeOfPossession="7:26" FirstDownsRushing="0" FirstDownsPassing="5" FirstDownsPenalty="1" FirstDownsTotal="6" ThirdDownEfficiency="0/1" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Washington Redskins" Score="0" TimeOfPossession="7:34" FirstDownsRushing="2" FirstDownsPassing="2" FirstDownsPenalty="0" FirstDownsTotal="4" ThirdDownEfficiency="0/3" FourthDownEfficiency="0/1"/>
+		</_1stQuarter>
+		<_2ndQuarter>
+			<Play Header="Washington Redskins continued."/>
+			<Play DownDistanceYardline="2-6-WAS 37" EarnedFirstDown="False" PlayDescription="(15:00) 48-S.Davis left end to WAS 40 for 3 yards (53-H.Navies, 50-C.Slade)."/>
+			<Play DownDistanceYardline="3-3-WAS 40" EarnedFirstDown="False" PlayDescription="(14:13) 12-T.Banks pass to 83-K.Lockett to WAS 46 for 6 yards (40-J.Cooper)." FirstDownType="P5"/>
+			<Play DownDistanceYardline="1-10-WAS 46" EarnedFirstDown="True" PlayDescription="(13:31) 48-S.Davis up the middle to 50 for 4 yards (77-K.Jenkins)."/>
+			<Play DownDistanceYardline="2-6-50" EarnedFirstDown="False" PlayDescription="(12:51) 48-S.Davis up the middle to CAR 49 for 1 yard (54-N.Hemsley, 57-L.Towns)."/>
+			<Play DownDistanceYardline="3-5-CAR 49" EarnedFirstDown="False" PlayDescription="(12:06) 12-T.Banks pass incomplete (50-C.Slade)."/>
+			<Play DownDistanceYardline="4-5-CAR 49" EarnedFirstDown="False" PlayDescription="(12:03) 4-B.Barker punts 49 yards to end zone, Center-77-E.Albright, Touchback."/>
+			<Play Header="Carolina Panthers at 11:49"/>
+			<Play DownDistanceYardline="1-10-CAR 20" EarnedFirstDown="False" PlayDescription="(11:49) 45-B.Hoover left end to CAR 25 for 5 yards (95-D.Wilkinson)."/>
+			<Play DownDistanceYardline="2-5-CAR 25" EarnedFirstDown="False" PlayDescription="(11:14) 16-C.Weinke pass incomplete to 87-M.Muhammad."/>
+			<Play DownDistanceYardline="3-5-CAR 25" EarnedFirstDown="False" PlayDescription="(11:07) 16-C.Weinke pass incomplete."/>
+			<Play PlayDescription="PENALTY on CAR-16-C.Weinke, Intentional Grounding, 15 yards, enforced at CAR 25."/>
+			<Play DownDistanceYardline="4-20-CAR 10" EarnedFirstDown="False" PlayDescription="(11:00) 10-T.Sauerbrun punts 53 yards to WAS 37, Center-56-J.Kyle, downed by CAR-40-J.Cooper."/>
+			<Play Header="Washington Redskins at 10:50"/>
+			<Play DownDistanceYardline="1-10-WAS 37" EarnedFirstDown="False" PlayDescription="(10:50) 12-T.Banks pass incomplete to 87-R.Gardner."/>
+			<Play DownDistanceYardline="2-10-WAS 37" EarnedFirstDown="False" PlayDescription="(10:44) 12-T.Banks pass to 48-S.Davis pushed ob at WAS 42 for 5 yards (53-H.Navies)."/>
+			<Play DownDistanceYardline="3-5-WAS 42" EarnedFirstDown="False" PlayDescription="(10:11) 12-T.Banks pass intended for 86-W.Rasby INTERCEPTED by 33-D.Evans at WAS 47. 33-D.Evans to WAS 47 for no gain (86-W.Rasby)."/>
+			<Play Header="Carolina Panthers at 9:59"/>
+			<Play DownDistanceYardline="1-10-WAS 47" EarnedFirstDown="False" PlayDescription="(9:59) 21-T.Biakabutuka left end to WAS 42 for 5 yards (50-R.Jones, 55-K.Mitchell)."/>
+			<Play DownDistanceYardline="2-5-WAS 42" EarnedFirstDown="False" PlayDescription="(9:26) 21-T.Biakabutuka up the middle to WAS 36 for 6 yards (24-C.Bailey)." FirstDownType="R7"/>
+			<Play DownDistanceYardline="1-10-WAS 36" EarnedFirstDown="True" PlayDescription="(8:51) 16-C.Weinke pass to 85-W.Walls to WAS 31 for 5 yards (50-R.Jones)."/>
+			<Play DownDistanceYardline="2-5-WAS 31" EarnedFirstDown="False" PlayDescription="(8:19) 16-C.Weinke pass to 81-D.Hayes to WAS 25 for 6 yards (28-D.Green)." FirstDownType="P8"/>
+			<Play DownDistanceYardline="1-10-WAS 25" EarnedFirstDown="True" PlayDescription="(7:46) 16-C.Weinke pass to 87-M.Muhammad to WAS 9 for 16 yards (53-E.Mason)." FirstDownType="P9"/>
+			<Play DownDistanceYardline="1-9-WAS 9" EarnedFirstDown="True" PlayDescription="(7:18) 21-T.Biakabutuka up the middle to WAS 8 for 1 yard (29-S.Shade)."/>
+			<Play DownDistanceYardline="2-8-WAS 8" EarnedFirstDown="False" PlayDescription="(6:32) 16-C.Weinke pass incomplete to 85-W.Walls (31-D.Terrell)."/>
+			<Play DownDistanceYardline="3-8-WAS 8" EarnedFirstDown="False" PlayDescription="(6:29) 16-C.Weinke pass INTERCEPTED by 90-K.Lang at WAS 7. 90-K.Lang to WAS 21 for 14 yards (87-M.Muhammad)."/>
+			<Play Header="Washington Redskins at 6:20"/>
+			<Play DownDistanceYardline="1-10-WAS 21" EarnedFirstDown="False" PlayDescription="(6:20) 48-S.Davis left end to WAS 26 for 5 yards (33-D.Evans, 94-S.Gilbert)."/>
+			<Play DownDistanceYardline="2-5-WAS 26" EarnedFirstDown="False" PlayDescription="(5:43) 12-T.Banks pass to 83-K.Lockett to WAS 43 for 17 yards (30-M.Minter)." FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-WAS 43" EarnedFirstDown="True" PlayDescription="(5:06) 48-S.Davis left end to WAS 43 for no gain (93-M.Rucker)."/>
+			<Play DownDistanceYardline="2-10-WAS 43" EarnedFirstDown="False" PlayDescription="(4:28) 48-S.Davis right end to WAS 44 for 1 yard (54-N.Hemsley, 64-L.Chester)."/>
+			<Play DownDistanceYardline="3-9-WAS 44" EarnedFirstDown="False" PlayDescription="(3:45) (Shotgun) 12-T.Banks pass incomplete to 83-K.Lockett."/>
+			<Play PlayDescription="PENALTY on CAR-40-J.Cooper, Defensive Delay of Game, 5 yards, enforced at WAS 44 - No Play."/>
+			<Play DownDistanceYardline="3-4-WAS 49" EarnedFirstDown="False" PlayDescription="(3:34) 12-T.Banks pass to 83-K.Lockett to CAR 41 for 10 yards (33-D.Evans)." FirstDownType="P7"/>
+			<Play DownDistanceYardline="1-10-CAR 41" EarnedFirstDown="True" PlayDescription="(2:59) 48-S.Davis left end to CAR 41 for no gain (93-M.Rucker). FUMBLES (93-M.Rucker), RECOVERED by CAR-64-L.Chester at CAR 42."/>
+			<Play Header="Carolina Panthers at 2:49"/>
+			<Play DownDistanceYardline="1-10-CAR 42" EarnedFirstDown="False" PlayDescription="(2:49) 16-C.Weinke pass incomplete to 81-D.Hayes (28-D.Green)."/>
+			<Play DownDistanceYardline="2-10-CAR 42" EarnedFirstDown="False" PlayDescription="(2:47) 16-C.Weinke pass to 45-B.Hoover to CAR 48 for 6 yards (27-C.McClellion)."/>
+			<Play DownDistanceYardline="3-4-CAR 48" EarnedFirstDown="False" PlayDescription="(2:10) 16-C.Weinke pass to 82-I.Byrd to WAS 38 for 14 yards (27-C.McClellion)." FirstDownType="P10"/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="1-10-WAS 38" EarnedFirstDown="True" PlayDescription="(2:00) 16-C.Weinke pass to 21-T.Biakabutuka to WAS 28 for 10 yards (56-L.Arrington)." FirstDownType="P11"/>
+			<Play DownDistanceYardline="1-10-WAS 28" EarnedFirstDown="True" PlayDescription="(1:27) 21-T.Biakabutuka up the middle to WAS 18 for 10 yards (29-S.Shade, 31-D.Terrell)." FirstDownType="R12"/>
+			<Play DownDistanceYardline="1-10-WAS 18" EarnedFirstDown="True" PlayDescription="(1:09) 16-C.Weinke pass to 81-D.Hayes to WAS 14 for 4 yards (56-L.Arrington)."/>
+			<Play PlayDescription="Timeout #1 by CAR at 00:53."/>
+			<Play DownDistanceYardline="2-6-WAS 14" EarnedFirstDown="False" PlayDescription="(:53) 16-C.Weinke pass to 82-I.Byrd to WAS 9 for 5 yards (56-L.Arrington)."/>
+			<Play PlayDescription="Timeout #2 by CAR at 00:31."/>
+			<Play DownDistanceYardline="3-1-WAS 9" EarnedFirstDown="False" PlayDescription="(:31) 45-B.Hoover left end to WAS 1 for 8 yards (29-S.Shade)." FirstDownType="R13"/>
+			<Play DownDistanceYardline="1-1-WAS 1" EarnedFirstDown="True" PlayDescription="(:15) 16-C.Weinke pass incomplete. Spiked the ball"/>
+			<Play PlayDescription="Timeout #3 by CAR at 00:13."/>
+			<Play PlayDescription="Timeout #3 by WAS at 00:13."/>
+			<Play DownDistanceYardline="2-1-WAS 1" EarnedFirstDown="False" PlayDescription="(:13) 16-C.Weinke pass INTERCEPTED by 93-O.Leverette (95-D.Wilkinson) at WAS 9. 93-O.Leverette to WAS 10 for 1 yard (65-K.Donnalley)."/>
+			<Play Header="Washington Redskins at 0:08"/>
+			<Play DownDistanceYardline="1-10-WAS 10" EarnedFirstDown="False" PlayDescription="(:08) 12-T.Banks to WAS 9 for -1 yards."/>
+			<QuarterSummary Team="Carolina Panthers" Score="7" TimeOfPossession="7:19" FirstDownsRushing="3" FirstDownsPassing="4" FirstDownsPenalty="0" FirstDownsTotal="7" ThirdDownEfficiency="2/4" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Washington Redskins" Score="0" TimeOfPossession="7:41" FirstDownsRushing="0" FirstDownsPassing="3" FirstDownsPenalty="0" FirstDownsTotal="3" ThirdDownEfficiency="2/4" FourthDownEfficiency="0/0"/>
+		</_2ndQuarter>
+		<_3rdQuarter>
+			<Play Header="CAR elects to Receive, and WAS elects to defend the East goal."/>
+			<Play Header="5-B.Conway kicks 63 yards from WAS 30 to CAR 7. 89-S.Smith to CAR 25 for 18 yards (89-Z.Flemister, 57-D.Curry)."/>
+			<Play Header="Carolina Panthers at 15:00, (1st play from scrimmage 14:52)"/>
+			<Play DownDistanceYardline="1-10-CAR 25" EarnedFirstDown="False" PlayDescription="(14:52) 21-T.Biakabutuka left end to CAR 40 for 15 yards (29-S.Shade)." FirstDownType="R14"/>
+			<Play DownDistanceYardline="1-10-CAR 40" EarnedFirstDown="True" PlayDescription="(14:17) 21-T.Biakabutuka up the middle to CAR 42 for 2 yards (55-K.Mitchell)."/>
+			<Play DownDistanceYardline="2-8-CAR 42" EarnedFirstDown="False" PlayDescription="(13:37) 16-C.Weinke sacked at CAR 34 for -8 yards (55-K.Mitchell)."/>
+			<Play DownDistanceYardline="3-16-CAR 34" EarnedFirstDown="False" PlayDescription="(13:01) 16-C.Weinke pass to 82-I.Byrd to CAR 46 for 12 yards (28-D.Green)."/>
+			<Play DownDistanceYardline="4-4-CAR 46" EarnedFirstDown="False" PlayDescription="(12:25) 10-T.Sauerbrun punts 51 yards to WAS 3, Center-56-J.Kyle. 83-K.Lockett to WAS 8 for 5 yards (95-D.Wells)."/>
+			<Play Header="Washington Redskins at 11:55"/>
+			<Play DownDistanceYardline="1-10-WAS 8" EarnedFirstDown="False" PlayDescription="(11:55) 48-S.Davis left end to WAS 13 for 5 yards (95-D.Wells)."/>
+			<Play DownDistanceYardline="2-5-WAS 13" EarnedFirstDown="False" PlayDescription="(11:25) 48-S.Davis right end to WAS 17 for 4 yards (95-D.Wells, 77-K.Jenkins)."/>
+			<Play DownDistanceYardline="3-1-WAS 17" EarnedFirstDown="False" PlayDescription="(10:54) 12-T.Banks pass incomplete to 82-M.Westbrook."/>
+			<Play DownDistanceYardline="4-1-WAS 17" EarnedFirstDown="False" PlayDescription="(10:48) 4-B.Barker punts 53 yards to CAR 30, Center-77-E.Albright. 89-S.Smith to CAR 35 for 5 yards (47-B.Johnson, 89-Z.Flemister)."/>
+			<Play Header="Carolina Panthers at 10:35"/>
+			<Play DownDistanceYardline="1-10-CAR 35" EarnedFirstDown="False" PlayDescription="(10:35) 16-C.Weinke pass incomplete to 87-M.Muhammad."/>
+			<Play PlayDescription="PENALTY on CAR-87-M.Muhammad, Offensive Pass Interference, 10 yards, enforced at CAR 35 - No Play."/>
+			<Play DownDistanceYardline="1-20-CAR 25" EarnedFirstDown="False" PlayDescription="(10:30) 16-C.Weinke pass to 21-T.Biakabutuka pushed ob at CAR 39 for 14 yards (31-D.Terrell)."/>
+			<Play DownDistanceYardline="2-6-CAR 39" EarnedFirstDown="False" PlayDescription="(9:58) 21-T.Biakabutuka left end to CAR 36 for -3 yards (28-D.Green)."/>
+			<Play DownDistanceYardline="3-9-CAR 36" EarnedFirstDown="False" PlayDescription="(9:15) 16-C.Weinke pass incomplete to 44-C.Hetherington."/>
+			<Play DownDistanceYardline="4-9-CAR 36" EarnedFirstDown="False" PlayDescription="(9:15) 10-T.Sauerbrun punts 59 yards to WAS 5, Center-56-J.Kyle. 20-M.Bates to WAS 10 for 5 yards (88-K.Hankton, 39-D.Richardson)."/>
+			<Play Header="Washington Redskins at 8:43"/>
+			<Play DownDistanceYardline="1-10-WAS 10" EarnedFirstDown="False" PlayDescription="(8:43) 48-S.Davis right end to WAS 14 for 4 yards (95-D.Wells)."/>
+			<Play DownDistanceYardline="2-6-WAS 14" EarnedFirstDown="False" PlayDescription="(8:21) 48-S.Davis right end to WAS 21 for 7 yards (96-J.Williams, 57-L.Towns)." FirstDownType="R8"/>
+			<Play DownDistanceYardline="1-10-WAS 21" EarnedFirstDown="True" PlayDescription="(7:48) 12-T.Banks pass to 87-R.Gardner to WAS 48 for 27 yards (30-M.Minter)." FirstDownType="P9"/>
+			<Play DownDistanceYardline="1-10-WAS 48" EarnedFirstDown="True" PlayDescription="(7:09) 48-S.Davis left end to CAR 49 for 3 yards (30-M.Minter, 95-D.Wells)."/>
+			<Play DownDistanceYardline="2-7-CAR 49" EarnedFirstDown="False" PlayDescription="(6:29) 12-T.Banks pass to 88-D.Thompson to CAR 30 for 19 yards (46-R.Anderson)." FirstDownType="P10"/>
+			<Play DownDistanceYardline="1-10-CAR 30" EarnedFirstDown="True" PlayDescription="(5:57) 23-K.Carter right end pushed ob at CAR 19 for 11 yards (27-D.Grant)."/>
+			<Play PlayDescription="PENALTY on WAS-82-M.Westbrook, Offensive Holding, 15 yards, enforced at CAR 30 - No Play.
+Penalty on WAS-52-C.Raymer, Face Mask (15 Yards), declined."/>
+			<Play DownDistanceYardline="1-25-CAR 45" EarnedFirstDown="False" PlayDescription="(5:29) 12-T.Banks up the middle to CAR 45 for no gain (59-M.Hawkes)."/>
+			<Play PlayDescription="PENALTY on WAS-79-D.Szott, Offensive Holding, 10 yards, enforced at CAR 45 - No Play."/>
+			<Play DownDistanceYardline="1-35-WAS 45" EarnedFirstDown="False" PlayDescription="(5:05) 12-T.Banks pass to 23-K.Carter to WAS 42 for -3 yards (46-R.Anderson, 57-L.Towns)."/>
+			<Play DownDistanceYardline="2-38-WAS 42" EarnedFirstDown="False" PlayDescription="(4:21) 12-T.Banks pass to 86-W.Rasby to WAS 45 for 3 yards (27-D.Grant)."/>
+			<Play DownDistanceYardline="3-35-WAS 45" EarnedFirstDown="False" PlayDescription="(3:37) (Shotgun) 12-T.Banks sacked at WAS 44 for -1 yards (94-S.Gilbert)."/>
+			<Play DownDistanceYardline="4-36-WAS 44" EarnedFirstDown="False" PlayDescription="(3:19) 4-B.Barker punts 39 yards to CAR 17, Center-77-E.Albright, out of bounds."/>
+			<Play Header="Carolina Panthers at 3:11"/>
+			<Play DownDistanceYardline="1-10-CAR 17" EarnedFirstDown="False" PlayDescription="(3:11) 21-T.Biakabutuka up the middle to CAR 21 for 4 yards (90-K.Lang, 56-L.Arrington)."/>
+			<Play DownDistanceYardline="2-6-CAR 21" EarnedFirstDown="False" PlayDescription="(2:36) 16-C.Weinke pass to 21-T.Biakabutuka to CAR 19 for -2 yards (55-K.Mitchell)."/>
+			<Play DownDistanceYardline="3-8-CAR 19" EarnedFirstDown="False" PlayDescription="(1:52) 16-C.Weinke pass to 82-I.Byrd to WAS 45 for 36 yards (27-C.McClellion)." FirstDownType="P15"/>
+			<Play DownDistanceYardline="1-10-WAS 45" EarnedFirstDown="True" PlayDescription="(1:03) 21-T.Biakabutuka left end to WAS 45 for no gain (90-K.Lang)."/>
+			<Play DownDistanceYardline="2-10-WAS 45" EarnedFirstDown="False" PlayDescription="(:25) 16-C.Weinke pass to 81-D.Hayes to WAS 40 for 5 yards (28-D.Green)."/>
+			<QuarterSummary Team="Carolina Panthers" Score="7" TimeOfPossession="8:08" FirstDownsRushing="1" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="2" ThirdDownEfficiency="1/3" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Washington Redskins" Score="0" TimeOfPossession="6:52" FirstDownsRushing="1" FirstDownsPassing="2" FirstDownsPenalty="0" FirstDownsTotal="3" ThirdDownEfficiency="0/2" FourthDownEfficiency="0/0"/>
+		</_3rdQuarter>
+		<_4thQuarter>
+			<Play Header="Carolina Panthers continued."/>
+			<Play DownDistanceYardline="3-5-WAS 40" EarnedFirstDown="False" PlayDescription="(15:00) 16-C.Weinke pass to 82-I.Byrd to WAS 34 for 6 yards (27-C.McClellion)." FirstDownType="P16"/>
+			<Play DownDistanceYardline="1-10-WAS 34" EarnedFirstDown="True" PlayDescription="(14:25) 21-T.Biakabutuka left end to WAS 26 for 8 yards (29-S.Shade)."/>
+			<Play DownDistanceYardline="2-2-WAS 26" EarnedFirstDown="False" PlayDescription="(13:48) 21-T.Biakabutuka right end to WAS 10 for 16 yards (31-D.Terrell)." FirstDownType="R17"/>
+			<Play DownDistanceYardline="1-10-WAS 10" EarnedFirstDown="True" PlayDescription="(13:05) 21-T.Biakabutuka up the middle for 10 yards, TOUCHDOWN." FirstDownType="R18"/>
+			<Play PlayDescription="4-J.Kasay extra point is GOOD, Center-56-J.Kyle, Holder-10-T.Sauerbrun."/>
+			<Play Header="CAR 14 WAS 0,  9 plays, 83 yards,  5:13 drive,  2:02 elapsed"/>
+			<Play Header="10-T.Sauerbrun kicks 67 yards from CAR 30 to WAS 3. 20-M.Bates to WAS 21 for 18 yards (88-K.Hankton)."/>
+			<Play Header="Washington Redskins at 12:58, (1st play from scrimmage 12:47)"/>
+			<Play DownDistanceYardline="1-10-WAS 21" EarnedFirstDown="False" PlayDescription="(12:47) 12-T.Banks pass incomplete to 32-D.Bennett."/>
+			<Play DownDistanceYardline="2-10-WAS 21" EarnedFirstDown="False" PlayDescription="(12:42) 12-T.Banks pass incomplete to 86-W.Rasby (37-J.Hitchcock)."/>
+			<Play DownDistanceYardline="3-10-WAS 21" EarnedFirstDown="False" PlayDescription="(12:36) (Shotgun) 12-T.Banks pass incomplete (27-D.Grant)."/>
+			<Play DownDistanceYardline="4-10-WAS 21" EarnedFirstDown="False" PlayDescription="(12:33) 4-B.Barker punts 38 yards to CAR 41, Center-77-E.Albright, out of bounds."/>
+			<Play Header="Carolina Panthers at 12:24"/>
+			<Play DownDistanceYardline="1-10-CAR 42" EarnedFirstDown="False" PlayDescription="(12:24) 21-T.Biakabutuka up the middle to WAS 31 for 27 yards (55-K.Mitchell)." FirstDownType="R19"/>
+			<Play DownDistanceYardline="1-10-WAS 31" EarnedFirstDown="True" PlayDescription="(11:42) 21-T.Biakabutuka left end to WAS 28 for 3 yards (53-E.Mason)."/>
+			<Play DownDistanceYardline="2-7-WAS 28" EarnedFirstDown="False" PlayDescription="(11:03) 16-C.Weinke pass to 44-C.Hetherington to WAS 28 for no gain (24-C.Bailey)."/>
+			<Play DownDistanceYardline="3-7-WAS 28" EarnedFirstDown="False" PlayDescription="(10:25) 16-C.Weinke pass intended for 44-C.Hetherington INTERCEPTED by 56-L.Arrington at WAS 33. 56-L.Arrington for 67 yards, TOUCHDOWN."/>
+			<Play Header="Washington Redskins at 10:10"/>
+			<Play PlayDescription="5-B.Conway extra point is GOOD, Center-77-E.Albright, Holder-4-B.Barker."/>
+			<Play Header="CAR 14 WAS 7,  0 plays, 67 yards,  0:00 drive ,  4:50 elapsed"/>
+			<Play Header="5-B.Conway kicks 70 yards from WAS 30 to end zone, Touchback."/>
+			<Play Header="Carolina Panthers at 10:10, (1st play from scrimmage 10:03)"/>
+			<Play DownDistanceYardline="1-10-CAR 20" EarnedFirstDown="False" PlayDescription="(10:03) PENALTY on CAR-65-K.Donnalley, False Start, 5 yards, enforced at CAR 20 - No Play."/>
+			<Play DownDistanceYardline="1-15-CAR 15" EarnedFirstDown="False" PlayDescription="(10:03) 16-C.Weinke pass to 44-C.Hetherington to CAR 14 for -1 yards (24-C.Bailey)."/>
+			<Play DownDistanceYardline="2-16-CAR 14" EarnedFirstDown="False" PlayDescription="(9:20) PENALTY on CAR-75-T.Steussie, False Start, 5 yards, enforced at CAR 14 - No Play."/>
+			<Play DownDistanceYardline="2-21-CAR 9" EarnedFirstDown="False" PlayDescription="(9:07) 21-T.Biakabutuka up the middle to CAR 17 for 8 yards (56-L.Arrington)."/>
+			<Play DownDistanceYardline="3-13-CAR 17" EarnedFirstDown="False" PlayDescription="(8:26) 16-C.Weinke pass to 21-T.Biakabutuka pushed ob at CAR 24 for 7 yards (29-S.Shade)."/>
+			<Play DownDistanceYardline="4-6-CAR 24" EarnedFirstDown="False" PlayDescription="(7:49) 10-T.Sauerbrun punts 61 yards to WAS 15, Center-56-J.Kyle, downed by CAR-88-K.Hankton."/>
+			<Play Header="Washington Redskins at 7:37"/>
+			<Play DownDistanceYardline="1-10-WAS 15" EarnedFirstDown="False" PlayDescription="(7:37) 12-T.Banks pass to 87-R.Gardner for 85 yards, TOUCHDOWN." FirstDownType="P11"/>
+			<Play PlayDescription="5-B.Conway extra point is GOOD, Center-77-E.Albright, Holder-4-B.Barker."/>
+			<Play Header="CAR 14 WAS 14,  1 plays, 85 yards,  0:12 drive,  7:35 elapsed"/>
+			<Play Header="5-B.Conway kicks 57 yards from WAS 30 to CAR 13. 89-S.Smith to CAR 22 for 9 yards (88-D.Thompson)."/>
+			<Play Header="Carolina Panthers at 7:25, (1st play from scrimmage 7:16)"/>
+			<Play DownDistanceYardline="1-10-CAR 22" EarnedFirstDown="False" PlayDescription="(7:16) 21-T.Biakabutuka right end to CAR 23 for 1 yard (90-K.Lang). Biakabatuka shaken up"/>
+			<Play DownDistanceYardline="2-9-CAR 23" EarnedFirstDown="False" PlayDescription="(6:49) PENALTY on CAR-75-T.Steussie, False Start, 5 yards, enforced at CAR 23 - No Play."/>
+			<Play DownDistanceYardline="2-14-CAR 18" EarnedFirstDown="False" PlayDescription="(6:38) 16-C.Weinke pass to 44-C.Hetherington to CAR 20 for 2 yards (24-C.Bailey)."/>
+			<Play DownDistanceYardline="3-12-CAR 20" EarnedFirstDown="False" PlayDescription="(5:59) 16-C.Weinke pass to 85-W.Walls to CAR 28 for 8 yards (28-D.Green, 27-C.McClellion)."/>
+			<Play DownDistanceYardline="4-4-CAR 28" EarnedFirstDown="False" PlayDescription="(5:21) 10-T.Sauerbrun punts 72 yards to end zone, Center-56-J.Kyle, Touchback."/>
+			<Play Header="Washington Redskins at 5:04"/>
+			<Play DownDistanceYardline="1-10-WAS 20" EarnedFirstDown="False" PlayDescription="(5:04) 48-S.Davis left end to WAS 25 for 5 yards (57-L.Towns)."/>
+			<Play DownDistanceYardline="2-5-WAS 25" EarnedFirstDown="False" PlayDescription="(4:24) 48-S.Davis up the middle to WAS 29 for 4 yards (64-L.Chester)."/>
+			<Play DownDistanceYardline="3-1-WAS 29" EarnedFirstDown="False" PlayDescription="(3:47) 12-T.Banks pass incomplete to 89-Z.Flemister."/>
+			<Play PlayDescription="PENALTY on CAR-27-D.Grant, Defensive Holding, 6 yards, enforced at WAS 29 - No Play." FirstDownType="X12"/>
+			<Play DownDistanceYardline="1-10-WAS 35" EarnedFirstDown="True" PlayDescription="(3:41) 12-T.Banks pass to 82-M.Westbrook to CAR 46 for 19 yards (30-M.Minter)." FirstDownType="P13"/>
+			<Play PlayDescription="Timeout #1 by WAS at 03:14."/>
+			<Play DownDistanceYardline="1-10-CAR 46" EarnedFirstDown="True" PlayDescription="(3:14) 48-S.Davis up the middle to CAR 42 for 4 yards (50-C.Slade)."/>
+			<Play DownDistanceYardline="2-6-CAR 42" EarnedFirstDown="False" PlayDescription="(2:36) 48-S.Davis left end to CAR 39 for 3 yards (95-D.Wells, 64-L.Chester)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-3-CAR 39" EarnedFirstDown="False" PlayDescription="(2:00) 12-T.Banks pass to 87-R.Gardner to CAR 17 for 22 yards (37-J.Hitchcock)." FirstDownType="P14"/>
+			<Play PlayDescription="Timeout #1 by CAR at 01:40."/>
+			<Play DownDistanceYardline="1-10-CAR 17" EarnedFirstDown="True" PlayDescription="(1:40) 48-S.Davis left end to CAR 17 for no gain (30-M.Minter)."/>
+			<Play PlayDescription="Timeout #2 by CAR at 01:33."/>
+			<Play DownDistanceYardline="2-10-CAR 17" EarnedFirstDown="False" PlayDescription="(1:33) 48-S.Davis up the middle to CAR 15 for 2 yards (64-L.Chester)."/>
+			<Play PlayDescription="Timeout #3 by CAR at 01:25."/>
+			<Play DownDistanceYardline="3-8-CAR 15" EarnedFirstDown="False" PlayDescription="(1:25) 48-S.Davis up the middle to CAR 13 for 2 yards (93-M.Rucker)."/>
+			<Play PlayDescription="Timeout #2 by WAS at 00:41."/>
+			<Play DownDistanceYardline="4-6-CAR 13" EarnedFirstDown="False" PlayDescription="(:41) 5-B.Conway 32 yard field goal is No Good, Wide Right, Center-77-E.Albright, Holder-4-B.Barker."/>
+			<Play Header="Carolina Panthers at 0:36"/>
+			<Play DownDistanceYardline="1-10-CAR 22" EarnedFirstDown="False" PlayDescription="(:36) 16-C.Weinke to CAR 21 for -1 yards."/>
+			<QuarterSummary Team="Carolina Panthers" Score="14" TimeOfPossession="9:46" FirstDownsRushing="3" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="4" ThirdDownEfficiency="1/4" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Washington Redskins" Score="14" TimeOfPossession="5:14" FirstDownsRushing="0" FirstDownsPassing="3" FirstDownsPenalty="1" FirstDownsTotal="4" ThirdDownEfficiency="1/3" FourthDownEfficiency="0/0"/>
+		</_4thQuarter>
+		<_Overtime1>
+			<Play Header="WAS wins toss, elects to Receive, and CAR elects to defend the East goal."/>
+			<Play Header="10-T.Sauerbrun kicks 73 yards from CAR 30 to WAS -3. 20-M.Bates to WAS 14 for 17 yards (86-K.Mangum)."/>
+			<Play Header="Washington Redskins at 15:00, (1st play from scrimmage 14:45)"/>
+			<Play DownDistanceYardline="1-10-WAS 14" EarnedFirstDown="False" PlayDescription="(14:45) 48-S.Davis up the middle to WAS 16 for 2 yards (94-S.Gilbert)."/>
+			<Play DownDistanceYardline="2-8-WAS 16" EarnedFirstDown="False" PlayDescription="(13:23) 12-T.Banks pass to 47-B.Johnson to WAS 48 for 32 yards (59-M.Hawkes)." FirstDownType="P15"/>
+			<Play DownDistanceYardline="1-10-WAS 48" EarnedFirstDown="True" PlayDescription="(13:23) 12-T.Banks pass to 87-R.Gardner for 52 yards, TOUCHDOWN.
+Play Challenged by Review Assistant and REVERSED.
+12-T.Banks pass to 87-R.Gardner to CAR 5 for 47 yards (27-D.Grant)." FirstDownType="P16"/>
+			<Play PlayDescription="Timeout #1 by CAR at 13:13."/>
+			<Play DownDistanceYardline="1-5-CAR 5" EarnedFirstDown="True" PlayDescription="(13:13) 5-B.Conway 23 yard field goal is GOOD, Center-77-E.Albright, Holder-4-B.Barker."/>
+			<Play Header="CAR 14 WAS 14,  4 plays, 81 yards,  1:52 drive,  1:52 elapsed"/>
+			<QuarterSummary Team="Carolina Panthers" Score="14" TimeOfPossession="0:00" FirstDownsRushing="0" FirstDownsPassing="0" FirstDownsPenalty="0" FirstDownsTotal="0" ThirdDownEfficiency="0/0" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Washington Redskins" Score="17" TimeOfPossession="1:52" FirstDownsRushing="0" FirstDownsPassing="2" FirstDownsPenalty="0" FirstDownsTotal="2" ThirdDownEfficiency="0/0" FourthDownEfficiency="0/0"/>
+		</_Overtime1>
+	</PlayByPlay>
+</Gamebook>

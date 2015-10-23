@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gamebook>
+	<GamebookSummary Title="National Football League Game Summary" AuxiliaryTitle="" Copyright="NFL Copyright © 2001 by The National Football League. All rights reserved. This summary and play-by-play is for the express purpose of assisting media in their coverage of the game; any other use of this material is prohibited without the written permission of the National Football League." ScheduleDate="12/30/2001" VisitingTeam="Kansas City Chiefs" HomeTeam="Jacksonville Jaguars" StartTime="13:05" TimeZone="EST" Stadium="ALLTEL Stadium" StadiumType="Outdoor" GameWeather="" Temperature="53" Humidity="" WindSpeed="5-10" TurfType="Grass" OutdoorWeather="0% Chance of rain." WindChill="" WindDirection="NW" Referee="Bill Leavy (127)" Umpire="Ron Botchan (110)" HeadLinesman="Gary Slaughter (30)" LineJudge="Charles Stewart (62)" SideJudge="Don Carlsen (39)" BackJudge="Phil Luckett (59)" FieldJudge="Peter Morelli (135)" ReplayOfficial="Dick Creed" VideoOperator="" Attendance="59,396" GameLength="3:07" VisitorScoreQ1="7" VisitorScoreQ2="10" VisitorScoreQ3="10" VisitorScoreQ4="3" VisitorScoreOT="0" HomeScoreQ1="7" HomeScoreQ2="10" HomeScoreQ3="0" HomeScoreQ4="9" HomeScoreOT="0">
+		<OffensiveStarterHome Player="J.Smith" Position="WR" UniformNumber="82"/>
+		<OffensiveStarterHome Player="T.Fordham" Position="LT" UniformNumber="78"/>
+		<OffensiveStarterHome Player="B.Meester" Position="LG" UniformNumber="63"/>
+		<OffensiveStarterHome Player="J.Smith" Position="C" UniformNumber="73"/>
+		<OffensiveStarterHome Player="Z.Wiegert" Position="RG" UniformNumber="77"/>
+		<OffensiveStarterHome Player="M.Williams" Position="RT" UniformNumber="74"/>
+		<OffensiveStarterHome Player="K.Brady" Position="TE" UniformNumber="80"/>
+		<OffensiveStarterHome Player="K.McCardell" Position="WR" UniformNumber="87"/>
+		<OffensiveStarterHome Player="M.Brunell" Position="QB" UniformNumber="8"/>
+		<OffensiveStarterHome Player="S.Mack" Position="RB" UniformNumber="34"/>
+		<OffensiveStarterHome Player="P.Washington" Position="FB" UniformNumber="31"/>
+		<DefensiveStarterHome Player="R.Wynn" Position="LE" UniformNumber="97"/>
+		<DefensiveStarterHome Player="G.Walker" Position="LT" UniformNumber="96"/>
+		<DefensiveStarterHome Player="S.Payne" Position="RT" UniformNumber="91"/>
+		<DefensiveStarterHome Player="T.Brackens" Position="RE" UniformNumber="90"/>
+		<DefensiveStarterHome Player="J.Posey" Position="SLB" UniformNumber="58"/>
+		<DefensiveStarterHome Player="H.Nickerson" Position="MLB" UniformNumber="56"/>
+		<DefensiveStarterHome Player="E.Thomas" Position="WLB" UniformNumber="59"/>
+		<DefensiveStarterHome Player="J.Craft" Position="RCB" UniformNumber="29"/>
+		<DefensiveStarterHome Player="K.Thomas" Position="LCB" UniformNumber="41"/>
+		<DefensiveStarterHome Player="D.Darius" Position="SS" UniformNumber="20"/>
+		<DefensiveStarterHome Player="A.Battles" Position="FS" UniformNumber="26"/>
+		<SubstitutionsHome Player="M.Hollis" Position="PK" UniformNumber="1"/>
+		<SubstitutionsHome Player="C.Hanson" Position="P" UniformNumber="2"/>
+		<SubstitutionsHome Player="J.Holmes" Position="K" UniformNumber="3"/>
+		<SubstitutionsHome Player="R.White" Position="RB" UniformNumber="22"/>
+		<SubstitutionsHome Player="D.Wheeler" Position="CB" UniformNumber="27"/>
+		<SubstitutionsHome Player="M.McCree" Position="S" UniformNumber="32"/>
+		<SubstitutionsHome Player="E.Joseph" Position="RB" UniformNumber="35"/>
+		<SubstitutionsHome Player="J.Boyd" Position="S" UniformNumber="42"/>
+		<SubstitutionsHome Player="J.Wesley" Position="LB" UniformNumber="50"/>
+		<SubstitutionsHome Player="E.Westmoreland" Position="LB" UniformNumber="52"/>
+		<SubstitutionsHome Player="D.Clark" Position="LB" UniformNumber="55"/>
+		<SubstitutionsHome Player="A.Koch" Position="OL" UniformNumber="64"/>
+		<SubstitutionsHome Player="J.Wade" Position="C-G" UniformNumber="66"/>
+		<SubstitutionsHome Player="J.Zelenka" Position="TE-LS" UniformNumber="83"/>
+		<SubstitutionsHome Player="S.Dawkins" Position="WR" UniformNumber="84"/>
+		<SubstitutionsHome Player="D.Gibson" Position="WR-KR" UniformNumber="85"/>
+		<SubstitutionsHome Player="M.Ross" Position="WR" UniformNumber="86"/>
+		<SubstitutionsHome Player="R.Prince" Position="TE" UniformNumber="89"/>
+		<SubstitutionsHome Player="R.Meier" Position="DE" UniformNumber="92"/>
+		<SubstitutionsHome Player="P.Spicer" Position="DE" UniformNumber="95"/>
+		<SubstitutionsHome Player="M.Stroud" Position="DT" UniformNumber="99"/>
+		<DidNotPlayHome Player="J.Quinn" Position="QB" UniformNumber="12"/>
+		<DidNotPlayHome Player="R.Cox" Position="CB" UniformNumber="36"/>
+		<NotActiveHome Player="R.Robinson" Position="QB" UniformNumber="10"/>
+		<NotActiveHome Player="F.Bryant" Position="CB" UniformNumber="25"/>
+		<NotActiveHome Player="F.Taylor" Position="RB" UniformNumber="28"/>
+		<NotActiveHome Player="D.Green" Position="LB" UniformNumber="54"/>
+		<NotActiveHome Player="J.Tuipala" Position="MLB" UniformNumber="57"/>
+		<NotActiveHome Player="P.Venzke" Position="OT" UniformNumber="70"/>
+		<NotActiveHome Player="D.Chambers" Position="OT" UniformNumber="72"/>
+		<NotActiveHome Player="L.Smith" Position="DT-DE" UniformNumber="94"/>
+		<OffensiveStarterVisitor Player="M. Minnis" Position="WR" UniformNumber="81"/>
+		<OffensiveStarterVisitor Player="J. Tait" Position="LT" UniformNumber="76"/>
+		<OffensiveStarterVisitor Player="B. Waters" Position="LG" UniformNumber="54"/>
+		<OffensiveStarterVisitor Player="C. Wiegmann" Position="C" UniformNumber="62"/>
+		<OffensiveStarterVisitor Player="W. Shields" Position="RG" UniformNumber="68"/>
+		<OffensiveStarterVisitor Player="M. Spears" Position="RT" UniformNumber="70"/>
+		<OffensiveStarterVisitor Player="T. Gonzalez" Position="TE" UniformNumber="88"/>
+		<OffensiveStarterVisitor Player="D. Alexander" Position="WR" UniformNumber="82"/>
+		<OffensiveStarterVisitor Player="T. Green" Position="QB" UniformNumber="10"/>
+		<OffensiveStarterVisitor Player="P. Holmes" Position="RB" UniformNumber="31"/>
+		<OffensiveStarterVisitor Player="J. Dunn" Position="TE" UniformNumber="89"/>
+		<DefensiveStarterVisitor Player="E. Hicks" Position="LE" UniformNumber="98"/>
+		<DefensiveStarterVisitor Player="E. Downing" Position="LT" UniformNumber="79"/>
+		<DefensiveStarterVisitor Player="D. Ransom" Position="RT" UniformNumber="95"/>
+		<DefensiveStarterVisitor Player="D. Clemons" Position="RE" UniformNumber="99"/>
+		<DefensiveStarterVisitor Player="L. Bush" Position="SLB" UniformNumber="56"/>
+		<DefensiveStarterVisitor Player="M. Patton" Position="MLB" UniformNumber="53"/>
+		<DefensiveStarterVisitor Player="D. Edwards" Position="WLB" UniformNumber="59"/>
+		<DefensiveStarterVisitor Player="R. Crockett" Position="LCB" UniformNumber="39"/>
+		<DefensiveStarterVisitor Player="E. Warfield" Position="RCB" UniformNumber="44"/>
+		<DefensiveStarterVisitor Player="G. Wesley" Position="SS" UniformNumber="25"/>
+		<DefensiveStarterVisitor Player="J. Woods" Position="FS" UniformNumber="21"/>
+		<SubstitutionsVisitor Player="T. Peterson" Position="PK" UniformNumber="2"/>
+		<SubstitutionsVisitor Player="D. Stryzinski" Position="P" UniformNumber="4"/>
+		<SubstitutionsVisitor Player="D. Hall" Position="KR/RB" UniformNumber="20"/>
+		<SubstitutionsVisitor Player="W. Bartee" Position="CB" UniformNumber="24"/>
+		<SubstitutionsVisitor Player="T. Allen" Position="CB" UniformNumber="26"/>
+		<SubstitutionsVisitor Player="B. Walker" Position="S" UniformNumber="27"/>
+		<SubstitutionsVisitor Player="J. Belser" Position="S" UniformNumber="29"/>
+		<SubstitutionsVisitor Player="M. Cloud" Position="RB" UniformNumber="34"/>
+		<SubstitutionsVisitor Player="S.Harts" Position="S" UniformNumber="42"/>
+		<SubstitutionsVisitor Player="T. Richardson" Position="FB" UniformNumber="49"/>
+		<SubstitutionsVisitor Player="L. Atkins" Position="LB" UniformNumber="50"/>
+		<SubstitutionsVisitor Player="G. Cadrez" Position="LB" UniformNumber="51"/>
+		<SubstitutionsVisitor Player="G. Stills" Position="LB" UniformNumber="55"/>
+		<SubstitutionsVisitor Player="D. Willis" Position="G" UniformNumber="60"/>
+		<SubstitutionsVisitor Player="V. Riley" Position="OT" UniformNumber="66"/>
+		<SubstitutionsVisitor Player="K. Gammon" Position="TE" UniformNumber="83"/>
+		<SubstitutionsVisitor Player="M. Ricks" Position="TE" UniformNumber="85"/>
+		<SubstitutionsVisitor Player="E.Kennison" Position="WR" UniformNumber="87"/>
+		<SubstitutionsVisitor Player="T.Williams" Position="DT" UniformNumber="90"/>
+		<SubstitutionsVisitor Player="N.Hobgood-Chittick" Position="DT" UniformNumber="94"/>
+		<SubstitutionsVisitor Player="M. Beisel" Position="DE" UniformNumber="96"/>
+		<SubstitutionsVisitor Player="R. Owens" Position="DE" UniformNumber="97"/>
+		<DidNotPlayVisitor Player="T. Collins" Position="QB" UniformNumber="15"/>
+		<NotActiveVisitor Player="J. Germaine" Position="QB" UniformNumber="7"/>
+		<NotActiveVisitor Player="R.Jones" Position="WR" UniformNumber="11"/>
+		<NotActiveVisitor Player="D. Blaylock" Position="RB" UniformNumber="23"/>
+		<NotActiveVisitor Player="C.Harris" Position="CB" UniformNumber="40"/>
+		<NotActiveVisitor Player="B.Baber" Position="TE" UniformNumber="45"/>
+		<NotActiveVisitor Player="D. Alford" Position="OT" UniformNumber="72"/>
+		<NotActiveVisitor Player="W. Jones" Position="OT" UniformNumber="73"/>
+		<NotActiveVisitor Player="N. McCleary" Position="DT" UniformNumber="75"/>
+		<FieldGoalSummaryVisitor Player="T. Peterson" FieldGoals="(47) (40) (29)"/>
+		<FieldGoalSummaryHome Player="M.Hollis" FieldGoals="(28) 42WR"/>
+		<ScoringPlay Team="Jaguars" Quarter="2" Time="2:56" PlayDescription="M.Hollis 28 yd. Field Goal (6-63, 2:42)" VisitorScore="14" HomeScore="17"/>
+		<ScoringPlay Team="Chiefs" Quarter="2" Time="0:00" PlayDescription="T. Peterson 47 yd. Field Goal (5-39, 0:34)" VisitorScore="17" HomeScore="17"/>
+		<ScoringPlay Team="Chiefs" Quarter="3" Time="6:31" PlayDescription="T. Peterson 40 yd. Field Goal (11-59, 5:26)" VisitorScore="20" HomeScore="17"/>
+		<ScoringPlay Team="Chiefs" Quarter="3" Time="3:30" PlayDescription="T. Gonzalez 12 yd. pass from T. Green (T. Peterson kick) (4-73, 1:58)" VisitorScore="27" HomeScore="17"/>
+		<ScoringPlay Team="Jaguars" Quarter="4" Time="13:25" PlayDescription="K.McCardell 20 yd. pass from M.Brunell (M.Hollis kick) (8-77, 3:17)" VisitorScore="27" HomeScore="24"/>
+		<ScoringPlay Team="Chiefs" Quarter="4" Time="5:11" PlayDescription="T. Peterson 29 yd. Field Goal (11-46, 5:59)" VisitorScore="30" HomeScore="24"/>
+		<ScoringPlay Team="Jaguars" Quarter="4" Time="0:46" PlayDescription="D. Stryzinski OB in end zone for a Safety" VisitorScore="30" HomeScore="26"/>
+		<ScoringPlay Team="Chiefs" Quarter="1" Time="12:45" PlayDescription="P. Holmes 6 yd. run (T. Peterson kick) (3-14, 1:27)" VisitorScore="7" HomeScore="0"/>
+		<ScoringPlay Team="Jaguars" Quarter="1" Time="8:18" PlayDescription="S.Mack 3 yd. run (M.Hollis kick) (9-79, 4:27)" VisitorScore="7" HomeScore="7"/>
+		<ScoringPlay Team="Jaguars" Quarter="2" Time="10:36" PlayDescription="M.Brunell 3 yd. run (M.Hollis kick) (7-69, 3:10)" VisitorScore="7" HomeScore="14"/>
+		<ScoringPlay Team="Chiefs" Quarter="2" Time="5:38" PlayDescription="T. Gonzalez 1 yd. pass from T. Green (T. Peterson kick) (9-57, 4:58)" VisitorScore="14" HomeScore="14"/>
+	</GamebookSummary>
+	<IndividualStatistics>
+		<RusherVisitor Player="P. Holmes" Attempts="27" Yards="91" Average="3.4" Touchdowns="1" Long="12"/>
+		<RusherVisitor Player="T. Gonzalez" Attempts="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<RusherVisitor Player="T. Green" Attempts="2" Yards="2" Average="1.0" Touchdowns="0" Long="8"/>
+		<RusherVisitor Player="D. Stryzinski" Attempts="1" Yards="-10" Average="-10.0" Touchdowns="0" Long="-10"/>
+		<RusherVisitor Player="Total" Attempts="31" Yards="92" Average="3.0" Touchdowns="1" Long="12"/>
+		<RusherHome Player="S.Mack" Attempts="16" Yards="125" Average="7.8" Touchdowns="1" Long="54"/>
+		<RusherHome Player="E.Joseph" Attempts="6" Yards="29" Average="4.8" Touchdowns="0" Long="11"/>
+		<RusherHome Player="M.Brunell" Attempts="3" Yards="27" Average="9.0" Touchdowns="1" Long="18"/>
+		<RusherHome Player="D.Gibson" Attempts="1" Yards="1" Average="1.0" Touchdowns="0" Long="1"/>
+		<RusherHome Player="Total" Attempts="26" Yards="182" Average="7.0" Touchdowns="2" Long="54"/>
+		<PasserVisitor Player="T. Green" Attempts="35" Completions="26" Yards="294" Sacks="2" SackYardage="21" Touchdowns="2" Long="50" Interceptions="2" Rating="94.2"/>
+		<PasserVisitor Player="Total" Attempts="35" Completions="26" Yards="294" Sacks="2" SackYardage="21" Touchdowns="2" Long="50" Interceptions="2" Rating="94.2"/>
+		<PasserHome Player="M.Brunell" Attempts="37" Completions="22" Yards="283" Sacks="4" SackYardage="34" Touchdowns="1" Long="44" Interceptions="1" Rating="81.2"/>
+		<PasserHome Player="Total" Attempts="37" Completions="22" Yards="283" Sacks="4" SackYardage="34" Touchdowns="1" Long="44" Interceptions="1" Rating="81.2"/>
+		<ReceiverVisitor Player="T. Gonzalez" Number="8" Yards="78" Average="9.8" Touchdowns="2" Long="14"/>
+		<ReceiverVisitor Player="P. Holmes" Number="7" Yards="53" Average="7.6" Touchdowns="0" Long="17"/>
+		<ReceiverVisitor Player="E.Kennison" Number="6" Yards="121" Average="20.2" Touchdowns="0" Long="50"/>
+		<ReceiverVisitor Player="T. Richardson" Number="3" Yards="14" Average="4.7" Touchdowns="0" Long="6"/>
+		<ReceiverVisitor Player="M. Ricks" Number="1" Yards="21" Average="21.0" Touchdowns="0" Long="21"/>
+		<ReceiverVisitor Player="M. Minnis" Number="1" Yards="7" Average="7.0" Touchdowns="0" Long="7"/>
+		<ReceiverVisitor Player="Total" Number="26" Yards="294" Average="11.3" Touchdowns="2" Long="50"/>
+		<ReceiverHome Player="K.McCardell" Number="7" Yards="132" Average="18.9" Touchdowns="1" Long="44"/>
+		<ReceiverHome Player="K.Brady" Number="5" Yards="51" Average="10.2" Touchdowns="0" Long="17"/>
+		<ReceiverHome Player="J.Smith" Number="5" Yards="51" Average="10.2" Touchdowns="0" Long="14"/>
+		<ReceiverHome Player="S.Dawkins" Number="2" Yards="13" Average="6.5" Touchdowns="0" Long="7"/>
+		<ReceiverHome Player="E.Joseph" Number="1" Yards="24" Average="24.0" Touchdowns="0" Long="24"/>
+		<ReceiverHome Player="S.Mack" Number="1" Yards="8" Average="8.0" Touchdowns="0" Long="8"/>
+		<ReceiverHome Player="D.Gibson" Number="1" Yards="4" Average="4.0" Touchdowns="0" Long="4"/>
+		<ReceiverHome Player="Total" Number="22" Yards="283" Average="12.9" Touchdowns="1" Long="44"/>
+		<InterceptorVisitor Player="J. Woods" Number="1" Yards="23" Average="23.0" Long="23" Touchdowns="0"/>
+		<InterceptorVisitor Player="Total" Number="1" Yards="23" Average="23.0" Long="23" Touchdowns="0"/>
+		<InterceptorHome Player="H.Nickerson" Number="1" Yards="2" Average="2.0" Long="2" Touchdowns="0"/>
+		<InterceptorHome Player="J.Craft" Number="1" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorHome Player="Total" Number="2" Yards="2" Average="1.0" Long="2" Touchdowns="0"/>
+		<PunterVisitor Player="D. Stryzinski" Number="3" Yards="121" Average="40.3" Touchbacks="0" Inside20="1" Long="48"/>
+		<PunterVisitor Player="Total" Number="3" Yards="121" Average="40.3" Touchbacks="0" Inside20="1" Long="48"/>
+		<PunterHome Player="C.Hanson" Number="4" Yards="171" Average="42.8" Touchbacks="0" Inside20="1" Long="49"/>
+		<PunterHome Player="Total" Number="4" Yards="171" Average="42.8" Touchbacks="0" Inside20="1" Long="49"/>
+		<PuntReturnerVisitor Player="D. Hall" Number="3" Yards="-7" Average="-2.3" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="[DOWNED]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="Returns" Number="3" Yards="-7" Average="-2.3" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="D.Gibson" Number="2" Yards="7" Average="3.5" FairCatches="1" Long="5" Touchdowns="0"/>
+		<PuntReturnerHome Player="Returns" Number="2" Yards="7" Average="3.5" FairCatches="1" Long="5" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="D. Hall" Number="5" Yards="122" Average="24.4" FairCatches="0" Long="40" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="Returns" Number="5" Yards="122" Average="24.4" FairCatches="0" Long="40" Touchdowns="0"/>
+		<KickOffReturnerHome Player="M.Ross" Number="4" Yards="76" Average="19.0" FairCatches="0" Long="24" Touchdowns="0"/>
+		<KickOffReturnerHome Player="E.Joseph" Number="1" Yards="22" Average="22.0" FairCatches="0" Long="22" Touchdowns="0"/>
+		<KickOffReturnerHome Player="D.Gibson" Number="1" Yards="18" Average="18.0" FairCatches="0" Long="18" Touchdowns="0"/>
+		<KickOffReturnerHome Player="[TOUCHBACK]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<KickOffReturnerHome Player="Returns" Number="6" Yards="116" Average="19.3" FairCatches="0" Long="24" Touchdowns="0"/>
+		<FumblesVisitor Player="D. Clemons" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="D. Ransom" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="T. Green" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="D. Hall" Fumbles="1" OwnRecoveries="1" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="E.Kennison" Fumbles="1" OwnRecoveries="1" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="L. Atkins" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="G. Stills" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="P. Holmes" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="Total" Fumbles="4" OwnRecoveries="2" Yards="0" Touchdowns="0" ForcedFumbles="2" OpponentRecoveries="2" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="M.Brunell" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="A.Battles" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="T.Brackens" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="M.Ross" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="M.McCree" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="H.Nickerson" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="Total" Fumbles="2" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="3" OpponentRecoveries="2" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+	</IndividualStatistics>
+	<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="23" HomeStats="22"/>
+	<TeamStatistics Description="By Rushing" VisitorStats="5" HomeStats="9"/>
+	<TeamStatistics Description="By Passing" VisitorStats="15" HomeStats="12"/>
+	<TeamStatistics Description="By Penalty" VisitorStats="3" HomeStats="1"/>
+	<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="4-11-36%" HomeStats="3-11-27%"/>
+	<TeamStatistics Description="FOURTH DOWN EFFICIENCY" VisitorStats="0-1-0%" HomeStats="0-1-0%"/>
+	<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="365" HomeStats="431"/>
+	<TeamStatistics Description="Total Offensive Plays (inc. times thrown passing)" VisitorStats="68" HomeStats="67"/>
+	<TeamStatistics Description="Average gain per offensive play" VisitorStats="5.4" HomeStats="6.4"/>
+	<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="92" HomeStats="182"/>
+	<TeamStatistics Description="Total Rushing Plays" VisitorStats="31" HomeStats="26"/>
+	<TeamStatistics Description="Average gain per rushing play" VisitorStats="3.0" HomeStats="7.0"/>
+	<TeamStatistics Description="Tackles for a loss-number and yards" VisitorStats="4-11" HomeStats="1-2"/>
+	<TeamStatistics Description="NET YARDS PASSING" VisitorStats="273" HomeStats="249"/>
+	<TeamStatistics Description="Times thrown - yards lost attempting to pass" VisitorStats="2-21" HomeStats="4-34"/>
+	<TeamStatistics Description="Gross yards passing" VisitorStats="294" HomeStats="283"/>
+	<TeamStatistics Description="PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED" VisitorStats="35-26-2" HomeStats="37-22-1"/>
+	<TeamStatistics Description="Avg gain per pass play (inc.# thrown passing)" VisitorStats="7.4" HomeStats="6.1"/>
+	<TeamStatistics Description="KICKOFFS Number-In End Zone-Touchbacks" VisitorStats="7-1-1" HomeStats="5-0-0"/>
+	<TeamStatistics Description="PUNTS Number and Average" VisitorStats="3-40.3" HomeStats="4-42.8"/>
+	<TeamStatistics Description="Had Blocked" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FGs - PATs Had Blocked" VisitorStats="0-0" HomeStats="0-0"/>
+	<TeamStatistics Description="Net Punting Average" VisitorStats="38.0" HomeStats="44.5"/>
+	<TeamStatistics Description="TOTAL RETURN YARDAGE (Not Including Kickoffs)" VisitorStats="16" HomeStats="9"/>
+	<TeamStatistics Description="No. and Yards Punt Returns" VisitorStats="3--7" HomeStats="2-7"/>
+	<TeamStatistics Description="No. and Yards Kickoff Returns" VisitorStats="5-122" HomeStats="6-116"/>
+	<TeamStatistics Description="No. and Yards Interception Returns" VisitorStats="1-23" HomeStats="2-2"/>
+	<TeamStatistics Description="PENALTIES Number and Yards" VisitorStats="5-55" HomeStats="5-44"/>
+	<TeamStatistics Description="FUMBLES Number and Lost" VisitorStats="4-2" HomeStats="2-2"/>
+	<TeamStatistics Description="TOUCHDOWNS" VisitorStats="3" HomeStats="3"/>
+	<TeamStatistics Description="Rushing" VisitorStats="1" HomeStats="2"/>
+	<TeamStatistics Description="Passing" VisitorStats="2" HomeStats="1"/>
+	<TeamStatistics Description="EXTRA POINTS Made-Attempts" VisitorStats="3-3" HomeStats="3-3"/>
+	<TeamStatistics Description="Kicking Made-Attempts" VisitorStats="3-3" HomeStats="3-3"/>
+	<TeamStatistics Description="FIELD GOALS Made-Attempts" VisitorStats="3-3" HomeStats="1-2"/>
+	<TeamStatistics Description="RED ZONE EFFICIENCY" VisitorStats="3-4-75%" HomeStats="2-5-40%"/>
+	<TeamStatistics Description="GOAL TO GO EFFICIENCY" VisitorStats="1-1-100%" HomeStats="2-2-100%"/>
+	<TeamStatistics Description="SAFETIES" VisitorStats="0" HomeStats="1"/>
+	<TeamStatistics Description="FINAL SCORE" VisitorStats="30" HomeStats="26"/>
+	<TeamStatistics Description="TIME OF POSSESSION" VisitorStats="32:40" HomeStats="27:20"/>
+	<DriveChart AverageDriveStartVisitor="(490) Average KC 35" KickoffDriveInfoVisitor="Chiefs: 5 - KC 32" AverageDriveStartHome="(423) Average JAX 33" KickoffDriveInfoHome="Jaguars: 6 - JAX 30" TimeOfPossessionTotalVisitor="32:40" TimeOfPossessionTotalHome="27:20" TimeOfPossessionQ1Visitor="6:03" TimeOfPossessionQ1Home="8:57" TimeOfPossessionQ2Visitor="7:38" TimeOfPossessionQ2Home="7:22" TimeOfPossessionQ3Visitor="10:22" TimeOfPossessionQ3Home="4:38" TimeOfPossessionQ4Visitor="8:37" TimeOfPossessionQ4Home="6:23">
+		<DriveVisitor Number="1" Quarter="1" TimeReceived="14:12" TimeLost="12:45" TimeOfPossession="1:27" HowBallObtained="Fumble" DriveBegan="JAX 14" PlayCount="3" YardsGained="14" YardsPenalized="0" NetYards="14" FirstDowns="1" LastScrimmage="*JAX 6" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="2" Quarter="1" TimeReceived="8:18" TimeLost="6:08" TimeOfPossession="2:10" HowBallObtained="Kickoff" DriveBegan="KC 32" PlayCount="4" YardsGained="15" YardsPenalized="0" NetYards="15" FirstDowns="1" LastScrimmage="KC 47" HowGivenUp="Punt"/>
+		<DriveVisitor Number="3" Quarter="1" TimeReceived="4:44" TimeLost="2:18" TimeOfPossession="2:26" HowBallObtained="Punt" DriveBegan="KC 20" PlayCount="5" YardsGained="16" YardsPenalized="0" NetYards="16" FirstDowns="1" LastScrimmage="KC 36" HowGivenUp="Punt"/>
+		<DriveVisitor Number="4" Quarter="2" TimeReceived="14:49" TimeLost="13:46" TimeOfPossession="1:03" HowBallObtained="Punt" DriveBegan="KC 33" PlayCount="3" YardsGained="2" YardsPenalized="0" NetYards="2" FirstDowns="0" LastScrimmage="KC 35" HowGivenUp="Punt"/>
+		<DriveVisitor Number="5" Quarter="2" TimeReceived="10:36" TimeLost="5:38" TimeOfPossession="4:58" HowBallObtained="Kickoff" DriveBegan="KC 43" PlayCount="9" YardsGained="41" YardsPenalized="16" NetYards="57" FirstDowns="5" LastScrimmage="*JAX 1" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="6" Quarter="2" TimeReceived="2:56" TimeLost="1:53" TimeOfPossession="1:03" HowBallObtained="Kickoff" DriveBegan="KC 31" PlayCount="3" YardsGained="16" YardsPenalized="-10" NetYards="6" FirstDowns="1" LastScrimmage="KC 37" HowGivenUp="Interception"/>
+		<DriveVisitor Number="7" Quarter="2" TimeReceived="0:34" TimeLost="0:00" TimeOfPossession="0:34" HowBallObtained="Missed FG" DriveBegan="KC 32" PlayCount="5" YardsGained="39" YardsPenalized="0" NetYards="39" FirstDowns="2" LastScrimmage="JAX 29" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="8" Quarter="3" TimeReceived="15:00" TimeLost="13:39" TimeOfPossession="1:21" HowBallObtained="Kickoff" DriveBegan="KC 32" PlayCount="3" YardsGained="-2" YardsPenalized="15" NetYards="13" FirstDowns="2" LastScrimmage="JAX 41" HowGivenUp="Fumble"/>
+		<DriveVisitor Number="9" Quarter="3" TimeReceived="11:57" TimeLost="6:31" TimeOfPossession="5:26" HowBallObtained="Punt" DriveBegan="KC 19" PlayCount="11" YardsGained="59" YardsPenalized="0" NetYards="59" FirstDowns="3" LastScrimmage="JAX 22" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="10" Quarter="3" TimeReceived="5:28" TimeLost="3:30" TimeOfPossession="1:58" HowBallObtained="Punt" DriveBegan="KC 27" PlayCount="4" YardsGained="73" YardsPenalized="0" NetYards="73" FirstDowns="3" LastScrimmage="*JAX 12" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="11" Quarter="3" TimeReceived="3:19" TimeLost="1:42" TimeOfPossession="1:37" HowBallObtained="Fumble" DriveBegan="JAX 34" PlayCount="3" YardsGained="36" YardsPenalized="-25" NetYards="11" FirstDowns="0" LastScrimmage="JAX 40" HowGivenUp="Fumble"/>
+		<DriveVisitor Number="12" Quarter="4" TimeReceived="13:25" TimeLost="11:46" TimeOfPossession="1:39" HowBallObtained="Kickoff" DriveBegan="KC 20" PlayCount="3" YardsGained="11" YardsPenalized="0" NetYards="11" FirstDowns="1" LastScrimmage="KC 31" HowGivenUp="Interception"/>
+		<DriveVisitor Number="13" Quarter="4" TimeReceived="11:10" TimeLost="5:11" TimeOfPossession="5:59" HowBallObtained="Interception" DriveBegan="KC 43" PlayCount="11" YardsGained="46" YardsPenalized="0" NetYards="46" FirstDowns="3" LastScrimmage="*JAX 11" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="14" Quarter="4" TimeReceived="1:45" TimeLost="0:46" TimeOfPossession="0:59" HowBallObtained="Downs" DriveBegan="KC 6" PlayCount="4" YardsGained="-1" YardsPenalized="-5" NetYards="-6" FirstDowns="0" LastScrimmage="KC 10" HowGivenUp="Safety"/>
+		<DriveHome Number="1" Quarter="1" TimeReceived="15:00" TimeLost="14:12" TimeOfPossession="0:48" HowBallObtained="Kickoff" DriveBegan="JAX 32" PlayCount="2" YardsGained="-18" YardsPenalized="0" NetYards="-18" FirstDowns="0" LastScrimmage="JAX 32" HowGivenUp="Fumble"/>
+		<DriveHome Number="2" Quarter="1" TimeReceived="12:45" TimeLost="8:18" TimeOfPossession="4:27" HowBallObtained="Kickoff" DriveBegan="JAX 21" PlayCount="9" YardsGained="79" YardsPenalized="0" NetYards="79" FirstDowns="5" LastScrimmage="*KC 3" HowGivenUp="Touchdown"/>
+		<DriveHome Number="3" Quarter="1" TimeReceived="6:08" TimeLost="4:44" TimeOfPossession="1:24" HowBallObtained="Punt" DriveBegan="JAX 21" PlayCount="3" YardsGained="9" YardsPenalized="0" NetYards="9" FirstDowns="0" LastScrimmage="JAX 30" HowGivenUp="Punt"/>
+		<DriveHome Number="4" Quarter="2" TimeReceived="2:18" TimeLost="14:49" TimeOfPossession="2:29" HowBallObtained="Punt" DriveBegan="JAX 8" PlayCount="4" YardsGained="13" YardsPenalized="0" NetYards="13" FirstDowns="1" LastScrimmage="JAX 21" HowGivenUp="Punt"/>
+		<DriveHome Number="5" Quarter="2" TimeReceived="13:46" TimeLost="10:36" TimeOfPossession="3:10" HowBallObtained="Punt" DriveBegan="JAX 31" PlayCount="7" YardsGained="69" YardsPenalized="0" NetYards="69" FirstDowns="3" LastScrimmage="*KC 3" HowGivenUp="Touchdown"/>
+		<DriveHome Number="6" Quarter="2" TimeReceived="5:38" TimeLost="2:56" TimeOfPossession="2:42" HowBallObtained="Kickoff" DriveBegan="JAX 27" PlayCount="6" YardsGained="63" YardsPenalized="0" NetYards="63" FirstDowns="1" LastScrimmage="*KC 10" HowGivenUp="Field Goal"/>
+		<DriveHome Number="7" Quarter="2" TimeReceived="1:53" TimeLost="0:34" TimeOfPossession="1:19" HowBallObtained="Interception" DriveBegan="JAX 48" PlayCount="7" YardsGained="28" YardsPenalized="0" NetYards="28" FirstDowns="2" LastScrimmage="KC 24" HowGivenUp="Missed FG"/>
+		<DriveHome Number="8" Quarter="3" TimeReceived="13:39" TimeLost="11:57" TimeOfPossession="1:42" HowBallObtained="Fumble" DriveBegan="KC 45" PlayCount="3" YardsGained="-3" YardsPenalized="0" NetYards="-3" FirstDowns="0" LastScrimmage="KC 48" HowGivenUp="Punt"/>
+		<DriveHome Number="9" Quarter="3" TimeReceived="6:31" TimeLost="5:28" TimeOfPossession="1:03" HowBallObtained="Kickoff" DriveBegan="JAX 20" PlayCount="3" YardsGained="2" YardsPenalized="0" NetYards="2" FirstDowns="0" LastScrimmage="JAX 22" HowGivenUp="Punt"/>
+		<DriveHome Number="10" Quarter="3" TimeReceived="3:30" TimeLost="3:19" TimeOfPossession="0:11" HowBallObtained="Kickoff" DriveBegan="" PlayCount="0" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="" HowGivenUp="Fumble"/>
+		<DriveHome Number="11" Quarter="4" TimeReceived="1:42" TimeLost="13:25" TimeOfPossession="3:17" HowBallObtained="Fumble" DriveBegan="JAX 23" PlayCount="8" YardsGained="77" YardsPenalized="0" NetYards="77" FirstDowns="4" LastScrimmage="KC 20" HowGivenUp="Touchdown"/>
+		<DriveHome Number="12" Quarter="4" TimeReceived="11:46" TimeLost="11:10" TimeOfPossession="0:36" HowBallObtained="Interception" DriveBegan="KC 40" PlayCount="3" YardsGained="18" YardsPenalized="0" NetYards="18" FirstDowns="1" LastScrimmage="KC 22" HowGivenUp="Interception"/>
+		<DriveHome Number="13" Quarter="4" TimeReceived="5:11" TimeLost="1:45" TimeOfPossession="3:26" HowBallObtained="Kickoff" DriveBegan="JAX 36" PlayCount="8" YardsGained="48" YardsPenalized="10" NetYards="58" FirstDowns="3" LastScrimmage="*KC 13" HowGivenUp="Downs"/>
+		<DriveHome Number="14" Quarter="4" TimeReceived="0:46" TimeLost="0:00" TimeOfPossession="0:46" HowBallObtained="Kickoff" DriveBegan="JAX 41" PlayCount="6" YardsGained="46" YardsPenalized="0" NetYards="46" FirstDowns="2" LastScrimmage="*KC 13" HowGivenUp="End of Game"/>
+	</DriveChart>
+	<DefensiveStatistics>
+		<DefenderVisitor Player="G. Wesley" Tackles="6" Assists="1" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Edwards" Tackles="5" Assists="2" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R. Crockett" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M. Patton" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Ransom" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="W. Bartee" Tackles="4" Assists="0" Combined="4" Sacks="1" SackYards="9" Interceptions="0" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J. Woods" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E. Hicks" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Clemons" Tackles="2" Assists="1" Combined="3" Sacks="1" SackYards="18" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L. Bush" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="G. Cadrez" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E. Downing" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R. Owens" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="7" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E. Warfield" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L. Atkins" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="1" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M. Beisel" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T. Gonzalez" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Hall" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="P. Holmes" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M. Ricks" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="G. Stills" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="3" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J. Tait" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Harts" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E.Kennison" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="1"/>
+		<DefenderVisitor Player="T.Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="45" Assists="5" Combined="50" Sacks="4" SackYards="34" Interceptions="1" PassDefences="5" ForcedFumbles="1" FumbleRecoveries="1" SpecialTeamsTackles="8" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="1" SpecialTeamsFumbleRecoveries="2" SpecialTeamsBlocks="0" MiscellaneousTackles="4" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="1"/>
+		<DefenderHome Player="H.Nickerson" Tackles="8" Assists="0" Combined="8" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Battles" Tackles="7" Assists="0" Combined="7" Sacks="1" SackYards="7" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="1" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Darius" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Thomas" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Brackens" Tackles="3" Assists="0" Combined="3" Sacks="1" SackYards="14" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Craft" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M.Stroud" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Thomas" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Wheeler" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Wynn" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Clark" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Meier" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Posey" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="P.Spicer" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Westmoreland" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M.McCree" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="S.Payne" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G.Walker" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M.Brunell" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Fordham" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M.Ross" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="P.Washington" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="3" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="55" Assists="2" Combined="57" Sacks="2" SackYards="21" Interceptions="2" PassDefences="5" ForcedFumbles="3" FumbleRecoveries="2" SpecialTeamsTackles="8" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="2" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</DefensiveStatistics>
+	<FirstHalfSummary Title="First Half Summary" PeriodScoresVisitor="7  10 = 17" PeriodScoresHome="7  10 = 17" TimeOfPossessionVisitor="13:41" TimeOfPossessionHome="16:19">
+		<ScoringPlay Team="Jaguars" Quarter="2" Time="2:56" PlayDescription="M.Hollis 28 yd. Field Goal (6-63, 2:42)" VisitorScore="14" HomeScore="17"/>
+		<ScoringPlay Team="Chiefs" Quarter="2" Time="0:00" PlayDescription="T. Peterson 47 yd. Field Goal (5-39, 0:34)" VisitorScore="17" HomeScore="17"/>
+		<ScoringPlay Team="Chiefs" Quarter="1" Time="12:45" PlayDescription="P. Holmes 6 yd. run (T. Peterson kick) (3-14, 1:27)" VisitorScore="7" HomeScore="0"/>
+		<ScoringPlay Team="Jaguars" Quarter="1" Time="8:18" PlayDescription="S.Mack 3 yd. run (M.Hollis kick) (9-79, 4:27)" VisitorScore="7" HomeScore="7"/>
+		<ScoringPlay Team="Jaguars" Quarter="2" Time="10:36" PlayDescription="M.Brunell 3 yd. run (M.Hollis kick) (7-69, 3:10)" VisitorScore="7" HomeScore="14"/>
+		<ScoringPlay Team="Chiefs" Quarter="2" Time="5:38" PlayDescription="T. Gonzalez 1 yd. pass from T. Green (T. Peterson kick) (9-57, 4:58)" VisitorScore="14" HomeScore="14"/>
+		<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="11" HomeStats="12"/>
+		<TeamStatistics Description="First Downs Rushing-Passing-by Penalty" VisitorStats="2 - 7 - 2" HomeStats="6 - 6 - 0"/>
+		<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="1-5-20%" HomeStats="2-6-33%"/>
+		<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="143" HomeStats="243"/>
+		<TeamStatistics Description="Total Offensive Plays" VisitorStats="31" HomeStats="36"/>
+		<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="42" HomeStats="133"/>
+		<TeamStatistics Description="NET YARDS PASSING" VisitorStats="101" HomeStats="110"/>
+		<TeamStatistics Description="Gross Yards Passing" VisitorStats="108" HomeStats="135"/>
+		<TeamStatistics Description="Times thrown-yards lost attempting to pass" VisitorStats="1-7" HomeStats="3-25"/>
+		<TeamStatistics Description="Pass Attempts-Completions-Had Intercepted" VisitorStats="18 - 11 - 1" HomeStats="16 - 10 - 0"/>
+		<TeamStatistics Description="Punts-Number and Average" VisitorStats="3 - 40.3" HomeStats="2 - 47.5"/>
+		<TeamStatistics Description="Penalties-Number and Yards" VisitorStats="1 - 10" HomeStats="3 - 24"/>
+		<TeamStatistics Description="Fumbles-Number and Lost" VisitorStats="0 - 0" HomeStats="1 - 1"/>
+		<RusherVisitor Player="P. Holmes" Attempts="10" Yards="25" Average="2.5" Touchdowns="1" Long="8"/>
+		<RusherVisitor Player="T. Gonzalez" Attempts="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<RusherVisitor Player="T. Green" Attempts="1" Yards="8" Average="8.0" Touchdowns="0" Long="8"/>
+		<RusherVisitor Player="Total" Attempts="12" Yards="42" Average="3.5" Touchdowns="1" Long="9"/>
+		<RusherHome Player="S.Mack" Attempts="13" Yards="123" Average="9.5" Touchdowns="1" Long="54"/>
+		<RusherHome Player="E.Joseph" Attempts="2" Yards="6" Average="3.0" Touchdowns="0" Long="3"/>
+		<RusherHome Player="M.Brunell" Attempts="1" Yards="3" Average="3.0" Touchdowns="1" Long="3t"/>
+		<RusherHome Player="D.Gibson" Attempts="1" Yards="1" Average="1.0" Touchdowns="0" Long="1"/>
+		<RusherHome Player="Total" Attempts="17" Yards="133" Average="7.8" Touchdowns="2" Long="54"/>
+		<PasserVisitor Player="T. Green" Attempts="18" Completions="11" Yards="108" Sacks="1" SackYardage="7" Touchdowns="1" Long="21" Interceptions="1" Rating="73.4"/>
+		<PasserVisitor Player="Total" Attempts="18" Completions="11" Yards="108" Sacks="1" SackYardage="7" Touchdowns="1" Long="21" Interceptions="1" Rating="73.4"/>
+		<PasserHome Player="M.Brunell" Attempts="16" Completions="10" Yards="135" Sacks="3" SackYardage="25" Touchdowns="0" Long="44" Interceptions="0" Rating="89.3"/>
+		<PasserHome Player="Total" Attempts="16" Completions="10" Yards="135" Sacks="3" SackYardage="25" Touchdowns="0" Long="44" Interceptions="0" Rating="89.3"/>
+		<ReceiverVisitor Player="E.Kennison" Number="3" Yards="44" Average="14.7" Touchdowns="0" Long="20"/>
+		<ReceiverVisitor Player="T. Gonzalez" Number="3" Yards="21" Average="7.0" Touchdowns="1" Long="14"/>
+		<ReceiverVisitor Player="P. Holmes" Number="3" Yards="20" Average="6.7" Touchdowns="0" Long="11"/>
+		<ReceiverVisitor Player="M. Ricks" Number="1" Yards="21" Average="21.0" Touchdowns="0" Long="21"/>
+		<ReceiverVisitor Player="T. Richardson" Number="1" Yards="2" Average="2.0" Touchdowns="0" Long="2"/>
+		<ReceiverVisitor Player="Total" Number="11" Yards="108" Average="9.8" Touchdowns="1" Long="21"/>
+		<ReceiverHome Player="K.McCardell" Number="4" Yards="74" Average="18.5" Touchdowns="0" Long="44"/>
+		<ReceiverHome Player="K.Brady" Number="3" Yards="38" Average="12.7" Touchdowns="0" Long="17"/>
+		<ReceiverHome Player="J.Smith" Number="2" Yards="19" Average="9.5" Touchdowns="0" Long="11"/>
+		<ReceiverHome Player="D.Gibson" Number="1" Yards="4" Average="4.0" Touchdowns="0" Long="4"/>
+		<ReceiverHome Player="Total" Number="10" Yards="135" Average="13.5" Touchdowns="0" Long="44"/>
+		<DefenderVisitor Player="G. Wesley" Tackles="6" Assists="1" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R. Crockett" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Edwards" Tackles="2" Assists="2" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Ransom" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D. Clemons" Tackles="1" Assists="1" Combined="2" Sacks="1" SackYards="18" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J. Woods" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="W. Bartee" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L. Bush" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="G. Cadrez" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E. Downing" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E. Hicks" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R. Owens" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="7" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M. Patton" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M. Beisel" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T. Gonzalez" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="G. Stills" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Harts" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="25" Assists="5" Combined="30" Sacks="3" SackYards="25" Interceptions="0" PassDefences="2" ForcedFumbles="1" FumbleRecoveries="1" SpecialTeamsTackles="5" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="H.Nickerson" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Craft" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Battles" Tackles="2" Assists="0" Combined="2" Sacks="1" SackYards="7" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Darius" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Meier" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Posey" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Wynn" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="K.Thomas" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Thomas" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E.Westmoreland" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Wheeler" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G.Walker" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Fordham" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M.Ross" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="P.Washington" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="21" Assists="2" Combined="23" Sacks="1" SackYards="7" Interceptions="1" PassDefences="3" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="4" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</FirstHalfSummary>
+	<PlayByPlay>
+		<_1stQuarter>
+			<Play Header="JAX wins toss, elects to Receive, and KC elects to defend the North goal."/>
+			<Play Header="2-T. Peterson kicks 51 yards from KC 30 to JAX 19. 86-M.Ross to JAX 32 for 13 yards (90-T.Williams)."/>
+			<Play Header="Penalty on KC-42-S.Harts, Offensive Offside, declined."/>
+			<Play Header="Jacksonville Jaguars at 15:00, (1st play from scrimmage 14:52)"/>
+			<Play DownDistanceYardline="1-10-JAX 32" EarnedFirstDown="False" PlayDescription="(14:52) 34-S.Mack up the middle to JAX 32 for no gain (21-J. Woods)."/>
+			<Play DownDistanceYardline="2-10-JAX 32" EarnedFirstDown="False" PlayDescription="(14:20) 8-M.Brunell sacked at JAX 20 for -12 yards (99-D. Clemons). FUMBLES (99-D. Clemons), RECOVERED by KC-95-D. Ransom at JAX 14. 95-D. Ransom to JAX 14 for no gain (78-T.Fordham)."/>
+			<Play Header="Kansas City Chiefs at 14:12"/>
+			<Play DownDistanceYardline="1-10-JAX 14" EarnedFirstDown="False" PlayDescription="(14:12) 31-P. Holmes right end to JAX 8 for 6 yards (26-A.Battles)."/>
+			<Play DownDistanceYardline="2-4-JAX 8" EarnedFirstDown="False" PlayDescription="(13:35) 31-P. Holmes right end to JAX 6 for 2 yards (58-J.Posey)."/>
+			<Play DownDistanceYardline="3-2-JAX 6" EarnedFirstDown="False" PlayDescription="(12:51) 31-P. Holmes left end for 6 yards, TOUCHDOWN." FirstDownType="R1"/>
+			<Play PlayDescription="2-T. Peterson extra point is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 7 JAX 0,  3 plays, 14 yards,  1:27 drive,  2:15 elapsed"/>
+			<Play Header="2-T. Peterson kicks 66 yards from KC 30 to JAX 4. 86-M.Ross to JAX 21 for 17 yards (55-G. Stills)."/>
+			<Play Header="Jacksonville Jaguars at 12:45, (1st play from scrimmage 12:35)"/>
+			<Play DownDistanceYardline="1-10-JAX 21" EarnedFirstDown="False" PlayDescription="(12:35) 34-S.Mack right tackle to JAX 26 for 5 yards (95-D. Ransom)."/>
+			<Play DownDistanceYardline="2-5-JAX 26" EarnedFirstDown="False" PlayDescription="(12:00) 8-M.Brunell pass to 82-J.Smith ran ob at JAX 37 for 11 yards." FirstDownType="P1"/>
+			<Play DownDistanceYardline="1-10-JAX 37" EarnedFirstDown="True" PlayDescription="(11:37) 8-M.Brunell pass to 87-K.McCardell to 50 for 13 yards (25-G. Wesley)." FirstDownType="P2"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(11:13) 34-S.Mack left tackle to KC 45 for 5 yards (79-E. Downing)."/>
+			<Play DownDistanceYardline="2-5-KC 45" EarnedFirstDown="False" PlayDescription="(10:40) 34-S.Mack up the middle ran ob at KC 19 for 26 yards (25-G. Wesley)." FirstDownType="R3"/>
+			<Play DownDistanceYardline="1-10-KC 19" EarnedFirstDown="True" PlayDescription="(10:08) 85-D.Gibson left end to KC 18 for 1 yard (99-D. Clemons; 59-D. Edwards)."/>
+			<Play DownDistanceYardline="2-9-KC 18" EarnedFirstDown="False" PlayDescription="(9:34) 8-M.Brunell pass to 87-K.McCardell to KC 5 for 13 yards (25-G. Wesley)." FirstDownType="P4"/>
+			<Play DownDistanceYardline="1-5-KC 5" EarnedFirstDown="True" PlayDescription="(8:58) 34-S.Mack up the middle to KC 3 for 2 yards (59-D. Edwards)."/>
+			<Play DownDistanceYardline="2-3-KC 3" EarnedFirstDown="False" PlayDescription="(8:24) 34-S.Mack left end for 3 yards, TOUCHDOWN." FirstDownType="R5"/>
+			<Play PlayDescription="1-M.Hollis extra point is GOOD, Center-83-J.Zelenka, Holder-2-C.Hanson."/>
+			<Play Header="KC 7 JAX 7,  9 plays, 79 yards,  4:27 drive,  6:42 elapsed"/>
+			<Play Header="3-J.Holmes kicks 63 yards from JAX 30 to KC 7. 20-D. Hall to KC 32 for 25 yards (29-J.Craft)."/>
+			<Play Header="Kansas City Chiefs at 8:18, (1st play from scrimmage 8:09)"/>
+			<Play DownDistanceYardline="1-10-KC 32" EarnedFirstDown="False" PlayDescription="(8:09) 10-T. Green pass to 87-E.Kennison to KC 43 for 11 yards (59-E.Thomas)." FirstDownType="P2"/>
+			<Play DownDistanceYardline="1-10-KC 43" EarnedFirstDown="True" PlayDescription="(7:34) 31-P. Holmes right end to KC 42 for -1 yards (56-H.Nickerson)."/>
+			<Play DownDistanceYardline="2-11-KC 42" EarnedFirstDown="False" PlayDescription="(6:56) 31-P. Holmes up the middle to KC 47 for 5 yards (20-D.Darius)."/>
+			<Play DownDistanceYardline="3-6-KC 47" EarnedFirstDown="False" PlayDescription="(6:23) (Shotgun) 10-T. Green pass incomplete to 87-E.Kennison (41-K.Thomas)."/>
+			<Play DownDistanceYardline="4-6-KC 47" EarnedFirstDown="False" PlayDescription="(6:18) 4-D. Stryzinski punts 37 yards to JAX 16, Center-83-K. Gammon. 85-D.Gibson to JAX 21 for 5 yards (42-S.Harts)."/>
+			<Play Header="Jacksonville Jaguars at 6:08"/>
+			<Play DownDistanceYardline="1-10-JAX 21" EarnedFirstDown="False" PlayDescription="(6:08) 8-M.Brunell pass to 80-K.Brady to JAX 29 for 8 yards (53-M. Patton)."/>
+			<Play DownDistanceYardline="2-2-JAX 29" EarnedFirstDown="False" PlayDescription="(5:33) 34-S.Mack left tackle to JAX 30 for 1 yard (39-R. Crockett)."/>
+			<Play DownDistanceYardline="3-1-JAX 30" EarnedFirstDown="False" PlayDescription="(4:58) (Shotgun) 8-M.Brunell pass incomplete to 82-J.Smith (79-E. Downing)."/>
+			<Play DownDistanceYardline="4-1-JAX 30" EarnedFirstDown="False" PlayDescription="(4:54) 2-C.Hanson punts 49 yards to KC 21, Center-83-J.Zelenka. 20-D. Hall to KC 20 for -1 yards (86-M.Ross)."/>
+			<Play Header="Kansas City Chiefs at 4:44"/>
+			<Play DownDistanceYardline="1-10-KC 20" EarnedFirstDown="False" PlayDescription="(4:44) 88-T. Gonzalez right end to KC 29 for 9 yards (41-K.Thomas)."/>
+			<Play DownDistanceYardline="2-1-KC 29" EarnedFirstDown="False" PlayDescription="(4:08) 31-P. Holmes left end to KC 37 for 8 yards (29-J.Craft)." FirstDownType="R3"/>
+			<Play DownDistanceYardline="1-10-KC 37" EarnedFirstDown="True" PlayDescription="(3:45) 10-T. Green pass incomplete to 31-P. Holmes."/>
+			<Play DownDistanceYardline="2-10-KC 37" EarnedFirstDown="False" PlayDescription="(3:39) 10-T. Green pass to 88-T. Gonzalez to KC 43 for 6 yards (56-H.Nickerson)."/>
+			<Play DownDistanceYardline="3-4-KC 43" EarnedFirstDown="False" PlayDescription="(2:56) 10-T. Green sacked at KC 36 for -7 yards (26-A.Battles)."/>
+			<Play DownDistanceYardline="4-11-KC 36" EarnedFirstDown="False" PlayDescription="(2:26) 4-D. Stryzinski punts 48 yards to JAX 16, Center-83-K. Gammon, fair catch by 85-D.Gibson."/>
+			<Play PlayDescription="PENALTY on JAX-27-D.Wheeler, Offensive Holding, 8 yards, enforced at JAX 16."/>
+			<Play Header="Jacksonville Jaguars at 2:18"/>
+			<Play DownDistanceYardline="1-10-JAX 8" EarnedFirstDown="False" PlayDescription="(2:18) 34-S.Mack right tackle to JAX 20 for 12 yards (25-G. Wesley)." FirstDownType="R6"/>
+			<Play DownDistanceYardline="1-10-JAX 20" EarnedFirstDown="True" PlayDescription="(1:41) 34-S.Mack up the middle to JAX 22 for 2 yards (95-D. Ransom)."/>
+			<Play DownDistanceYardline="2-8-JAX 22" EarnedFirstDown="False" PlayDescription="(:59) 34-S.Mack left tackle to JAX 28 for 6 yards (95-D. Ransom)."/>
+			<Play DownDistanceYardline="3-2-JAX 28" EarnedFirstDown="False" PlayDescription="(:20) 8-M.Brunell sacked at JAX 21 for -7 yards (97-R. Owens)."/>
+			<QuarterSummary Team="Kansas City Chiefs" Score="7" TimeOfPossession="6:03" FirstDownsRushing="2" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="3" ThirdDownEfficiency="1/3" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Jacksonville Jaguars" Score="7" TimeOfPossession="8:57" FirstDownsRushing="3" FirstDownsPassing="3" FirstDownsPenalty="0" FirstDownsTotal="6" ThirdDownEfficiency="0/2" FourthDownEfficiency="0/0"/>
+		</_1stQuarter>
+		<_2ndQuarter>
+			<Play Header="Jacksonville Jaguars continued."/>
+			<Play DownDistanceYardline="4-9-JAX 21" EarnedFirstDown="False" PlayDescription="(15:00) 2-C.Hanson punts 46 yards to KC 33, Center-83-J.Zelenka, downed by JAX."/>
+			<Play Header="Kansas City Chiefs at 14:49"/>
+			<Play DownDistanceYardline="1-10-KC 33" EarnedFirstDown="False" PlayDescription="(14:49) 10-T. Green pass incomplete to 81-M. Minnis."/>
+			<Play DownDistanceYardline="2-10-KC 33" EarnedFirstDown="False" PlayDescription="(14:43) 10-T. Green pass to 49-T. Richardson to KC 35 for 2 yards (97-R.Wynn)."/>
+			<Play DownDistanceYardline="3-8-KC 35" EarnedFirstDown="False" PlayDescription="(13:59) (Shotgun) 10-T. Green pass incomplete to 88-T. Gonzalez."/>
+			<Play DownDistanceYardline="4-8-KC 35" EarnedFirstDown="False" PlayDescription="(13:54) 4-D. Stryzinski punts 36 yards to JAX 29, Center-83-K. Gammon. 85-D.Gibson to JAX 31 for 2 yards (55-G. Stills)."/>
+			<Play Header="Jacksonville Jaguars at 13:46"/>
+			<Play DownDistanceYardline="1-10-JAX 31" EarnedFirstDown="False" PlayDescription="(13:46) 8-M.Brunell pass incomplete to 87-K.McCardell (25-G. Wesley)."/>
+			<Play DownDistanceYardline="2-10-JAX 31" EarnedFirstDown="False" PlayDescription="(13:41) (Shotgun) 8-M.Brunell pass to 85-D.Gibson to JAX 35 for 4 yards (21-J. Woods; 25-G. Wesley)."/>
+			<Play DownDistanceYardline="3-6-JAX 35" EarnedFirstDown="False" PlayDescription="(12:55) (Shotgun) 8-M.Brunell pass to 87-K.McCardell to KC 21 for 44 yards (39-R. Crockett)." FirstDownType="P7"/>
+			<Play DownDistanceYardline="1-10-KC 21" EarnedFirstDown="True" PlayDescription="(12:05) 34-S.Mack right tackle to KC 20 for 1 yard (39-R. Crockett, 59-D. Edwards)."/>
+			<Play DownDistanceYardline="2-9-KC 20" EarnedFirstDown="False" PlayDescription="(11:27) 8-M.Brunell pass incomplete to 82-J.Smith."/>
+			<Play DownDistanceYardline="3-9-KC 20" EarnedFirstDown="False" PlayDescription="(11:22) (Shotgun) 8-M.Brunell pass to 80-K.Brady to KC 3 for 17 yards (25-G. Wesley)." FirstDownType="P8"/>
+			<Play DownDistanceYardline="1-3-KC 3" EarnedFirstDown="True" PlayDescription="(10:43) 8-M.Brunell left end for 3 yards, TOUCHDOWN." FirstDownType="R9"/>
+			<Play PlayDescription="1-M.Hollis extra point is GOOD, Center-83-J.Zelenka, Holder-2-C.Hanson."/>
+			<Play Header="KC 7 JAX 14,  7 plays, 69 yards,  3:10 drive,  4:24 elapsed"/>
+			<Play Header="3-J.Holmes kicks 67 yards from JAX 30 to KC 3. 20-D. Hall to KC 43 for 40 yards (31-P.Washington)."/>
+			<Play Header="Kansas City Chiefs at 10:36, (1st play from scrimmage 10:25)"/>
+			<Play DownDistanceYardline="1-10-KC 43" EarnedFirstDown="False" PlayDescription="(10:25) 31-P. Holmes right end to KC 40 for -3 yards (92-R.Meier)."/>
+			<Play DownDistanceYardline="2-13-KC 40" EarnedFirstDown="False" PlayDescription="(9:48) 31-P. Holmes up the middle to KC 43 for 3 yards (92-R.Meier)."/>
+			<Play DownDistanceYardline="3-10-KC 43" EarnedFirstDown="False" PlayDescription="(9:12) (Shotgun) 10-T. Green to JAX 49 for 8 yards (20-D.Darius)."/>
+			<Play DownDistanceYardline="4-2-JAX 49" EarnedFirstDown="False" PlayDescription="(8:34) 4-D. Stryzinski punts 40 yards to JAX 9, Center-83-K. Gammon, downed by KC-55-G. Stills."/>
+			<Play PlayDescription="PENALTY on JAX, Defensive 12 On-field, 5 yards, enforced at JAX 49 - No Play." FirstDownType="X4"/>
+			<Play DownDistanceYardline="1-10-JAX 44" EarnedFirstDown="True" PlayDescription="(8:22) 10-T. Green pass to 87-E.Kennison to JAX 24 for 20 yards (29-J.Craft)." FirstDownType="P5"/>
+			<Play DownDistanceYardline="1-10-JAX 24" EarnedFirstDown="True" PlayDescription="(7:46) 31-P. Holmes up the middle to JAX 24 for no gain (56-H.Nickerson)."/>
+			<Play DownDistanceYardline="2-10-JAX 24" EarnedFirstDown="False" PlayDescription="(7:09) 10-T. Green pass to 87-E.Kennison to JAX 11 for 13 yards (29-J.Craft)." FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-JAX 11" EarnedFirstDown="True" PlayDescription="(6:28) 31-P. Holmes up the middle to JAX 12 for -1 yards (96-G.Walker; 97-R.Wynn)."/>
+			<Play DownDistanceYardline="2-11-JAX 12" EarnedFirstDown="False" PlayDescription="(5:48) 10-T. Green pass incomplete to 82-D. Alexander (97-R.Wynn)."/>
+			<Play DownDistanceYardline="3-11-JAX 12" EarnedFirstDown="False" PlayDescription="(5:46) 10-T. Green pass incomplete to 81-M. Minnis."/>
+			<Play PlayDescription="PENALTY on JAX-27-D.Wheeler, Defensive Pass Interference, 11 yards, enforced at JAX 12 - No Play." FirstDownType="X7"/>
+			<Play DownDistanceYardline="1-1-JAX 1" EarnedFirstDown="True" PlayDescription="(5:42) 10-T. Green pass to 88-T. Gonzalez for 1 yard, TOUCHDOWN." FirstDownType="P8"/>
+			<Play PlayDescription="2-T. Peterson extra point is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 14 JAX 14,  9 plays, 57 yards, 2 penalties,  4:58 drive,  9:22 elapsed"/>
+			<Play Header="2-T. Peterson kicks 65 yards from KC 30 to JAX 5. 86-M.Ross to JAX 27 for 22 yards (96-M. Beisel)."/>
+			<Play Header="Jacksonville Jaguars at 5:38, (1st play from scrimmage 5:28)"/>
+			<Play DownDistanceYardline="1-10-JAX 27" EarnedFirstDown="False" PlayDescription="(5:28) 34-S.Mack right tackle to JAX 33 for 6 yards (98-E. Hicks)."/>
+			<Play DownDistanceYardline="2-4-JAX 33" EarnedFirstDown="False" PlayDescription="(4:57) 34-S.Mack right tackle to KC 13 for 54 yards (56-L. Bush)." FirstDownType="R10"/>
+			<Play DownDistanceYardline="1-10-KC 13" EarnedFirstDown="True" PlayDescription="(4:24) 35-E.Joseph up the middle to KC 10 for 3 yards (39-R. Crockett)."/>
+			<Play DownDistanceYardline="2-7-KC 10" EarnedFirstDown="False" PlayDescription="(3:43) 8-M.Brunell pass incomplete to 82-J.Smith."/>
+			<Play DownDistanceYardline="3-7-KC 10" EarnedFirstDown="False" PlayDescription="(3:38) (Shotgun) 8-M.Brunell sacked at KC 10 for 0 yards (51-G. Cadrez)."/>
+			<Play DownDistanceYardline="4-7-KC 10" EarnedFirstDown="False" PlayDescription="(3:00) 1-M.Hollis 28 yard field goal is GOOD, Center-83-J.Zelenka, Holder-2-C.Hanson."/>
+			<Play Header="KC 14 JAX 17,  6 plays, 63 yards,  2:42 drive, 12:04 elapsed"/>
+			<Play Header="3-J.Holmes kicks 60 yards from JAX 30 to KC 10. 20-D. Hall to KC 31 for 21 yards (58-J.Posey)."/>
+			<Play Header="Kansas City Chiefs at 2:56, (1st play from scrimmage 2:47)"/>
+			<Play DownDistanceYardline="1-10-KC 31" EarnedFirstDown="False" PlayDescription="(2:47) 10-T. Green pass to 88-T. Gonzalez to KC 45 for 14 yards (58-J.Posey)." FirstDownType="P9"/>
+			<Play DownDistanceYardline="1-10-KC 45" EarnedFirstDown="True" PlayDescription="(2:22) (Shotgun) 10-T. Green pass incomplete to 49-T. Richardson."/>
+			<Play PlayDescription="PENALTY on KC-76-J. Tait, Offensive Holding, 10 yards, enforced at KC 45 - No Play."/>
+			<Play DownDistanceYardline="1-20-KC 35" EarnedFirstDown="False" PlayDescription="(2:18) (Shotgun) 10-T. Green pass to 31-P. Holmes to KC 37 for 2 yards (52-E.Westmoreland)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="2-18-KC 37" EarnedFirstDown="False" PlayDescription="(2:00) (Shotgun) 10-T. Green pass intended for 88-T. Gonzalez INTERCEPTED by 29-J.Craft at JAX 48. 29-J.Craft to JAX 48 for no gain (88-T. Gonzalez).
+Play Challenged by Review Assistant and Upheld."/>
+			<Play Header="Jacksonville Jaguars at 1:53"/>
+			<Play DownDistanceYardline="1-10-JAX 48" EarnedFirstDown="False" PlayDescription="(1:53) (Shotgun) 8-M.Brunell pass to 82-J.Smith pushed ob at KC 44 for 8 yards (24-W. Bartee)."/>
+			<Play DownDistanceYardline="2-2-KC 44" EarnedFirstDown="False" PlayDescription="(1:49) 35-E.Joseph up the middle to KC 41 for 3 yards (25-G. Wesley)." FirstDownType="R11"/>
+			<Play DownDistanceYardline="1-10-KC 41" EarnedFirstDown="True" PlayDescription="(1:25) (Shotgun) 8-M.Brunell pass to 80-K.Brady to KC 28 for 13 yards (59-D. Edwards)." FirstDownType="P12"/>
+			<Play PlayDescription="Timeout #1 by JAX at 01:13."/>
+			<Play DownDistanceYardline="1-10-KC 28" EarnedFirstDown="True" PlayDescription="(1:13) 8-M.Brunell pass incomplete to 87-K.McCardell."/>
+			<Play DownDistanceYardline="2-10-KC 28" EarnedFirstDown="False" PlayDescription="(1:10) (Shotgun) 8-M.Brunell pass to 87-K.McCardell to KC 24 for 4 yards (39-R. Crockett)."/>
+			<Play DownDistanceYardline="3-6-KC 24" EarnedFirstDown="False" PlayDescription="(:46) (Shotgun) 8-M.Brunell pass incomplete to 87-K.McCardell."/>
+			<Play DownDistanceYardline="4-6-KC 24" EarnedFirstDown="False" PlayDescription="(:40) 1-M.Hollis 42 yard field goal is No Good, Wide Right, Center-83-J.Zelenka, Holder-2-C.Hanson."/>
+			<Play Header="Kansas City Chiefs at 0:34"/>
+			<Play DownDistanceYardline="1-10-KC 32" EarnedFirstDown="False" PlayDescription="(:34) (Shotgun) 10-T. Green pass to 31-P. Holmes to KC 43 for 11 yards (56-H.Nickerson)." FirstDownType="P10"/>
+			<Play PlayDescription="Timeout #1 by KC at 00:26."/>
+			<Play DownDistanceYardline="1-10-KC 43" EarnedFirstDown="True" PlayDescription="(:26) (Shotgun) 10-T. Green pass to 85-M. Ricks to JAX 36 for 21 yards (27-D.Wheeler)." FirstDownType="P11"/>
+			<Play PlayDescription="Timeout #2 by KC at 00:17."/>
+			<Play DownDistanceYardline="1-10-JAX 36" EarnedFirstDown="True" PlayDescription="(:17) (Shotgun) 10-T. Green pass incomplete to 82-D. Alexander."/>
+			<Play DownDistanceYardline="2-10-JAX 36" EarnedFirstDown="False" PlayDescription="(:12) (Shotgun) 10-T. Green pass to 31-P. Holmes to JAX 29 for 7 yards (56-H.Nickerson)."/>
+			<Play PlayDescription="Timeout #3 by KC at 00:05."/>
+			<Play DownDistanceYardline="3-3-JAX 29" EarnedFirstDown="False" PlayDescription="(:05) 2-T. Peterson 47 yard field goal is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 17 JAX 17,  5 plays, 39 yards,  0:34 drive, 15:00 elapsed"/>
+			<QuarterSummary Team="Kansas City Chiefs" Score="17" TimeOfPossession="7:38" FirstDownsRushing="0" FirstDownsPassing="6" FirstDownsPenalty="2" FirstDownsTotal="8" ThirdDownEfficiency="0/2" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Jacksonville Jaguars" Score="17" TimeOfPossession="7:22" FirstDownsRushing="3" FirstDownsPassing="3" FirstDownsPenalty="0" FirstDownsTotal="6" ThirdDownEfficiency="2/4" FourthDownEfficiency="0/0"/>
+		</_2ndQuarter>
+		<_3rdQuarter>
+			<Play Header="KC elects to Receive, and JAX elects to defend the North goal."/>
+			<Play Header="3-J.Holmes kicks 65 yards from JAX 30 to KC 5. 20-D. Hall to KC 32 for 27 yards (58-J.Posey)."/>
+			<Play Header="Kansas City Chiefs at 15:00, (1st play from scrimmage 14:50)"/>
+			<Play DownDistanceYardline="1-10-KC 32" EarnedFirstDown="False" PlayDescription="(14:50) 31-P. Holmes up the middle to KC 41 for 9 yards (20-D.Darius)."/>
+			<Play DownDistanceYardline="2-1-KC 41" EarnedFirstDown="False" PlayDescription="(14:16) 31-P. Holmes right tackle to KC 44 for 3 yards (56-H.Nickerson)." FirstDownType="R12"/>
+			<Play PlayDescription="PENALTY on JAX-96-G.Walker, Personal Foul, 15 yards, enforced at KC 44." FirstDownType="X13"/>
+			<Play DownDistanceYardline="1-10-JAX 41" EarnedFirstDown="True" PlayDescription="(13:50) 10-T. Green sacked at KC 45 for -14 yards (90-T.Brackens). FUMBLES (90-T.Brackens), RECOVERED by JAX-26-A.Battles at KC 45. 26-A.Battles to KC 45 for no gain (76-J. Tait)."/>
+			<Play Header="Jacksonville Jaguars at 13:39"/>
+			<Play DownDistanceYardline="1-10-KC 45" EarnedFirstDown="False" PlayDescription="(13:39) 8-M.Brunell pass to 34-S.Mack to KC 37 for 8 yards (95-D. Ransom)."/>
+			<Play DownDistanceYardline="2-2-KC 37" EarnedFirstDown="False" PlayDescription="(13:03) 34-S.Mack left tackle to KC 39 for -2 yards (98-E. Hicks)."/>
+			<Play DownDistanceYardline="3-4-KC 39" EarnedFirstDown="False" PlayDescription="(12:26) (Shotgun) 8-M.Brunell sacked at KC 48 for -9 yards (24-W. Bartee)."/>
+			<Play DownDistanceYardline="4-13-KC 48" EarnedFirstDown="False" PlayDescription="(12:05) 2-C.Hanson punts 31 yards to KC 17, Center-83-J.Zelenka. 20-D. Hall MUFFS catch, and recovers at KC 19. 20-D. Hall to KC 19 for no gain (31-P.Washington)."/>
+			<Play Header="Kansas City Chiefs at 11:57"/>
+			<Play DownDistanceYardline="1-10-KC 19" EarnedFirstDown="False" PlayDescription="(11:57) 31-P. Holmes left end to KC 20 for 1 yard (27-D.Wheeler)."/>
+			<Play DownDistanceYardline="2-9-KC 20" EarnedFirstDown="False" PlayDescription="(11:23) 10-T. Green pass to 49-T. Richardson to KC 26 for 6 yards (41-K.Thomas)."/>
+			<Play DownDistanceYardline="3-3-KC 26" EarnedFirstDown="False" PlayDescription="(10:44) (Shotgun) 10-T. Green pass to 88-T. Gonzalez to KC 40 for 14 yards (56-H.Nickerson)." FirstDownType="P14"/>
+			<Play DownDistanceYardline="1-10-KC 40" EarnedFirstDown="True" PlayDescription="(10:07) 31-P. Holmes up the middle to KC 42 for 2 yards (91-S.Payne)."/>
+			<Play DownDistanceYardline="2-8-KC 42" EarnedFirstDown="False" PlayDescription="(9:26) 10-T. Green pass to 87-E.Kennison to JAX 45 for 13 yards (55-D.Clark)." FirstDownType="P15"/>
+			<Play DownDistanceYardline="1-10-JAX 45" EarnedFirstDown="True" PlayDescription="(8:50) 31-P. Holmes left tackle pushed ob at JAX 39 for 6 yards (26-A.Battles)."/>
+			<Play DownDistanceYardline="2-4-JAX 39" EarnedFirstDown="False" PlayDescription="(8:26) 31-P. Holmes up the middle to JAX 27 for 12 yards (95-P.Spicer)." FirstDownType="R16"/>
+			<Play DownDistanceYardline="1-10-JAX 27" EarnedFirstDown="True" PlayDescription="(7:51) 31-P. Holmes up the middle to JAX 26 for 1 yard (99-M.Stroud)."/>
+			<Play DownDistanceYardline="2-9-JAX 26" EarnedFirstDown="False" PlayDescription="(7:14) 31-P. Holmes up the middle to JAX 22 for 4 yards (95-P.Spicer)."/>
+			<Play DownDistanceYardline="3-5-JAX 22" EarnedFirstDown="False" PlayDescription="(6:40) 10-T. Green pass incomplete to 81-M. Minnis (56-H.Nickerson)."/>
+			<Play DownDistanceYardline="4-5-JAX 22" EarnedFirstDown="False" PlayDescription="(6:35) 2-T. Peterson 40 yard field goal is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 20 JAX 17,  11 plays, 59 yards,  5:26 drive,  8:29 elapsed"/>
+			<Play Header="2-T. Peterson kicks 70 yards from KC 30 to end zone, Touchback."/>
+			<Play Header="Jacksonville Jaguars at 6:31, (1st play from scrimmage 6:24)"/>
+			<Play DownDistanceYardline="1-10-JAX 20" EarnedFirstDown="False" PlayDescription="(6:24) 34-S.Mack up the middle to JAX 22 for 2 yards (59-D. Edwards)."/>
+			<Play DownDistanceYardline="2-8-JAX 22" EarnedFirstDown="False" PlayDescription="(5:51) 8-M.Brunell pass incomplete to 80-K.Brady."/>
+			<Play DownDistanceYardline="3-8-JAX 22" EarnedFirstDown="False" PlayDescription="(5:47) (Shotgun) 8-M.Brunell pass incomplete to 35-E.Joseph."/>
+			<Play DownDistanceYardline="4-8-JAX 22" EarnedFirstDown="False" PlayDescription="(5:39) 2-C.Hanson punts 45 yards to KC 33, Center-83-J.Zelenka. 20-D. Hall to KC 27 for -6 yards (31-P.Washington)."/>
+			<Play Header="Kansas City Chiefs at 5:28"/>
+			<Play DownDistanceYardline="1-10-KC 27" EarnedFirstDown="False" PlayDescription="(5:28) 10-T. Green pass to 87-E.Kennison to JAX 24 for 49 yards (26-A.Battles). FUMBLES (26-A.Battles), and recovers at JAX 23. 87-E.Kennison to JAX 23 for no gain (26-A.Battles)." FirstDownType="P17"/>
+			<Play DownDistanceYardline="1-10-JAX 23" EarnedFirstDown="True" PlayDescription="(4:47) 31-P. Holmes up the middle to JAX 19 for 4 yards (59-E.Thomas)."/>
+			<Play DownDistanceYardline="2-6-JAX 19" EarnedFirstDown="False" PlayDescription="(4:13) 10-T. Green pass to 31-P. Holmes to JAX 12 for 7 yards (20-D.Darius)." FirstDownType="P18"/>
+			<Play DownDistanceYardline="1-10-JAX 12" EarnedFirstDown="True" PlayDescription="(3:34) 10-T. Green pass to 88-T. Gonzalez for 12 yards, TOUCHDOWN." FirstDownType="P19"/>
+			<Play PlayDescription="2-T. Peterson extra point is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 27 JAX 17,  4 plays, 73 yards,  1:58 drive, 11:30 elapsed"/>
+			<Play Header="2-T. Peterson kicks 60 yards from KC 30 to JAX 10. 86-M.Ross to JAX 34 for 24 yards (50-L. Atkins). FUMBLES (50-L. Atkins), RECOVERED by KC-55-G. Stills at JAX 34.
+Play Challenged by JAX and Upheld. (Timeout #1 by JAX at 03:19.)"/>
+			<Play Header="Kansas City Chiefs at 3:19"/>
+			<Play DownDistanceYardline="1-10-JAX 34" EarnedFirstDown="False" PlayDescription="(3:19) 10-T. Green pass to 88-T. Gonzalez ran ob at JAX 22 for 12 yards (59-E.Thomas)."/>
+			<Play PlayDescription="PENALTY on KC-89-J. Dunn, Illegal Block Above the Waist, 10 yards, enforced at JAX 22."/>
+			<Play DownDistanceYardline="1-8-JAX 32" EarnedFirstDown="False" PlayDescription="(2:56) 31-P. Holmes left end pushed ob at JAX 22 for 10 yards (20-D.Darius)."/>
+			<Play PlayDescription="Penalty on JAX-20-D.Darius, Face Mask (5 Yards), declined.
+PENALTY on KC-87-E.Kennison, Illegal Crackback, 15 yards, enforced at JAX 32 - No Play."/>
+			<Play DownDistanceYardline="1-23-JAX 47" EarnedFirstDown="False" PlayDescription="(2:34) 10-T. Green pass to 81-M. Minnis to JAX 40 for 7 yards (56-H.Nickerson)."/>
+			<Play DownDistanceYardline="2-16-JAX 40" EarnedFirstDown="False" PlayDescription="(1:54) 10-T. Green pass to 31-P. Holmes to JAX 23 for 17 yards (32-M.McCree). FUMBLES (32-M.McCree), RECOVERED by JAX-56-H.Nickerson at JAX 23. 56-H.Nickerson to JAX 23 for no gain (31-P. Holmes)."/>
+			<Play Header="Jacksonville Jaguars at 1:42"/>
+			<Play DownDistanceYardline="1-10-JAX 23" EarnedFirstDown="False" PlayDescription="(1:42) (Shotgun) 8-M.Brunell pass to 87-K.McCardell to JAX 29 for 6 yards (39-R. Crockett)."/>
+			<Play DownDistanceYardline="2-4-JAX 29" EarnedFirstDown="False" PlayDescription="(1:15) (Shotgun) 8-M.Brunell pass to 80-K.Brady to JAX 39 for 10 yards (53-M. Patton)." FirstDownType="P13"/>
+			<Play DownDistanceYardline="1-10-JAX 39" EarnedFirstDown="True" PlayDescription="(:36) (Shotgun) 8-M.Brunell right end ran ob at JAX 45 for 6 yards."/>
+			<Play DownDistanceYardline="2-4-JAX 45" EarnedFirstDown="False" PlayDescription="(:03) (Shotgun) 8-M.Brunell pass to 80-K.Brady to JAX 48 for 3 yards (53-M. Patton)."/>
+			<QuarterSummary Team="Kansas City Chiefs" Score="27" TimeOfPossession="10:22" FirstDownsRushing="2" FirstDownsPassing="5" FirstDownsPenalty="1" FirstDownsTotal="8" ThirdDownEfficiency="1/2" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Jacksonville Jaguars" Score="17" TimeOfPossession="4:38" FirstDownsRushing="0" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="1" ThirdDownEfficiency="0/2" FourthDownEfficiency="0/0"/>
+		</_3rdQuarter>
+		<_4thQuarter>
+			<Play Header="Jacksonville Jaguars continued."/>
+			<Play DownDistanceYardline="3-1-JAX 48" EarnedFirstDown="False" PlayDescription="(15:00) 34-S.Mack up the middle to 50 for 2 yards (95-D. Ransom)." FirstDownType="R14"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(14:29) (Shotgun) 8-M.Brunell pass to 35-E.Joseph to KC 26 for 24 yards (59-D. Edwards)." FirstDownType="P15"/>
+			<Play DownDistanceYardline="1-10-KC 26" EarnedFirstDown="True" PlayDescription="(14:02) (Shotgun) 35-E.Joseph left tackle to KC 20 for 6 yards (53-M. Patton)."/>
+			<Play DownDistanceYardline="2-4-KC 20" EarnedFirstDown="False" PlayDescription="(13:25) (Shotgun) 8-M.Brunell pass to 87-K.McCardell for 20 yards, TOUCHDOWN." FirstDownType="P16"/>
+			<Play PlayDescription="1-M.Hollis extra point is GOOD, Center-83-J.Zelenka, Holder-2-C.Hanson."/>
+			<Play Header="KC 27 JAX 24,  8 plays, 77 yards,  3:17 drive,  1:35 elapsed"/>
+			<Play Header="3-J.Holmes kicks 59 yards from JAX 30 to KC 11. 20-D. Hall to KC 20 for 9 yards (26-A.Battles)."/>
+			<Play Header="Kansas City Chiefs at 13:25, (1st play from scrimmage 13:15)"/>
+			<Play DownDistanceYardline="1-10-KC 20" EarnedFirstDown="False" PlayDescription="(13:15) 10-T. Green pass to 88-T. Gonzalez to KC 29 for 9 yards (26-A.Battles)."/>
+			<Play DownDistanceYardline="2-1-KC 29" EarnedFirstDown="False" PlayDescription="(12:37) 31-P. Holmes up the middle to KC 31 for 2 yards (26-A.Battles)." FirstDownType="R20"/>
+			<Play DownDistanceYardline="1-10-KC 31" EarnedFirstDown="True" PlayDescription="(11:57) 10-T. Green pass intended for 88-T. Gonzalez INTERCEPTED by 56-H.Nickerson at KC 42. 56-H.Nickerson to KC 40 for 2 yards (85-M. Ricks)."/>
+			<Play Header="Jacksonville Jaguars at 11:46"/>
+			<Play DownDistanceYardline="1-10-KC 40" EarnedFirstDown="False" PlayDescription="(11:46) (Shotgun) 8-M.Brunell pass incomplete to 84-S.Dawkins."/>
+			<Play DownDistanceYardline="2-10-KC 40" EarnedFirstDown="False" PlayDescription="(11:41) (Shotgun) 8-M.Brunell right end pushed ob at KC 22 for 18 yards (21-J. Woods)." FirstDownType="R17"/>
+			<Play DownDistanceYardline="1-10-KC 22" EarnedFirstDown="True" PlayDescription="(11:20) (Shotgun) 8-M.Brunell pass intended for 35-E.Joseph INTERCEPTED by 21-J. Woods at KC 20. 21-J. Woods pushed ob at KC 43 for 23 yards (8-M.Brunell)."/>
+			<Play Header="Kansas City Chiefs at 11:10"/>
+			<Play DownDistanceYardline="1-10-KC 43" EarnedFirstDown="False" PlayDescription="(11:10) 31-P. Holmes up the middle to KC 47 for 4 yards (97-R.Wynn)."/>
+			<Play DownDistanceYardline="2-6-KC 47" EarnedFirstDown="False" PlayDescription="(10:31) 31-P. Holmes left tackle to JAX 49 for 4 yards (90-T.Brackens). JJ 56 Shaken up on the play."/>
+			<Play DownDistanceYardline="3-2-JAX 49" EarnedFirstDown="False" PlayDescription="(10:00) 10-T. Green pass to 49-T. Richardson to JAX 43 for 6 yards (52-E.Westmoreland)." FirstDownType="P21"/>
+			<Play DownDistanceYardline="1-10-JAX 43" EarnedFirstDown="True" PlayDescription="(9:24) 10-T. Green pass to 31-P. Holmes to JAX 38 for 5 yards (59-E.Thomas)."/>
+			<Play DownDistanceYardline="2-5-JAX 38" EarnedFirstDown="False" PlayDescription="(8:40) 10-T. Green to JAX 44 for -6 yards (20-D.Darius)."/>
+			<Play DownDistanceYardline="3-11-JAX 44" EarnedFirstDown="False" PlayDescription="(8:04) 10-T. Green pass to 87-E.Kennison pushed ob at JAX 30 for 14 yards (27-D.Wheeler). KC 87 Shaken up on the play." FirstDownType="P22"/>
+			<Play DownDistanceYardline="1-10-JAX 30" EarnedFirstDown="True" PlayDescription="(7:39) 10-T. Green pass to 88-T. Gonzalez to JAX 20 for 10 yards (20-D.Darius)." FirstDownType="P23"/>
+			<Play DownDistanceYardline="1-10-JAX 20" EarnedFirstDown="True" PlayDescription="(6:54) 31-P. Holmes right tackle to JAX 15 for 5 yards (55-D.Clark)."/>
+			<Play DownDistanceYardline="2-5-JAX 15" EarnedFirstDown="False" PlayDescription="(6:14) 31-P. Holmes up the middle to JAX 15 for no gain (90-T.Brackens)."/>
+			<Play DownDistanceYardline="3-5-JAX 15" EarnedFirstDown="False" PlayDescription="(5:34) 10-T. Green pass to 31-P. Holmes pushed ob at JAX 11 for 4 yards (41-K.Thomas)."/>
+			<Play DownDistanceYardline="4-1-JAX 11" EarnedFirstDown="False" PlayDescription="(5:16) 2-T. Peterson 29 yard field goal is GOOD, Center-83-K. Gammon, Holder-4-D. Stryzinski."/>
+			<Play Header="KC 30 JAX 24,  11 plays, 46 yards,  5:59 drive,  9:49 elapsed"/>
+			<Play Header="2-T. Peterson kicks 56 yards from KC 30 to JAX 14. 35-E.Joseph to JAX 36 for 22 yards (55-G. Stills)."/>
+			<Play Header="Jacksonville Jaguars at 5:11, (1st play from scrimmage 5:00)"/>
+			<Play DownDistanceYardline="1-10-JAX 36" EarnedFirstDown="False" PlayDescription="(5:00) (Shotgun) 8-M.Brunell pass to 84-S.Dawkins pushed ob at JAX 42 for 6 yards (24-W. Bartee)."/>
+			<Play DownDistanceYardline="2-4-JAX 42" EarnedFirstDown="False" PlayDescription="(4:32) (Shotgun) 8-M.Brunell pass incomplete to 87-K.McCardell."/>
+			<Play PlayDescription="PENALTY on KC-39-R. Crockett, Defensive Pass Interference, 15 yards, enforced at JAX 42 - No Play." FirstDownType="X18"/>
+			<Play DownDistanceYardline="1-10-KC 43" EarnedFirstDown="True" PlayDescription="(4:27) (Shotgun) 8-M.Brunell pass to 84-S.Dawkins to KC 36 for 7 yards (24-W. Bartee)."/>
+			<Play DownDistanceYardline="2-3-KC 36" EarnedFirstDown="False" PlayDescription="(3:59) (Shotgun) 8-M.Brunell pass to 82-J.Smith pushed ob at KC 25 for 11 yards (53-M. Patton)." FirstDownType="P19"/>
+			<Play DownDistanceYardline="1-10-KC 25" EarnedFirstDown="True" PlayDescription="(3:53) (Shotgun) 35-E.Joseph up the middle to KC 14 for 11 yards (44-E. Warfield)." FirstDownType="R20"/>
+			<Play DownDistanceYardline="1-10-KC 14" EarnedFirstDown="True" PlayDescription="(3:16) 35-E.Joseph right tackle to KC 10 for 4 yards (99-D. Clemons)."/>
+			<Play DownDistanceYardline="2-6-KC 10" EarnedFirstDown="False" PlayDescription="(2:40) 35-E.Joseph right tackle to KC 8 for 2 yards (98-E. Hicks)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-4-KC 8" EarnedFirstDown="False" PlayDescription="(2:00) (Shotgun) 8-M.Brunell pass incomplete to 80-K.Brady (24-W. Bartee)."/>
+			<Play DownDistanceYardline="4-4-KC 8" EarnedFirstDown="False" PlayDescription="(2:00) PENALTY on JAX, Delay of Game, 5 yards, enforced at KC 8 - No Play."/>
+			<Play DownDistanceYardline="4-9-KC 13" EarnedFirstDown="False" PlayDescription="(1:45) 8-M.Brunell pass to 82-J.Smith to KC 6 for 7 yards (53-M. Patton)."/>
+			<Play Header="Kansas City Chiefs at 1:45"/>
+			<Play DownDistanceYardline="1-10-KC 6" EarnedFirstDown="False" PlayDescription="(1:45) 31-P. Holmes left tackle to KC 8 for 2 yards (99-M.Stroud)."/>
+			<Play PlayDescription="Timeout #2 by JAX at 01:40."/>
+			<Play DownDistanceYardline="2-8-KC 8" EarnedFirstDown="False" PlayDescription="(1:40) 31-P. Holmes up the middle to KC 12 for 4 yards (59-E.Thomas)."/>
+			<Play PlayDescription="Timeout #3 by JAX at 01:35."/>
+			<Play DownDistanceYardline="3-4-KC 12" EarnedFirstDown="False" PlayDescription="(1:35) 31-P. Holmes right tackle to KC 15 for 3 yards (99-M.Stroud)."/>
+			<Play DownDistanceYardline="4-1-KC 15" EarnedFirstDown="False" PlayDescription="(1:35) PENALTY on KC, Delay of Game, 5 yards, enforced at KC 15 - No Play."/>
+			<Play DownDistanceYardline="4-6-KC 10" EarnedFirstDown="False" PlayDescription="(:50) (Punt formation) 4-D. Stryzinski ran ob in End Zone for -10 yards, SAFETY."/>
+			<Play Header="KC 30 JAX 26,  Safety, 14:14 elasped"/>
+			<Play Header="2-T. Peterson kicks 57 yards from KC 20 to JAX 23. 85-D.Gibson to JAX 41 for 18 yards (24-W. Bartee)."/>
+			<Play Header="Jacksonville Jaguars at 0:46, (1st play from scrimmage 0:41)"/>
+			<Play DownDistanceYardline="1-10-JAX 41" EarnedFirstDown="False" PlayDescription="(:41) (Shotgun) 8-M.Brunell pass to 87-K.McCardell pushed ob at KC 27 for 32 yards (21-J. Woods)." FirstDownType="P21"/>
+			<Play DownDistanceYardline="1-10-KC 27" EarnedFirstDown="True" PlayDescription="(:32) (Shotgun) 8-M.Brunell pass incomplete to 87-K.McCardell."/>
+			<Play DownDistanceYardline="2-10-KC 27" EarnedFirstDown="False" PlayDescription="(:28) (Shotgun) 8-M.Brunell pass to 82-J.Smith to KC 13 for 14 yards (59-D. Edwards)." FirstDownType="P22"/>
+			<Play DownDistanceYardline="1-10-KC 13" EarnedFirstDown="True" PlayDescription="(:12) 8-M.Brunell pass incomplete."/>
+			<Play DownDistanceYardline="2-10-KC 13" EarnedFirstDown="False" PlayDescription="(:12) (Shotgun) 8-M.Brunell pass incomplete to 87-K.McCardell."/>
+			<Play DownDistanceYardline="3-10-KC 13" EarnedFirstDown="False" PlayDescription="(:06) (Shotgun) 8-M.Brunell pass incomplete to 82-J.Smith (24-W. Bartee)."/>
+			<QuarterSummary Team="Kansas City Chiefs" Score="30" TimeOfPossession="8:37" FirstDownsRushing="1" FirstDownsPassing="3" FirstDownsPenalty="0" FirstDownsTotal="4" ThirdDownEfficiency="2/4" FourthDownEfficiency="0/1"/>
+			<QuarterSummary Team="Jacksonville Jaguars" Score="26" TimeOfPossession="6:23" FirstDownsRushing="3" FirstDownsPassing="5" FirstDownsPenalty="1" FirstDownsTotal="9" ThirdDownEfficiency="1/3" FourthDownEfficiency="0/1"/>
+		</_4thQuarter>
+	</PlayByPlay>
+</Gamebook>

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gamebook>
+	<GamebookSummary Title="National Football League Game Summary" AuxiliaryTitle="" Copyright="NFL Copyright © 2001 by The National Football League. All rights reserved. This summary and play-by-play is for the express purpose of assisting media in their coverage of the game; any other use of this material is prohibited without the written permission of the National Football League." ScheduleDate="12/2/2001" VisitingTeam="Arizona Cardinals" HomeTeam="Oakland Raiders" StartTime="13:15" TimeZone="Pacific" Stadium="Network Associates Coliseum" StadiumType="Outdoor" GameWeather="Overcast skies" Temperature="58" Humidity="72" WindSpeed="20" TurfType="Grass" OutdoorWeather="" WindChill="" WindDirection="SW" Referee="Jeff Triplette (42)" Umpire="Scott Dawson (70)" HeadLinesman="Tom Stabile (24)" LineJudge="Bruce Maurer (38)" SideJudge="Doug Rosenbaum (67)" BackJudge="Richard Reels (83)" FieldJudge="Duke Carroll (11)" ReplayOfficial="Bob Mantooth" VideoOperator="Jim Pearson" Attendance="46,601" GameLength="3:29" VisitorScoreQ1="7" VisitorScoreQ2="13" VisitorScoreQ3="0" VisitorScoreQ4="11" VisitorScoreOT="3" HomeScoreQ1="7" HomeScoreQ2="0" HomeScoreQ3="7" HomeScoreQ4="17" HomeScoreOT="0">
+		<OffensiveStarterVisitor Player="D.Boston" Position="WR" UniformNumber="89"/>
+		<OffensiveStarterVisitor Player="L.Shelton" Position="LT" UniformNumber="70"/>
+		<OffensiveStarterVisitor Player="P.Kendall" Position="LG" UniformNumber="66"/>
+		<OffensiveStarterVisitor Player="M.Gruttadauria" Position="C" UniformNumber="60"/>
+		<OffensiveStarterVisitor Player="L.Davis" Position="RG" UniformNumber="75"/>
+		<OffensiveStarterVisitor Player="A.Clement" Position="RT" UniformNumber="65"/>
+		<OffensiveStarterVisitor Player="S.Bush" Position="TE" UniformNumber="87"/>
+		<OffensiveStarterVisitor Player="M.Jenkins" Position="WR" UniformNumber="82"/>
+		<OffensiveStarterVisitor Player="J.Plummer" Position="QB" UniformNumber="16"/>
+		<OffensiveStarterVisitor Player="J.Makovicka" Position="FB" UniformNumber="34"/>
+		<OffensiveStarterVisitor Player="M.Pittman" Position="RB" UniformNumber="32"/>
+		<DefensiveStarterVisitor Player="F.Wakefield" Position="DE" UniformNumber="97"/>
+		<DefensiveStarterVisitor Player="R.Davis" Position="DT" UniformNumber="98"/>
+		<DefensiveStarterVisitor Player="B.Tanner" Position="DT" UniformNumber="92"/>
+		<DefensiveStarterVisitor Player="J.Issa" Position="DE" UniformNumber="72"/>
+		<DefensiveStarterVisitor Player="R.Thompson" Position="OLB" UniformNumber="55"/>
+		<DefensiveStarterVisitor Player="R.McKinnon" Position="MLB" UniformNumber="57"/>
+		<DefensiveStarterVisitor Player="R.Fredrickson" Position="OLB" UniformNumber="59"/>
+		<DefensiveStarterVisitor Player="T.Knight" Position="CB" UniformNumber="24"/>
+		<DefensiveStarterVisitor Player="C.Chavous" Position="CB" UniformNumber="25"/>
+		<DefensiveStarterVisitor Player="P.Tillman" Position="SS" UniformNumber="40"/>
+		<DefensiveStarterVisitor Player="K.Lassiter" Position="FS" UniformNumber="42"/>
+		<SubstitutionsVisitor Player="B.Gramatica" Position="K" UniformNumber="7"/>
+		<SubstitutionsVisitor Player="C.Stanley" Position="P" UniformNumber="12"/>
+		<SubstitutionsVisitor Player="D.Brown" Position="QB" UniformNumber="17"/>
+		<SubstitutionsVisitor Player="A.Wilson" Position="DB" UniformNumber="22"/>
+		<SubstitutionsVisitor Player="T.Jones" Position="RB" UniformNumber="26"/>
+		<SubstitutionsVisitor Player="M.Shipp" Position="RB" UniformNumber="31"/>
+		<SubstitutionsVisitor Player="D.Barrett" Position="CB" UniformNumber="36"/>
+		<SubstitutionsVisitor Player="D.McKinley" Position="FB" UniformNumber="39"/>
+		<SubstitutionsVisitor Player="J.Lucas" Position="DB" UniformNumber="41"/>
+		<SubstitutionsVisitor Player="R.Hill" Position="DB" UniformNumber="45"/>
+		<SubstitutionsVisitor Player="J.Starkey" Position="C" UniformNumber="50"/>
+		<SubstitutionsVisitor Player="Z.Walz" Position="OLB" UniformNumber="52"/>
+		<SubstitutionsVisitor Player="S.Sanyika" Position="OLB" UniformNumber="54"/>
+		<SubstitutionsVisitor Player="L.Woods" Position="OLB" UniformNumber="56"/>
+		<SubstitutionsVisitor Player="C.Dishman" Position="G" UniformNumber="67"/>
+		<SubstitutionsVisitor Player="M.Tosi" Position="DT" UniformNumber="78"/>
+		<SubstitutionsVisitor Player="T.Hardy" Position="TE" UniformNumber="80"/>
+		<SubstitutionsVisitor Player="T.Mitchell" Position="TE" UniformNumber="83"/>
+		<SubstitutionsVisitor Player="A.Jackson" Position="WR" UniformNumber="84"/>
+		<SubstitutionsVisitor Player="T.Junkin" Position="LS" UniformNumber="86"/>
+		<SubstitutionsVisitor Player="M.Bell" Position="DT" UniformNumber="94"/>
+		<DidNotPlayVisitor Player="B.Gilmore" Position="WR" UniformNumber="11"/>
+		<DidNotPlayVisitor Player="A.Bowers" Position="DE" UniformNumber="71"/>
+		<NotActiveVisitor Player="S.Player" Position="P" UniformNumber="10"/>
+		<NotActiveVisitor Player="C.Greisen" Position="QB#3" UniformNumber="14"/>
+		<NotActiveVisitor Player="J.Rhinehart" Position="CB" UniformNumber="23"/>
+		<NotActiveVisitor Player="M.Stone" Position="CB" UniformNumber="44"/>
+		<NotActiveVisitor Player="J.Rutledge" Position="MLB" UniformNumber="51"/>
+		<NotActiveVisitor Player="Y.Scott" Position="G" UniformNumber="68"/>
+		<NotActiveVisitor Player="F.Sanders" Position="WR" UniformNumber="81"/>
+		<NotActiveVisitor Player="T.Burke" Position="DT" UniformNumber="95"/>
+		<OffensiveStarterHome Player="T. Brown" Position="WR" UniformNumber="81"/>
+		<OffensiveStarterHome Player="B. Sims" Position="LT" UniformNumber="65"/>
+		<OffensiveStarterHome Player="S. Wisniewski" Position="LG" UniformNumber="76"/>
+		<OffensiveStarterHome Player="A. Treu" Position="C" UniformNumber="62"/>
+		<OffensiveStarterHome Player="M. Collins" Position="RG" UniformNumber="79"/>
+		<OffensiveStarterHome Player="L. Kennedy" Position="RT" UniformNumber="72"/>
+		<OffensiveStarterHome Player="R. Williams" Position="TE" UniformNumber="86"/>
+		<OffensiveStarterHome Player="J. Rice" Position="WR" UniformNumber="80"/>
+		<OffensiveStarterHome Player="R. Gannon" Position="QB" UniformNumber="12"/>
+		<OffensiveStarterHome Player="J. Ritchie" Position="FB" UniformNumber="40"/>
+		<OffensiveStarterHome Player="C. Garner" Position="RB" UniformNumber="25"/>
+		<DefensiveStarterHome Player="R. Upshaw" Position="DE" UniformNumber="91"/>
+		<DefensiveStarterHome Player="D.Russell" Position="DT" UniformNumber="96"/>
+		<DefensiveStarterHome Player="G. Jackson" Position="DT" UniformNumber="90"/>
+		<DefensiveStarterHome Player="T. Bryant" Position="DE" UniformNumber="94"/>
+		<DefensiveStarterHome Player="W. Thomas" Position="OLB" UniformNumber="59"/>
+		<DefensiveStarterHome Player="G. Biekert" Position="MLB" UniformNumber="54"/>
+		<DefensiveStarterHome Player="E. Alexander" Position="OLB" UniformNumber="58"/>
+		<DefensiveStarterHome Player="C. Woodson" Position="CB" UniformNumber="24"/>
+		<DefensiveStarterHome Player="E. Allen" Position="CB" UniformNumber="21"/>
+		<DefensiveStarterHome Player="M. Pope" Position="SS" UniformNumber="23"/>
+		<DefensiveStarterHome Player="A. Dorsett" Position="FS" UniformNumber="33"/>
+		<SubstitutionsHome Player="S. Lechler" Position="P" UniformNumber="9"/>
+		<SubstitutionsHome Player="S. Janikowski" Position="K" UniformNumber="11"/>
+		<SubstitutionsHome Player="T. James" Position="CB" UniformNumber="20"/>
+		<SubstitutionsHome Player="D. Gibson" Position="S" UniformNumber="26"/>
+		<SubstitutionsHome Player="R. Jordan" Position="RB" UniformNumber="28"/>
+		<SubstitutionsHome Player="Z. Crockett" Position="RB" UniformNumber="32"/>
+		<SubstitutionsHome Player="J. Harris" Position="S" UniformNumber="37"/>
+		<SubstitutionsHome Player="B.Jennings" Position="CB" UniformNumber="39"/>
+		<SubstitutionsHome Player="T. Kirby" Position="RB" UniformNumber="42"/>
+		<SubstitutionsHome Player="T. Wheatley" Position="RB" UniformNumber="47"/>
+		<SubstitutionsHome Player="E. Barton" Position="LB" UniformNumber="50"/>
+		<SubstitutionsHome Player="T. Smith" Position="LB" UniformNumber="53"/>
+		<SubstitutionsHome Player="B. Brooks" Position="LB" UniformNumber="55"/>
+		<SubstitutionsHome Player="R. Coleman" Position="DT" UniformNumber="57"/>
+		<SubstitutionsHome Player="A.Graham" Position="C" UniformNumber="68"/>
+		<SubstitutionsHome Player="F. Middleton" Position="G" UniformNumber="73"/>
+		<SubstitutionsHome Player="M. Stinchcomb" Position="T" UniformNumber="74"/>
+		<SubstitutionsHome Player="C. Cooper" Position="DT" UniformNumber="75"/>
+		<SubstitutionsHome Player="J. Porter" Position="WR" UniformNumber="84"/>
+		<SubstitutionsHome Player="J. Brigham" Position="TE" UniformNumber="87"/>
+		<SubstitutionsHome Player="D. Dunn" Position="WR" UniformNumber="88"/>
+		<SubstitutionsHome Player="M. Fulcher" Position="TE" UniformNumber="89"/>
+		<DidNotPlayHome Player="R.Peete" Position="QB" UniformNumber="16"/>
+		<NotActiveHome Player="M. Tuiasosopo" Position="QB" UniformNumber="8"/>
+		<NotActiveHome Player="T.Myles" Position="T" UniformNumber="70"/>
+		<NotActiveHome Player="D. Ashmore" Position="G/T" UniformNumber="77"/>
+		<NotActiveHome Player="J. Jett" Position="WR" UniformNumber="82"/>
+		<NotActiveHome Player="M. Knight" Position="WR" UniformNumber="83"/>
+		<NotActiveHome Player="J. Ioane" Position="DT" UniformNumber="92"/>
+		<NotActiveHome Player="D. Grant" Position="DE" UniformNumber="95"/>
+		<NotActiveHome Player="J. Taves" Position="DL" UniformNumber="99"/>
+		<FieldGoalSummaryVisitor Player="B.Gramatica" FieldGoals="(23) (26) (33) 48WL (36)"/>
+		<FieldGoalSummaryHome Player="S. Janikowski" FieldGoals="41B (24)"/>
+		<ScoringPlay Team="Raiders" Quarter="3" Time="8:19" PlayDescription="Z. Crockett 1 yd. run (S. Janikowski kick) (12-51, 5:40)" VisitorScore="20" HomeScore="14"/>
+		<ScoringPlay Team="Cardinals" Quarter="4" Time="13:40" PlayDescription="B.Gramatica 33 yd. Field Goal (8-42, 4:11)" VisitorScore="23" HomeScore="14"/>
+		<ScoringPlay Team="Raiders" Quarter="4" Time="11:20" PlayDescription="T. Brown 22 yd. pass from R. Gannon (S. Janikowski kick) (5-67, 2:20)" VisitorScore="23" HomeScore="21"/>
+		<ScoringPlay Team="Raiders" Quarter="4" Time="1:47" PlayDescription="S. Janikowski 24 yd. Field Goal (10-55, 3:43)" VisitorScore="23" HomeScore="24"/>
+		<ScoringPlay Team="Cardinals" Quarter="4" Time="1:18" PlayDescription="D.Boston 50 yd. pass from J.Plummer (J.Plummer run) (4-70, 0:29)" VisitorScore="31" HomeScore="24"/>
+		<ScoringPlay Team="Raiders" Quarter="4" Time="0:12" PlayDescription="J. Rice 2 yd. pass from R. Gannon (S. Janikowski kick) (10-78, 1:06)" VisitorScore="31" HomeScore="31"/>
+		<ScoringPlay Team="Cardinals" Quarter="5" Time="7:31" PlayDescription="B.Gramatica 36 yd. Field Goal (3-7, 1:11)" VisitorScore="34" HomeScore="31"/>
+		<ScoringPlay Team="Raiders" Quarter="1" Time="8:57" PlayDescription="T. Brown 5 yd. pass from R. Gannon (S. Janikowski kick) (5-23, 2:26)" VisitorScore="0" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="1" Time="5:14" PlayDescription="T.Jones 5 yd. run (B.Gramatica kick) (7-73, 3:43)" VisitorScore="7" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="9:48" PlayDescription="M.Pittman 1 yd. run (B.Gramatica kick) (9-69, 4:24)" VisitorScore="14" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="3:44" PlayDescription="B.Gramatica 23 yd. Field Goal (9-34, 4:40)" VisitorScore="17" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="0:03" PlayDescription="B.Gramatica 26 yd. Field Goal (12-65, 2:37)" VisitorScore="20" HomeScore="7"/>
+	</GamebookSummary>
+	<IndividualStatistics>
+		<RusherVisitor Player="M.Pittman" Attempts="18" Yards="78" Average="4.3" Touchdowns="1" Long="42"/>
+		<RusherVisitor Player="T.Jones" Attempts="10" Yards="36" Average="3.6" Touchdowns="1" Long="10"/>
+		<RusherVisitor Player="J.Makovicka" Attempts="1" Yards="19" Average="19.0" Touchdowns="0" Long="19"/>
+		<RusherVisitor Player="J.Plummer" Attempts="4" Yards="16" Average="4.0" Touchdowns="0" Long="6"/>
+		<RusherVisitor Player="D.Boston" Attempts="1" Yards="-4" Average="-4.0" Touchdowns="0" Long="-4"/>
+		<RusherVisitor Player="Total" Attempts="34" Yards="145" Average="4.3" Touchdowns="2" Long="42"/>
+		<RusherHome Player="C. Garner" Attempts="15" Yards="59" Average="3.9" Touchdowns="0" Long="17"/>
+		<RusherHome Player="R. Gannon" Attempts="7" Yards="30" Average="4.3" Touchdowns="0" Long="8"/>
+		<RusherHome Player="T. Brown" Attempts="1" Yards="19" Average="19.0" Touchdowns="0" Long="19"/>
+		<RusherHome Player="Z. Crockett" Attempts="4" Yards="16" Average="4.0" Touchdowns="1" Long="7"/>
+		<RusherHome Player="T. Wheatley" Attempts="5" Yards="11" Average="2.2" Touchdowns="0" Long="6"/>
+		<RusherHome Player="Total" Attempts="32" Yards="135" Average="4.2" Touchdowns="1" Long="19"/>
+		<PasserVisitor Player="J.Plummer" Attempts="38" Completions="22" Yards="249" Sacks="1" SackYardage="4" Touchdowns="1" Long="50t" Interceptions="0" Rating="86.4"/>
+		<PasserVisitor Player="Total" Attempts="38" Completions="22" Yards="249" Sacks="1" SackYardage="4" Touchdowns="1" Long="50t" Interceptions="0" Rating="86.4"/>
+		<PasserHome Player="R. Gannon" Attempts="45" Completions="29" Yards="302" Sacks="1" SackYardage="1" Touchdowns="3" Long="36" Interceptions="2" Rating="87.5"/>
+		<PasserHome Player="Total" Attempts="45" Completions="29" Yards="302" Sacks="1" SackYardage="1" Touchdowns="3" Long="36" Interceptions="2" Rating="87.5"/>
+		<ReceiverVisitor Player="D.Boston" Number="6" Yards="106" Average="17.7" Touchdowns="1" Long="50t"/>
+		<ReceiverVisitor Player="M.Jenkins" Number="6" Yards="90" Average="15.0" Touchdowns="0" Long="21"/>
+		<ReceiverVisitor Player="M.Pittman" Number="4" Yards="17" Average="4.3" Touchdowns="0" Long="6"/>
+		<ReceiverVisitor Player="A.Jackson" Number="2" Yards="17" Average="8.5" Touchdowns="0" Long="16"/>
+		<ReceiverVisitor Player="T.Hardy" Number="2" Yards="4" Average="2.0" Touchdowns="0" Long="3"/>
+		<ReceiverVisitor Player="T.Jones" Number="1" Yards="10" Average="10.0" Touchdowns="0" Long="10"/>
+		<ReceiverVisitor Player="T.Mitchell" Number="1" Yards="5" Average="5.0" Touchdowns="0" Long="5"/>
+		<ReceiverVisitor Player="Total" Number="22" Yards="249" Average="11.3" Touchdowns="1" Long="50t"/>
+		<ReceiverHome Player="J. Rice" Number="7" Yards="97" Average="13.9" Touchdowns="1" Long="36"/>
+		<ReceiverHome Player="T. Brown" Number="5" Yards="63" Average="12.6" Touchdowns="2" Long="22t"/>
+		<ReceiverHome Player="C. Garner" Number="5" Yards="28" Average="5.6" Touchdowns="0" Long="10"/>
+		<ReceiverHome Player="J. Porter" Number="4" Yards="53" Average="13.3" Touchdowns="0" Long="19"/>
+		<ReceiverHome Player="T. Wheatley" Number="2" Yards="17" Average="8.5" Touchdowns="0" Long="11"/>
+		<ReceiverHome Player="J. Ritchie" Number="2" Yards="16" Average="8.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="R. Williams" Number="2" Yards="13" Average="6.5" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="T. Kirby" Number="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="J. Brigham" Number="1" Yards="6" Average="6.0" Touchdowns="0" Long="6"/>
+		<ReceiverHome Player="Total" Number="29" Yards="302" Average="10.4" Touchdowns="3" Long="36"/>
+		<InterceptorVisitor Player="T.Knight" Number="1" Yards="43" Average="43.0" Long="43" Touchdowns="0"/>
+		<InterceptorVisitor Player="K.Lassiter" Number="1" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorVisitor Player="Total" Number="2" Yards="43" Average="21.5" Long="43" Touchdowns="0"/>
+		<InterceptorHome Player="Total" Number="0" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<PunterVisitor Player="C.Stanley" Number="5" Yards="180" Average="36.0" Touchbacks="0" Inside20="1" Long="44"/>
+		<PunterVisitor Player="Total" Number="5" Yards="180" Average="36.0" Touchbacks="0" Inside20="1" Long="44"/>
+		<PunterHome Player="S. Lechler" Number="5" Yards="228" Average="45.6" Touchbacks="0" Inside20="1" Long="61"/>
+		<PunterHome Player="Total" Number="5" Yards="228" Average="45.6" Touchbacks="0" Inside20="1" Long="61"/>
+		<PuntReturnerVisitor Player="A.Jackson" Number="3" Yards="87" Average="29.0" FairCatches="0" Long="55" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="[DOWNED]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="[OUT OF BOUNDS]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="Returns" Number="3" Yards="87" Average="29.0" FairCatches="0" Long="55" Touchdowns="0"/>
+		<PuntReturnerHome Player="D. Dunn" Number="3" Yards="17" Average="5.7" FairCatches="0" Long="9" Touchdowns="0"/>
+		<PuntReturnerHome Player="T. Brown" Number="0" Yards="0" Average="0.0" FairCatches="1" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="[DOWNED]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="Returns" Number="3" Yards="17" Average="5.7" FairCatches="1" Long="9" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="M.Jenkins" Number="4" Yards="61" Average="15.3" FairCatches="0" Long="21" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="M.Shipp" Number="2" Yards="36" Average="18.0" FairCatches="0" Long="24" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="Returns" Number="6" Yards="97" Average="16.2" FairCatches="0" Long="24" Touchdowns="0"/>
+		<KickOffReturnerHome Player="T. Kirby" Number="7" Yards="134" Average="19.1" FairCatches="0" Long="32" Touchdowns="0"/>
+		<KickOffReturnerHome Player="[TOUCHBACK]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<KickOffReturnerHome Player="Returns" Number="7" Yards="134" Average="19.1" FairCatches="0" Long="32" Touchdowns="0"/>
+		<FumblesVisitor Player="J.Plummer" Fumbles="1" OwnRecoveries="0" Yards="-1" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="L.Woods" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="Total" Fumbles="1" OwnRecoveries="0" Yards="-1" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="G. Biekert" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="D. Dunn" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="Total" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+	</IndividualStatistics>
+	<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="24" HomeStats="26"/>
+	<TeamStatistics Description="By Rushing" VisitorStats="8" HomeStats="10"/>
+	<TeamStatistics Description="By Passing" VisitorStats="12" HomeStats="15"/>
+	<TeamStatistics Description="By Penalty" VisitorStats="4" HomeStats="1"/>
+	<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="3-12-25%" HomeStats="5-14-36%"/>
+	<TeamStatistics Description="FOURTH DOWN EFFICIENCY" VisitorStats="0-0-0%" HomeStats="2-2-100%"/>
+	<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="390" HomeStats="436"/>
+	<TeamStatistics Description="Total Offensive Plays (inc. times thrown passing)" VisitorStats="73" HomeStats="78"/>
+	<TeamStatistics Description="Average gain per offensive play" VisitorStats="5.3" HomeStats="5.6"/>
+	<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="145" HomeStats="135"/>
+	<TeamStatistics Description="Total Rushing Plays" VisitorStats="34" HomeStats="32"/>
+	<TeamStatistics Description="Average gain per rushing play" VisitorStats="4.3" HomeStats="4.2"/>
+	<TeamStatistics Description="Tackles for a loss-number and yards" VisitorStats="8-22" HomeStats="3-5"/>
+	<TeamStatistics Description="NET YARDS PASSING" VisitorStats="245" HomeStats="301"/>
+	<TeamStatistics Description="Times thrown - yards lost attempting to pass" VisitorStats="1-4" HomeStats="1-1"/>
+	<TeamStatistics Description="Gross yards passing" VisitorStats="249" HomeStats="302"/>
+	<TeamStatistics Description="PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED" VisitorStats="38-22-0" HomeStats="45-29-2"/>
+	<TeamStatistics Description="Avg gain per pass play (inc.# thrown passing)" VisitorStats="6.3" HomeStats="6.5"/>
+	<TeamStatistics Description="KICKOFFS Number-In End Zone-Touchbacks" VisitorStats="8-2-1" HomeStats="6-0-0"/>
+	<TeamStatistics Description="PUNTS Number and Average" VisitorStats="5-36.0" HomeStats="5-45.6"/>
+	<TeamStatistics Description="Had Blocked" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FGs - PATs Had Blocked" VisitorStats="0-0" HomeStats="1-0"/>
+	<TeamStatistics Description="Net Punting Average" VisitorStats="32.6" HomeStats="28.2"/>
+	<TeamStatistics Description="TOTAL RETURN YARDAGE (Not Including Kickoffs)" VisitorStats="130" HomeStats="17"/>
+	<TeamStatistics Description="No. and Yards Punt Returns" VisitorStats="3-87" HomeStats="3-17"/>
+	<TeamStatistics Description="No. and Yards Kickoff Returns" VisitorStats="6-97" HomeStats="7-134"/>
+	<TeamStatistics Description="No. and Yards Interception Returns" VisitorStats="2-43" HomeStats="0-0"/>
+	<TeamStatistics Description="PENALTIES Number and Yards" VisitorStats="4-30" HomeStats="8-76"/>
+	<TeamStatistics Description="FUMBLES Number and Lost" VisitorStats="1-1" HomeStats="1-1"/>
+	<TeamStatistics Description="TOUCHDOWNS" VisitorStats="3" HomeStats="4"/>
+	<TeamStatistics Description="Rushing" VisitorStats="2" HomeStats="1"/>
+	<TeamStatistics Description="Passing" VisitorStats="1" HomeStats="3"/>
+	<TeamStatistics Description="EXTRA POINTS Made-Attempts" VisitorStats="3-3" HomeStats="4-4"/>
+	<TeamStatistics Description="Kicking Made-Attempts" VisitorStats="2-2" HomeStats="4-4"/>
+	<TeamStatistics Description="Rushing Made-Attempts" VisitorStats="1-1" HomeStats="0-0"/>
+	<TeamStatistics Description="FIELD GOALS Made-Attempts" VisitorStats="4-5" HomeStats="1-2"/>
+	<TeamStatistics Description="RED ZONE EFFICIENCY" VisitorStats="2-6-33%" HomeStats="3-5-60%"/>
+	<TeamStatistics Description="GOAL TO GO EFFICIENCY" VisitorStats="2-4-50%" HomeStats="2-4-50%"/>
+	<TeamStatistics Description="SAFETIES" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FINAL SCORE" VisitorStats="34" HomeStats="31"/>
+	<TeamStatistics Description="TIME OF POSSESSION" VisitorStats="33:26" HomeStats="34:03"/>
+	<DriveChart AverageDriveStartVisitor="(508) Average ARZ 34" KickoffDriveInfoVisitor="Cardinals: 6 - ARZ 28" AverageDriveStartHome="(465) Average OAK 36" KickoffDriveInfoHome="Raiders: 7 - OAK 26" TimeOfPossessionTotalVisitor="33:26" TimeOfPossessionTotalHome="34:03" TimeOfPossessionQ1Visitor="5:43" TimeOfPossessionQ1Home="9:17" TimeOfPossessionQ2Visitor="11:41" TimeOfPossessionQ2Home="3:19" TimeOfPossessionQ3Visitor="5:23" TimeOfPossessionQ3Home="9:37" TimeOfPossessionQ4Visitor="6:16" TimeOfPossessionQ4Home="8:44" TimeOfPossessionQ5Visitor="4:23" TimeOfPossessionQ5Home="3:06">
+		<DriveVisitor Number="1" Quarter="1" TimeReceived="11:56" TimeLost="11:23" TimeOfPossession="0:33" HowBallObtained="Punt" DriveBegan="ARZ 18" PlayCount="2" YardsGained="5" YardsPenalized="0" NetYards="5" FirstDowns="0" LastScrimmage="ARZ 24" HowGivenUp="Fumble"/>
+		<DriveVisitor Number="2" Quarter="1" TimeReceived="8:57" TimeLost="5:14" TimeOfPossession="3:43" HowBallObtained="Kickoff" DriveBegan="ARZ 27" PlayCount="7" YardsGained="60" YardsPenalized="13" NetYards="73" FirstDowns="4" LastScrimmage="*OAK 5" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="3" Quarter="1" TimeReceived="2:32" TimeLost="1:05" TimeOfPossession="1:27" HowBallObtained="Interception" DriveBegan="ARZ 9" PlayCount="4" YardsGained="-5" YardsPenalized="5" NetYards="0" FirstDowns="0" LastScrimmage="ARZ 9" HowGivenUp="Punt"/>
+		<DriveVisitor Number="4" Quarter="2" TimeReceived="14:12" TimeLost="9:48" TimeOfPossession="4:24" HowBallObtained="Missed FG" DriveBegan="ARZ 31" PlayCount="9" YardsGained="69" YardsPenalized="0" NetYards="69" FirstDowns="5" LastScrimmage="*OAK 1" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="5" Quarter="2" TimeReceived="8:24" TimeLost="3:44" TimeOfPossession="4:40" HowBallObtained="Punt" DriveBegan="OAK 39" PlayCount="9" YardsGained="29" YardsPenalized="5" NetYards="34" FirstDowns="3" LastScrimmage="*OAK 5" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="6" Quarter="2" TimeReceived="2:40" TimeLost="0:03" TimeOfPossession="2:37" HowBallObtained="Punt" DriveBegan="ARZ 27" PlayCount="12" YardsGained="65" YardsPenalized="0" NetYards="65" FirstDowns="4" LastScrimmage="*OAK 8" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="7" Quarter="3" TimeReceived="15:00" TimeLost="13:59" TimeOfPossession="1:01" HowBallObtained="Kickoff" DriveBegan="ARZ 12" PlayCount="3" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="ARZ 12" HowGivenUp="Punt"/>
+		<DriveVisitor Number="8" Quarter="3" TimeReceived="8:19" TimeLost="6:48" TimeOfPossession="1:31" HowBallObtained="Kickoff" DriveBegan="ARZ 24" PlayCount="3" YardsGained="2" YardsPenalized="0" NetYards="2" FirstDowns="0" LastScrimmage="ARZ 26" HowGivenUp="Punt"/>
+		<DriveVisitor Number="9" Quarter="4" TimeReceived="2:51" TimeLost="13:40" TimeOfPossession="4:11" HowBallObtained="Interception" DriveBegan="ARZ 43" PlayCount="8" YardsGained="42" YardsPenalized="0" NetYards="42" FirstDowns="3" LastScrimmage="*OAK 15" HowGivenUp="Field Goal"/>
+		<DriveVisitor Number="10" Quarter="4" TimeReceived="11:20" TimeLost="9:01" TimeOfPossession="2:19" HowBallObtained="Kickoff" DriveBegan="ARZ 30" PlayCount="3" YardsGained="2" YardsPenalized="18" NetYards="20" FirstDowns="1" LastScrimmage="50" HowGivenUp="Punt"/>
+		<DriveVisitor Number="11" Quarter="4" TimeReceived="7:26" TimeLost="5:30" TimeOfPossession="1:56" HowBallObtained="Punt" DriveBegan="OAK 48" PlayCount="5" YardsGained="13" YardsPenalized="5" NetYards="18" FirstDowns="1" LastScrimmage="OAK 30" HowGivenUp="Missed FG"/>
+		<DriveVisitor Number="12" Quarter="4" TimeReceived="1:47" TimeLost="1:18" TimeOfPossession="0:29" HowBallObtained="Kickoff" DriveBegan="ARZ 30" PlayCount="4" YardsGained="70" YardsPenalized="0" NetYards="70" FirstDowns="2" LastScrimmage="50" HowGivenUp="Touchdown"/>
+		<DriveVisitor Number="13" Quarter="4" TimeReceived="0:12" TimeLost="0:00" TimeOfPossession="0:12" HowBallObtained="Kickoff" DriveBegan="ARZ 46" PlayCount="1" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="ARZ 46" HowGivenUp="End of Half"/>
+		<DriveVisitor Number="14" Quarter="5" TimeReceived="11:54" TimeLost="8:42" TimeOfPossession="3:12" HowBallObtained="Punt" DriveBegan="ARZ 23" PlayCount="5" YardsGained="30" YardsPenalized="-5" NetYards="25" FirstDowns="1" LastScrimmage="ARZ 48" HowGivenUp="Punt"/>
+		<DriveVisitor Number="15" Quarter="5" TimeReceived="8:42" TimeLost="7:31" TimeOfPossession="1:11" HowBallObtained="Fumble" DriveBegan="OAK 25" PlayCount="3" YardsGained="7" YardsPenalized="0" NetYards="7" FirstDowns="0" LastScrimmage="*OAK 18" HowGivenUp="Field Goal"/>
+		<DriveHome Number="1" Quarter="1" TimeReceived="15:00" TimeLost="11:56" TimeOfPossession="3:04" HowBallObtained="Kickoff" DriveBegan="OAK 12" PlayCount="4" YardsGained="26" YardsPenalized="0" NetYards="26" FirstDowns="1" LastScrimmage="OAK 38" HowGivenUp="Punt"/>
+		<DriveHome Number="2" Quarter="1" TimeReceived="11:23" TimeLost="8:57" TimeOfPossession="2:26" HowBallObtained="Fumble" DriveBegan="ARZ 23" PlayCount="5" YardsGained="23" YardsPenalized="0" NetYards="23" FirstDowns="2" LastScrimmage="*ARZ 5" HowGivenUp="Touchdown"/>
+		<DriveHome Number="3" Quarter="1" TimeReceived="5:14" TimeLost="2:32" TimeOfPossession="2:42" HowBallObtained="Kickoff" DriveBegan="OAK 31" PlayCount="5" YardsGained="33" YardsPenalized="0" NetYards="33" FirstDowns="2" LastScrimmage="ARZ 36" HowGivenUp="Interception"/>
+		<DriveHome Number="4" Quarter="2" TimeReceived="1:05" TimeLost="14:12" TimeOfPossession="1:53" HowBallObtained="Punt" DriveBegan="ARZ 45" PlayCount="6" YardsGained="22" YardsPenalized="0" NetYards="22" FirstDowns="1" LastScrimmage="ARZ 23" HowGivenUp="Missed FG"/>
+		<DriveHome Number="5" Quarter="2" TimeReceived="9:48" TimeLost="8:24" TimeOfPossession="1:24" HowBallObtained="Kickoff" DriveBegan="OAK 24" PlayCount="3" YardsGained="9" YardsPenalized="0" NetYards="9" FirstDowns="0" LastScrimmage="OAK 33" HowGivenUp="Punt"/>
+		<DriveHome Number="6" Quarter="2" TimeReceived="3:44" TimeLost="2:40" TimeOfPossession="1:04" HowBallObtained="Kickoff" DriveBegan="OAK 39" PlayCount="3" YardsGained="3" YardsPenalized="0" NetYards="3" FirstDowns="0" LastScrimmage="OAK 42" HowGivenUp="Punt"/>
+		<DriveHome Number="7" Quarter="2" TimeReceived="0:03" TimeLost="0:00" TimeOfPossession="0:03" HowBallObtained="Kickoff" DriveBegan="" PlayCount="0" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="" HowGivenUp="End of Half"/>
+		<DriveHome Number="8" Quarter="3" TimeReceived="13:59" TimeLost="8:19" TimeOfPossession="5:40" HowBallObtained="Punt" DriveBegan="OAK 49" PlayCount="12" YardsGained="51" YardsPenalized="0" NetYards="51" FirstDowns="5" LastScrimmage="*ARZ 1" HowGivenUp="Touchdown"/>
+		<DriveHome Number="9" Quarter="3" TimeReceived="6:48" TimeLost="2:51" TimeOfPossession="3:57" HowBallObtained="Punt" DriveBegan="OAK 47" PlayCount="9" YardsGained="42" YardsPenalized="5" NetYards="47" FirstDowns="3" LastScrimmage="*ARZ 6" HowGivenUp="Interception"/>
+		<DriveHome Number="10" Quarter="4" TimeReceived="13:40" TimeLost="11:20" TimeOfPossession="2:20" HowBallObtained="Kickoff" DriveBegan="OAK 33" PlayCount="5" YardsGained="67" YardsPenalized="0" NetYards="67" FirstDowns="3" LastScrimmage="ARZ 22" HowGivenUp="Touchdown"/>
+		<DriveHome Number="11" Quarter="4" TimeReceived="9:01" TimeLost="7:26" TimeOfPossession="1:35" HowBallObtained="Punt" DriveBegan="OAK 18" PlayCount="3" YardsGained="7" YardsPenalized="0" NetYards="7" FirstDowns="0" LastScrimmage="OAK 25" HowGivenUp="Punt"/>
+		<DriveHome Number="12" Quarter="4" TimeReceived="5:30" TimeLost="1:47" TimeOfPossession="3:43" HowBallObtained="Missed FG" DriveBegan="OAK 38" PlayCount="10" YardsGained="55" YardsPenalized="0" NetYards="55" FirstDowns="4" LastScrimmage="*ARZ 7" HowGivenUp="Field Goal"/>
+		<DriveHome Number="13" Quarter="4" TimeReceived="1:18" TimeLost="0:12" TimeOfPossession="1:06" HowBallObtained="Kickoff" DriveBegan="OAK 22" PlayCount="10" YardsGained="78" YardsPenalized="0" NetYards="78" FirstDowns="4" LastScrimmage="*ARZ 2" HowGivenUp="Touchdown"/>
+		<DriveHome Number="14" Quarter="5" TimeReceived="15:00" TimeLost="11:54" TimeOfPossession="3:06" HowBallObtained="Kickoff" DriveBegan="OAK 20" PlayCount="5" YardsGained="20" YardsPenalized="0" NetYards="20" FirstDowns="1" LastScrimmage="OAK 40" HowGivenUp="Punt"/>
+	</DriveChart>
+	<DefensiveStatistics>
+		<DefenderVisitor Player="T.Knight" Tackles="8" Assists="2" Combined="10" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.McKinnon" Tackles="7" Assists="2" Combined="9" Sacks="1" SackYards="1" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Fredrickson" Tackles="8" Assists="0" Combined="8" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Lassiter" Tackles="6" Assists="2" Combined="8" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Thompson" Tackles="6" Assists="1" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Davis" Tackles="3" Assists="4" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="P.Tillman" Tackles="5" Assists="1" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="F.Wakefield" Tackles="5" Assists="1" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="1" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="C.Chavous" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Woods" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Bell" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Hill" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Tanner" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Tosi" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="A.Wilson" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Bush" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Jenkins" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Pittman" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Sanyika" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Shipp" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Z.Walz" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="58" Assists="19" Combined="77" Sacks="1" SackYards="1" Interceptions="2" PassDefences="3" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="9" SpecialTeamsAssists="3" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="1" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Russell" Tackles="6" Assists="2" Combined="8" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A. Dorsett" Tackles="7" Assists="0" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G. Biekert" Tackles="6" Assists="1" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Alexander" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C. Cooper" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Upshaw" Tackles="3" Assists="2" Combined="5" Sacks="0.5" SackYards="2" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M. Pope" Tackles="2" Assists="3" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Allen" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. James" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C. Woodson" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. Bryant" Tackles="1" Assists="2" Combined="3" Sacks="0.5" SackYards="2" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Coleman" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="W. Thomas" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G. Jackson" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. Smith" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Barton" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B. Brooks" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D. Dunn" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M. Fulcher" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Gannon" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D. Gibson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J. Harris" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Jordan" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="S. Lechler" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J. Porter" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Jennings" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="52" Assists="14" Combined="66" Sacks="1" SackYards="4" Interceptions="0" PassDefences="3" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="10" SpecialTeamsAssists="2" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="2" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</DefensiveStatistics>
+	<FirstHalfSummary Title="First Half Summary" PeriodScoresVisitor="7  13 = 20" PeriodScoresHome="7  0 = 7" TimeOfPossessionVisitor="17:24" TimeOfPossessionHome="12:36">
+		<ScoringPlay Team="Raiders" Quarter="1" Time="8:57" PlayDescription="T. Brown 5 yd. pass from R. Gannon (S. Janikowski kick) (5-23, 2:26)" VisitorScore="0" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="1" Time="5:14" PlayDescription="T.Jones 5 yd. run (B.Gramatica kick) (7-73, 3:43)" VisitorScore="7" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="9:48" PlayDescription="M.Pittman 1 yd. run (B.Gramatica kick) (9-69, 4:24)" VisitorScore="14" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="3:44" PlayDescription="B.Gramatica 23 yd. Field Goal (9-34, 4:40)" VisitorScore="17" HomeScore="7"/>
+		<ScoringPlay Team="Cardinals" Quarter="2" Time="0:03" PlayDescription="B.Gramatica 26 yd. Field Goal (12-65, 2:37)" VisitorScore="20" HomeScore="7"/>
+		<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="16" HomeStats="6"/>
+		<TeamStatistics Description="First Downs Rushing-Passing-by Penalty" VisitorStats="6 - 8 - 2" HomeStats="2 - 4 - 0"/>
+		<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="3-6-50%" HomeStats="1-5-20%"/>
+		<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="224" HomeStats="116"/>
+		<TeamStatistics Description="Total Offensive Plays" VisitorStats="41" HomeStats="25"/>
+		<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="88" HomeStats="35"/>
+		<TeamStatistics Description="NET YARDS PASSING" VisitorStats="136" HomeStats="81"/>
+		<TeamStatistics Description="Gross Yards Passing" VisitorStats="136" HomeStats="81"/>
+		<TeamStatistics Description="Times thrown-yards lost attempting to pass" VisitorStats="0-0" HomeStats="0-0"/>
+		<TeamStatistics Description="Pass Attempts-Completions-Had Intercepted" VisitorStats="20 - 13 - 0" HomeStats="14 - 8 - 1"/>
+		<TeamStatistics Description="Punts-Number and Average" VisitorStats="1 - 44" HomeStats="3 - 49"/>
+		<TeamStatistics Description="Penalties-Number and Yards" VisitorStats="0 - 0" HomeStats="3 - 23"/>
+		<TeamStatistics Description="Fumbles-Number and Lost" VisitorStats="1 - 1" HomeStats="0 - 0"/>
+		<RusherVisitor Player="M.Pittman" Attempts="10" Yards="57" Average="5.7" Touchdowns="1" Long="42"/>
+		<RusherVisitor Player="T.Jones" Attempts="7" Yards="25" Average="3.6" Touchdowns="1" Long="10"/>
+		<RusherVisitor Player="J.Plummer" Attempts="3" Yards="10" Average="3.3" Touchdowns="0" Long="6"/>
+		<RusherVisitor Player="D.Boston" Attempts="1" Yards="-4" Average="-4.0" Touchdowns="0" Long="-4"/>
+		<RusherVisitor Player="Total" Attempts="21" Yards="88" Average="4.2" Touchdowns="2" Long="42"/>
+		<RusherHome Player="C. Garner" Attempts="7" Yards="28" Average="4.0" Touchdowns="0" Long="17"/>
+		<RusherHome Player="R. Gannon" Attempts="2" Yards="6" Average="3.0" Touchdowns="0" Long="3"/>
+		<RusherHome Player="T. Wheatley" Attempts="2" Yards="1" Average="0.5" Touchdowns="0" Long="2"/>
+		<RusherHome Player="Total" Attempts="11" Yards="35" Average="3.2" Touchdowns="0" Long="17"/>
+		<PasserVisitor Player="J.Plummer" Attempts="20" Completions="13" Yards="136" Sacks="0" SackYardage="0" Touchdowns="0" Long="21" Interceptions="0" Rating="84.6"/>
+		<PasserVisitor Player="Total" Attempts="20" Completions="13" Yards="136" Sacks="0" SackYardage="0" Touchdowns="0" Long="21" Interceptions="0" Rating="84.6"/>
+		<PasserHome Player="R. Gannon" Attempts="14" Completions="8" Yards="81" Sacks="0" SackYardage="0" Touchdowns="1" Long="19" Interceptions="1" Rating="67.9"/>
+		<PasserHome Player="Total" Attempts="14" Completions="8" Yards="81" Sacks="0" SackYardage="0" Touchdowns="1" Long="19" Interceptions="1" Rating="67.9"/>
+		<ReceiverVisitor Player="D.Boston" Number="3" Yards="46" Average="15.3" Touchdowns="0" Long="21"/>
+		<ReceiverVisitor Player="M.Jenkins" Number="3" Yards="44" Average="14.7" Touchdowns="0" Long="21"/>
+		<ReceiverVisitor Player="M.Pittman" Number="3" Yards="14" Average="4.7" Touchdowns="0" Long="6"/>
+		<ReceiverVisitor Player="A.Jackson" Number="1" Yards="16" Average="16.0" Touchdowns="0" Long="16"/>
+		<ReceiverVisitor Player="T.Jones" Number="1" Yards="10" Average="10.0" Touchdowns="0" Long="10"/>
+		<ReceiverVisitor Player="T.Mitchell" Number="1" Yards="5" Average="5.0" Touchdowns="0" Long="5"/>
+		<ReceiverVisitor Player="T.Hardy" Number="1" Yards="1" Average="1.0" Touchdowns="0" Long="1"/>
+		<ReceiverVisitor Player="Total" Number="13" Yards="136" Average="10.5" Touchdowns="0" Long="21"/>
+		<ReceiverHome Player="T. Brown" Number="2" Yards="23" Average="11.5" Touchdowns="1" Long="18"/>
+		<ReceiverHome Player="J. Ritchie" Number="2" Yards="16" Average="8.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="J. Porter" Number="1" Yards="19" Average="19.0" Touchdowns="0" Long="19"/>
+		<ReceiverHome Player="R. Williams" Number="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="C. Garner" Number="1" Yards="7" Average="7.0" Touchdowns="0" Long="7"/>
+		<ReceiverHome Player="J. Rice" Number="1" Yards="7" Average="7.0" Touchdowns="0" Long="7"/>
+		<ReceiverHome Player="Total" Number="8" Yards="81" Average="10.1" Touchdowns="1" Long="19"/>
+		<DefenderVisitor Player="R.Fredrickson" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Knight" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.McKinnon" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="P.Tillman" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Tanner" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Thompson" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Tosi" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Bell" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Hill" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Lassiter" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="F.Wakefield" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="1" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="C.Chavous" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="R.Davis" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="A.Wilson" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Bush" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Jenkins" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Pittman" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Shipp" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Z.Walz" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="18" Assists="8" Combined="26" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="6" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="1" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A. Dorsett" Tackles="6" Assists="0" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Alexander" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Russell" Tackles="3" Assists="2" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G. Biekert" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Upshaw" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C. Cooper" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M. Pope" Tackles="1" Assists="2" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Allen" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="W. Thomas" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C. Woodson" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. Smith" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="E. Barton" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. James" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T. Bryant" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G. Jackson" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="M. Fulcher" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D. Gibson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="S. Lechler" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R. Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Jennings" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="31" Assists="9" Combined="40" Sacks="0" SackYards="0" Interceptions="0" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="3" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</FirstHalfSummary>
+	<PlayByPlay>
+		<_1stQuarter>
+			<Play Header="OAK wins toss, elects to Receive, and ARZ elects to defend the North goal."/>
+			<Play PlayDescription="Raiders Captains: R. Gannon, E. Allen, G. Biekert, S. Wisniewski, T. Brown"/>
+			<Play PlayDescription="Cardinals Captains: J. Plummer, K. Lassiter, R. McKinnon, M. Gruttadauria"/>
+			<Play Header="7-B.Gramatica kicks 63 yards from ARZ 30 to OAK 7. 42-T. Kirby to OAK 12 for 5 yards (31-M.Shipp)."/>
+			<Play Header="Oakland Raiders at 15:00, (1st play from scrimmage 14:52)"/>
+			<Play DownDistanceYardline="1-10-OAK 12" EarnedFirstDown="False" PlayDescription="(14:52) 25-C. Garner right tackle to OAK 29 for 17 yards (40-P.Tillman, 24-T.Knight)." FirstDownType="R1"/>
+			<Play DownDistanceYardline="1-10-OAK 29" EarnedFirstDown="True" PlayDescription="(14:10) 25-C. Garner right end to OAK 26 for -3 yards (55-R.Thompson)."/>
+			<Play DownDistanceYardline="2-13-OAK 26" EarnedFirstDown="False" PlayDescription="(13:33) 12-R. Gannon pass to 86-R. Williams to OAK 35 for 9 yards (59-R.Fredrickson, 57-R.McKinnon)."/>
+			<Play DownDistanceYardline="3-4-OAK 35" EarnedFirstDown="False" PlayDescription="(12:50) 12-R. Gannon right tackle to OAK 38 for 3 yards (59-R.Fredrickson)."/>
+			<Play DownDistanceYardline="4-1-OAK 38" EarnedFirstDown="False" PlayDescription="(12:07) 9-S. Lechler punts 55 yards to ARZ 7, Center-68-A.Graham. 84-A.Jackson to ARZ 18 for 11 yards (89-M. Fulcher)."/>
+			<Play Header="Arizona Cardinals at 11:56"/>
+			<Play DownDistanceYardline="1-10-ARZ 18" EarnedFirstDown="False" PlayDescription="(11:56) 16-J.Plummer right end pushed ob at ARZ 24 for 6 yards (96-D.Russell)."/>
+			<Play DownDistanceYardline="2-4-ARZ 24" EarnedFirstDown="False" PlayDescription="(11:27) 16-J.Plummer FUMBLES (Aborted) at ARZ 23, RECOVERED by OAK-54-G. Biekert at ARZ 23. 54-G. Biekert to ARZ 23 for no gain (32-M.Pittman)."/>
+			<Play Header="Oakland Raiders at 11:23"/>
+			<Play DownDistanceYardline="1-10-ARZ 23" EarnedFirstDown="False" PlayDescription="(11:23) 25-C. Garner up the middle to ARZ 14 for 9 yards (59-R.Fredrickson)."/>
+			<Play DownDistanceYardline="2-1-ARZ 14" EarnedFirstDown="False" PlayDescription="(10:50) 25-C. Garner up the middle to ARZ 11 for 3 yards (40-P.Tillman)." FirstDownType="R2"/>
+			<Play DownDistanceYardline="1-10-ARZ 11" EarnedFirstDown="True" PlayDescription="(10:09) 12-R. Gannon pass to 25-C. Garner pushed ob at ARZ 4 for 7 yards (24-T.Knight)."/>
+			<Play PlayDescription="Timeout #1 by OAK at 09:39."/>
+			<Play DownDistanceYardline="2-3-ARZ 4" EarnedFirstDown="False" PlayDescription="(9:39) 47-T. Wheatley right tackle to ARZ 5 for -1 yards (97-F.Wakefield, 92-B.Tanner)."/>
+			<Play DownDistanceYardline="3-4-ARZ 5" EarnedFirstDown="False" PlayDescription="(9:01) 12-R. Gannon pass to 81-T. Brown for 5 yards, TOUCHDOWN." FirstDownType="P3"/>
+			<Play PlayDescription="11-S. Janikowski extra point is GOOD, Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="ARZ 0 OAK 7,  5 plays, 23 yards,  2:26 drive,  6:03 elapsed"/>
+			<Play Header="11-S. Janikowski kicks 63 yards from OAK 30 to ARZ 7. 82-M.Jenkins to ARZ 27 for 20 yards (39-B.Jennings, 26-D. Gibson)."/>
+			<Play Header="Arizona Cardinals at 8:57, (1st play from scrimmage 8:46)"/>
+			<Play DownDistanceYardline="1-10-ARZ 27" EarnedFirstDown="False" PlayDescription="(8:46) 32-M.Pittman up the middle to ARZ 25 for -2 yards (59-W. Thomas)."/>
+			<Play DownDistanceYardline="2-12-ARZ 25" EarnedFirstDown="False" PlayDescription="(8:17) 16-J.Plummer pass incomplete to 82-M.Jenkins (21-E. Allen)."/>
+			<Play PlayDescription="PENALTY on OAK-21-E. Allen, Defensive Pass Interference, 13 yards, enforced at ARZ 25 - No Play." FirstDownType="X1"/>
+			<Play DownDistanceYardline="1-10-ARZ 38" EarnedFirstDown="True" PlayDescription="(8:10) 32-M.Pittman right guard to ARZ 41 for 3 yards (91-R. Upshaw, 94-T. Bryant)."/>
+			<Play DownDistanceYardline="2-7-ARZ 41" EarnedFirstDown="False" PlayDescription="(7:36) 16-J.Plummer pass to 32-M.Pittman to ARZ 46 for 5 yards (58-E. Alexander)."/>
+			<Play DownDistanceYardline="3-2-ARZ 46" EarnedFirstDown="False" PlayDescription="(6:57) 16-J.Plummer right tackle to 50 for 4 yards (96-D.Russell)." FirstDownType="R2"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(6:17) 32-M.Pittman left end pushed ob at OAK 8 for 42 yards (33-A. Dorsett)." FirstDownType="R3"/>
+			<Play DownDistanceYardline="1-8-OAK 8" EarnedFirstDown="True" PlayDescription="(5:54) 26-T.Jones up the middle to OAK 5 for 3 yards (91-R. Upshaw, 90-G. Jackson)."/>
+			<Play DownDistanceYardline="2-5-OAK 5" EarnedFirstDown="False" PlayDescription="(5:19) 26-T.Jones left tackle for 5 yards, TOUCHDOWN." FirstDownType="R4"/>
+			<Play PlayDescription="7-B.Gramatica extra point is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 7 OAK 7,  7 plays, 73 yards, 1 penalty,  3:43 drive,  9:46 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 60 yards from ARZ 30 to OAK 10. 42-T. Kirby to OAK 31 for 21 yards (82-M.Jenkins, 22-A.Wilson)."/>
+			<Play Header="Oakland Raiders at 5:14, (1st play from scrimmage 5:06)"/>
+			<Play DownDistanceYardline="1-10-OAK 31" EarnedFirstDown="False" PlayDescription="(5:06) 12-R. Gannon pass to 40-J. Ritchie to OAK 38 for 7 yards (59-R.Fredrickson, 22-A.Wilson)."/>
+			<Play DownDistanceYardline="2-3-OAK 38" EarnedFirstDown="False" PlayDescription="(4:34) 12-R. Gannon pass to 80-J. Rice to OAK 45 for 7 yards (57-R.McKinnon, 25-C.Chavous)." FirstDownType="P4"/>
+			<Play DownDistanceYardline="1-10-OAK 45" EarnedFirstDown="True" PlayDescription="(3:59) 25-C. Garner up the middle to OAK 46 for 1 yard (59-R.Fredrickson, 78-M.Tosi)."/>
+			<Play DownDistanceYardline="2-9-OAK 46" EarnedFirstDown="False" PlayDescription="(3:25) 12-R. Gannon pass to 81-T. Brown to ARZ 36 for 18 yards (42-K.Lassiter)." FirstDownType="P5"/>
+			<Play DownDistanceYardline="1-10-ARZ 36" EarnedFirstDown="True" PlayDescription="(2:41) 12-R. Gannon pass intended for 86-R. Williams INTERCEPTED by 42-K.Lassiter at ARZ 9. 42-K.Lassiter to ARZ 9 for no gain (86-R. Williams)."/>
+			<Play Header="Arizona Cardinals at 2:32"/>
+			<Play DownDistanceYardline="1-10-ARZ 9" EarnedFirstDown="False" PlayDescription="(2:32) 16-J.Plummer pass incomplete (94-T. Bryant)."/>
+			<Play DownDistanceYardline="2-10-ARZ 9" EarnedFirstDown="False" PlayDescription="(2:28) 32-M.Pittman left end to ARZ 8 for -1 yards (54-G. Biekert)."/>
+			<Play PlayDescription="PENALTY on OAK-54-G. Biekert, Face Mask (5 Yards), 5 yards, enforced at ARZ 8."/>
+			<Play DownDistanceYardline="2-6-ARZ 13" EarnedFirstDown="False" PlayDescription="(2:04) 32-M.Pittman up the middle to ARZ 9 for -4 yards (96-D.Russell)."/>
+			<Play DownDistanceYardline="3-10-ARZ 9" EarnedFirstDown="False" PlayDescription="(1:23) 16-J.Plummer pass incomplete to 32-M.Pittman (26-D. Gibson)."/>
+			<Play DownDistanceYardline="4-10-ARZ 9" EarnedFirstDown="False" PlayDescription="(1:16) 12-C.Stanley punts 44 yards to OAK 47, Center-86-T.Junkin. 88-D. Dunn to ARZ 45 for 8 yards (87-S.Bush)."/>
+			<Play PlayDescription="Penalty on ARZ, Offensive Holding, declined."/>
+			<Play Header="Oakland Raiders at 1:05"/>
+			<Play DownDistanceYardline="1-10-ARZ 45" EarnedFirstDown="False" PlayDescription="(1:05) 25-C. Garner right guard to ARZ 44 for 1 yard (57-R.McKinnon)."/>
+			<Play DownDistanceYardline="2-9-ARZ 44" EarnedFirstDown="False" PlayDescription="(:30) 12-R. Gannon pass to 84-J. Porter to ARZ 25 for 19 yards (24-T.Knight)." FirstDownType="P6"/>
+			<QuarterSummary Team="Arizona Cardinals" Score="7" TimeOfPossession="5:43" FirstDownsRushing="3" FirstDownsPassing="0" FirstDownsPenalty="1" FirstDownsTotal="4" ThirdDownEfficiency="1/2" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Oakland Raiders" Score="7" TimeOfPossession="9:17" FirstDownsRushing="2" FirstDownsPassing="4" FirstDownsPenalty="0" FirstDownsTotal="6" ThirdDownEfficiency="1/2" FourthDownEfficiency="0/0"/>
+		</_1stQuarter>
+		<_2ndQuarter>
+			<Play Header="Oakland Raiders continued."/>
+			<Play DownDistanceYardline="1-10-ARZ 25" EarnedFirstDown="True" PlayDescription="(15:00) 47-T. Wheatley right guard to ARZ 23 for 2 yards (78-M.Tosi, 55-R.Thompson)."/>
+			<Play DownDistanceYardline="2-8-ARZ 23" EarnedFirstDown="False" PlayDescription="(14:27) 12-R. Gannon pass incomplete to 80-J. Rice."/>
+			<Play DownDistanceYardline="3-8-ARZ 23" EarnedFirstDown="False" PlayDescription="(14:22) 12-R. Gannon pass incomplete to 84-J. Porter."/>
+			<Play DownDistanceYardline="4-8-ARZ 23" EarnedFirstDown="False" PlayDescription="(14:16) 11-S. Janikowski 41 yard field goal is BLOCKED (97-F.Wakefield), Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="Arizona Cardinals at 14:12"/>
+			<Play DownDistanceYardline="1-10-ARZ 31" EarnedFirstDown="False" PlayDescription="(14:12) 16-J.Plummer pass incomplete to 32-M.Pittman."/>
+			<Play DownDistanceYardline="2-10-ARZ 31" EarnedFirstDown="False" PlayDescription="(14:08) 32-M.Pittman up the middle to ARZ 31 for no gain (54-G. Biekert)."/>
+			<Play DownDistanceYardline="3-10-ARZ 31" EarnedFirstDown="False" PlayDescription="(13:26) (Shotgun) 16-J.Plummer pass to 89-D.Boston to OAK 48 for 21 yards (24-C. Woodson)." FirstDownType="P5"/>
+			<Play DownDistanceYardline="1-10-OAK 48" EarnedFirstDown="True" PlayDescription="(12:41) 89-D.Boston right end to ARZ 48 for -4 yards (50-E. Barton, 53-T. Smith)."/>
+			<Play DownDistanceYardline="2-14-ARZ 48" EarnedFirstDown="False" PlayDescription="(12:00) 16-J.Plummer pass to 82-M.Jenkins to OAK 37 for 15 yards (59-W. Thomas, 23-M. Pope)." FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-OAK 37" EarnedFirstDown="True" PlayDescription="(11:27) 32-M.Pittman left end pushed ob at OAK 15 for 22 yards (33-A. Dorsett, 23-M. Pope)." FirstDownType="R7"/>
+			<Play DownDistanceYardline="1-10-OAK 15" EarnedFirstDown="True" PlayDescription="(10:59) 26-T.Jones left end pushed ob at OAK 5 for 10 yards (21-E. Allen)." FirstDownType="R8"/>
+			<Play DownDistanceYardline="1-5-OAK 5" EarnedFirstDown="True" PlayDescription="(10:35) 26-T.Jones up the middle to OAK 1 for 4 yards (33-A. Dorsett, 58-E. Alexander)."/>
+			<Play DownDistanceYardline="2-1-OAK 1" EarnedFirstDown="False" PlayDescription="(9:53) 32-M.Pittman left guard for 1 yard, TOUCHDOWN." FirstDownType="R9"/>
+			<Play PlayDescription="7-B.Gramatica extra point is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 14 OAK 7,  9 plays, 69 yards,  4:24 drive,  5:12 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 57 yards from ARZ 30 to OAK 13. 42-T. Kirby to OAK 24 for 11 yards (31-M.Shipp)."/>
+			<Play Header="Oakland Raiders at 9:48, (1st play from scrimmage 9:39)"/>
+			<Play DownDistanceYardline="1-10-OAK 24" EarnedFirstDown="False" PlayDescription="(9:39) 25-C. Garner up the middle to OAK 24 for no gain (92-B.Tanner)."/>
+			<Play DownDistanceYardline="2-10-OAK 24" EarnedFirstDown="False" PlayDescription="(9:03) 12-R. Gannon pass incomplete to 80-J. Rice (97-F.Wakefield)."/>
+			<Play DownDistanceYardline="3-10-OAK 24" EarnedFirstDown="False" PlayDescription="(8:59) 12-R. Gannon pass to 40-J. Ritchie pushed ob at OAK 33 for 9 yards (45-R.Hill)."/>
+			<Play DownDistanceYardline="4-1-OAK 33" EarnedFirstDown="False" PlayDescription="(8:40) 9-S. Lechler punts 61 yards to ARZ 6, Center-68-A.Graham. 84-A.Jackson pushed ob at OAK 39 for 55 yards (9-S. Lechler)."/>
+			<Play PlayDescription="Penalty on OAK-55-B. Brooks, Ineligible Downfield Kick, declined."/>
+			<Play Header="Arizona Cardinals at 8:24"/>
+			<Play DownDistanceYardline="1-10-OAK 39" EarnedFirstDown="False" PlayDescription="(8:24) 16-J.Plummer pass incomplete to 87-S.Bush."/>
+			<Play DownDistanceYardline="2-10-OAK 39" EarnedFirstDown="False" PlayDescription="(8:19) 16-J.Plummer pass to 26-T.Jones to OAK 29 for 10 yards (54-G. Biekert)." FirstDownType="P10"/>
+			<Play DownDistanceYardline="1-10-OAK 29" EarnedFirstDown="True" PlayDescription="(7:37) 26-T.Jones up the middle to OAK 28 for 1 yard (75-C. Cooper, 96-D.Russell)."/>
+			<Play DownDistanceYardline="2-9-OAK 28" EarnedFirstDown="False" PlayDescription="(6:58) 16-J.Plummer pass to 89-D.Boston to OAK 10 for 18 yards (21-E. Allen)." FirstDownType="P11"/>
+			<Play PlayDescription="Penalty on OAK-21-E. Allen, Defensive Pass Interference, declined."/>
+			<Play DownDistanceYardline="1-10-OAK 10" EarnedFirstDown="True" PlayDescription="(6:38) 26-T.Jones right tackle to OAK 9 for 1 yard (24-C. Woodson)."/>
+			<Play DownDistanceYardline="2-9-OAK 9" EarnedFirstDown="False" PlayDescription="(5:55) 16-J.Plummer pass incomplete to 82-M.Jenkins."/>
+			<Play PlayDescription="PENALTY on OAK-58-E. Alexander, Defensive Holding, 5 yards, enforced at OAK 9 - No Play." FirstDownType="X12"/>
+			<Play DownDistanceYardline="1-4-OAK 4" EarnedFirstDown="True" PlayDescription="(5:50) 26-T.Jones right end to OAK 3 for 1 yard (23-M. Pope, 75-C. Cooper)."/>
+			<Play DownDistanceYardline="2-3-OAK 3" EarnedFirstDown="False" PlayDescription="(5:10) 32-M.Pittman right end to OAK 10 for -7 yards (53-T. Smith)."/>
+			<Play DownDistanceYardline="3-10-OAK 10" EarnedFirstDown="False" PlayDescription="(4:28) (Shotgun) 16-J.Plummer pass to 83-T.Mitchell to OAK 5 for 5 yards (75-C. Cooper)."/>
+			<Play DownDistanceYardline="4-5-OAK 5" EarnedFirstDown="False" PlayDescription="(3:49) 7-B.Gramatica 23 yard field goal is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 17 OAK 7,  9 plays, 34 yards, 1 penalty,  4:40 drive, 11:16 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 48 yards from ARZ 30 to OAK 22. 42-T. Kirby to OAK 39 for 17 yards (82-M.Jenkins)."/>
+			<Play Header="Oakland Raiders at 3:44, (1st play from scrimmage 3:36)"/>
+			<Play DownDistanceYardline="1-10-OAK 39" EarnedFirstDown="False" PlayDescription="(3:36) 12-R. Gannon pass incomplete to 80-J. Rice."/>
+			<Play DownDistanceYardline="2-10-OAK 39" EarnedFirstDown="False" PlayDescription="(3:31) 12-R. Gannon pass incomplete to 81-T. Brown."/>
+			<Play DownDistanceYardline="3-10-OAK 39" EarnedFirstDown="False" PlayDescription="(3:26) 12-R. Gannon right tackle to OAK 42 for 3 yards (94-M.Bell, 98-R.Davis)."/>
+			<Play DownDistanceYardline="4-7-OAK 42" EarnedFirstDown="False" PlayDescription="(2:50) 9-S. Lechler punts 31 yards to ARZ 27, Center-68-A.Graham, out of bounds."/>
+			<Play Header="Arizona Cardinals at 2:40"/>
+			<Play DownDistanceYardline="1-10-ARZ 27" EarnedFirstDown="False" PlayDescription="(2:40) 16-J.Plummer pass incomplete to 82-M.Jenkins."/>
+			<Play DownDistanceYardline="2-10-ARZ 27" EarnedFirstDown="False" PlayDescription="(2:36) 32-M.Pittman left tackle to ARZ 30 for 3 yards (91-R. Upshaw, 96-D.Russell)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-7-ARZ 30" EarnedFirstDown="False" PlayDescription="(2:00) (Shotgun) 16-J.Plummer pass to 89-D.Boston to ARZ 37 for 7 yards (33-A. Dorsett)." FirstDownType="P13"/>
+			<Play DownDistanceYardline="1-10-ARZ 37" EarnedFirstDown="True" PlayDescription="(1:32) (Shotgun) 16-J.Plummer pass to 82-M.Jenkins to ARZ 45 for 8 yards (20-T. James)."/>
+			<Play DownDistanceYardline="2-2-ARZ 45" EarnedFirstDown="False" PlayDescription="(1:09) (Shotgun) 16-J.Plummer pass to 32-M.Pittman to OAK 49 for 6 yards (58-E. Alexander)." FirstDownType="P14"/>
+			<Play PlayDescription="Timeout #1 by ARZ at 01:02."/>
+			<Play DownDistanceYardline="1-10-OAK 49" EarnedFirstDown="True" PlayDescription="(1:02) 16-J.Plummer pass to 32-M.Pittman to OAK 46 for 3 yards (58-E. Alexander)."/>
+			<Play DownDistanceYardline="2-7-OAK 46" EarnedFirstDown="False" PlayDescription="(:55) 16-J.Plummer pass to 82-M.Jenkins to OAK 25 for 21 yards (33-A. Dorsett)." FirstDownType="P15"/>
+			<Play PlayDescription="Timeout #2 by ARZ at 00:34."/>
+			<Play DownDistanceYardline="1-10-OAK 25" EarnedFirstDown="True" PlayDescription="(:34) 16-J.Plummer pass to 84-A.Jackson to OAK 9 for 16 yards (33-A. Dorsett)." FirstDownType="P16"/>
+			<Play DownDistanceYardline="1-9-OAK 9" EarnedFirstDown="True" PlayDescription="(:15) 16-J.Plummer pass incomplete."/>
+			<Play DownDistanceYardline="2-9-OAK 9" EarnedFirstDown="False" PlayDescription="(:11) 16-J.Plummer pass to 80-T.Hardy to OAK 8 for 1 yard (58-E. Alexander)."/>
+			<Play DownDistanceYardline="3-8-OAK 8" EarnedFirstDown="False" PlayDescription="(:07) 16-J.Plummer pass incomplete to 32-M.Pittman."/>
+			<Play DownDistanceYardline="4-8-OAK 8" EarnedFirstDown="False" PlayDescription="(:05) 7-B.Gramatica 26 yard field goal is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 20 OAK 7,  12 plays, 65 yards,  2:37 drive, 14:57 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 63 yards from ARZ 30 to OAK 7. 42-T. Kirby to OAK 35 for 28 yards (52-Z.Walz)."/>
+			<QuarterSummary Team="Arizona Cardinals" Score="20" TimeOfPossession="11:41" FirstDownsRushing="3" FirstDownsPassing="8" FirstDownsPenalty="1" FirstDownsTotal="12" ThirdDownEfficiency="2/4" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Oakland Raiders" Score="7" TimeOfPossession="3:19" FirstDownsRushing="0" FirstDownsPassing="0" FirstDownsPenalty="0" FirstDownsTotal="0" ThirdDownEfficiency="0/3" FourthDownEfficiency="0/0"/>
+		</_2ndQuarter>
+		<_3rdQuarter>
+			<Play Header="ARZ elects to Receive, and OAK elects to defend the North goal."/>
+			<Play Header="11-S. Janikowski kicks 60 yards from OAK 30 to ARZ 10. 82-M.Jenkins to ARZ 12 for 2 yards (26-D. Gibson)."/>
+			<Play Header="Arizona Cardinals at 15:00, (1st play from scrimmage 14:53)"/>
+			<Play DownDistanceYardline="1-10-ARZ 12" EarnedFirstDown="False" PlayDescription="(14:53) 32-M.Pittman left tackle to ARZ 12 for no gain (54-G. Biekert)."/>
+			<Play DownDistanceYardline="2-10-ARZ 12" EarnedFirstDown="False" PlayDescription="(14:19) 16-J.Plummer pass incomplete to 80-T.Hardy."/>
+			<Play DownDistanceYardline="3-10-ARZ 12" EarnedFirstDown="False" PlayDescription="(14:14) (Shotgun) 16-J.Plummer pass incomplete to 32-M.Pittman."/>
+			<Play DownDistanceYardline="4-10-ARZ 12" EarnedFirstDown="False" PlayDescription="(14:11) 12-C.Stanley punts 39 yards to OAK 49, Center-86-T.Junkin, downed by ARZ-52-Z.Walz."/>
+			<Play Header="Oakland Raiders at 13:59"/>
+			<Play DownDistanceYardline="1-10-OAK 49" EarnedFirstDown="False" PlayDescription="(13:59) 25-C. Garner left end pushed ob at ARZ 43 for 8 yards (42-K.Lassiter)."/>
+			<Play DownDistanceYardline="2-2-ARZ 43" EarnedFirstDown="False" PlayDescription="(13:30) 25-C. Garner up the middle to ARZ 40 for 3 yards (59-R.Fredrickson, 98-R.Davis)." FirstDownType="R7"/>
+			<Play DownDistanceYardline="1-10-ARZ 40" EarnedFirstDown="True" PlayDescription="(12:53) 12-R. Gannon pass to 87-J. Brigham pushed ob at ARZ 34 for 6 yards (24-T.Knight)."/>
+			<Play DownDistanceYardline="2-4-ARZ 34" EarnedFirstDown="False" PlayDescription="(12:26) 25-C. Garner left end to ARZ 34 for no gain (56-L.Woods, 97-F.Wakefield)."/>
+			<Play DownDistanceYardline="3-4-ARZ 34" EarnedFirstDown="False" PlayDescription="(11:48) 12-R. Gannon pass to 84-J. Porter to ARZ 31 for 3 yards (55-R.Thompson). FUMBLES (55-R.Thompson), RECOVERED by ARZ-42-K.Lassiter at ARZ 28. 42-K.Lassiter to ARZ 38 for 10 yards (40-J. Ritchie).
+Play Challenged by OAK and REVERSED.
+12-R. Gannon pass to 84-J. Porter to ARZ 31 for 3 yards (55-R.Thompson)."/>
+			<Play DownDistanceYardline="4-1-ARZ 31" EarnedFirstDown="False" PlayDescription="(11:30) 32-Z. Crockett up the middle to ARZ 24 for 7 yards (42-K.Lassiter, 98-R.Davis)." FirstDownType="R8"/>
+			<Play DownDistanceYardline="1-10-ARZ 24" EarnedFirstDown="True" PlayDescription="(10:49) 12-R. Gannon pass incomplete to 25-C. Garner."/>
+			<Play DownDistanceYardline="2-10-ARZ 24" EarnedFirstDown="False" PlayDescription="(10:45) 25-C. Garner up the middle to ARZ 16 for 8 yards (97-F.Wakefield)."/>
+			<Play DownDistanceYardline="3-2-ARZ 16" EarnedFirstDown="False" PlayDescription="(10:11) 32-Z. Crockett up the middle to ARZ 12 for 4 yards (57-R.McKinnon)." FirstDownType="R9"/>
+			<Play DownDistanceYardline="1-10-ARZ 12" EarnedFirstDown="True" PlayDescription="(9:30) 12-R. Gannon right end ran ob at ARZ 5 for 7 yards (55-R.Thompson, 24-T.Knight)."/>
+			<Play DownDistanceYardline="2-3-ARZ 5" EarnedFirstDown="False" PlayDescription="(8:56) 32-Z. Crockett right guard to ARZ 1 for 4 yards (55-R.Thompson, 40-P.Tillman)." FirstDownType="R10"/>
+			<Play DownDistanceYardline="1-1-ARZ 1" EarnedFirstDown="True" PlayDescription="(8:22) 32-Z. Crockett up the middle for 1 yard, TOUCHDOWN." FirstDownType="R11"/>
+			<Play PlayDescription="11-S. Janikowski extra point is GOOD, Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="ARZ 20 OAK 14,  12 plays, 51 yards,  5:40 drive,  6:41 elapsed"/>
+			<Play Header="11-S. Janikowski kicks 67 yards from OAK 30 to ARZ 3. 82-M.Jenkins to ARZ 24 for 21 yards (37-J. Harris)."/>
+			<Play Header="Arizona Cardinals at 8:19, (1st play from scrimmage 8:10)"/>
+			<Play DownDistanceYardline="1-10-ARZ 24" EarnedFirstDown="False" PlayDescription="(8:10) 16-J.Plummer pass to 80-T.Hardy to ARZ 27 for 3 yards (33-A. Dorsett). Hardy injured on play"/>
+			<Play DownDistanceYardline="2-7-ARZ 27" EarnedFirstDown="False" PlayDescription="(7:46) 32-M.Pittman right guard to ARZ 26 for -1 yards (75-C. Cooper, 54-G. Biekert)."/>
+			<Play DownDistanceYardline="3-8-ARZ 26" EarnedFirstDown="False" PlayDescription="(7:04) (Shotgun) 16-J.Plummer pass incomplete to 89-D.Boston."/>
+			<Play DownDistanceYardline="4-8-ARZ 26" EarnedFirstDown="False" PlayDescription="(6:58) 12-C.Stanley punts 36 yards to OAK 38, Center-86-T.Junkin. 88-D. Dunn pushed ob at OAK 47 for 9 yards (54-S.Sanyika, 52-Z.Walz)."/>
+			<Play Header="Oakland Raiders at 6:48"/>
+			<Play DownDistanceYardline="1-10-OAK 47" EarnedFirstDown="False" PlayDescription="(6:48) 12-R. Gannon pass incomplete to 81-T. Brown."/>
+			<Play DownDistanceYardline="2-10-OAK 47" EarnedFirstDown="False" PlayDescription="(6:43) 25-C. Garner up the middle to 50 for 3 yards (59-R.Fredrickson, 94-M.Bell)."/>
+			<Play DownDistanceYardline="3-7-50" EarnedFirstDown="False" PlayDescription="(6:02) 12-R. Gannon pass to 84-J. Porter to ARZ 32 for 18 yards (56-L.Woods, 42-K.Lassiter)." FirstDownType="P12"/>
+			<Play DownDistanceYardline="1-10-ARZ 32" EarnedFirstDown="True" PlayDescription="(5:22) 25-C. Garner up the middle to ARZ 28 for 4 yards (59-R.Fredrickson)."/>
+			<Play DownDistanceYardline="2-6-ARZ 28" EarnedFirstDown="False" PlayDescription="(4:42) 12-R. Gannon pass incomplete to 81-T. Brown."/>
+			<Play DownDistanceYardline="3-6-ARZ 28" EarnedFirstDown="False" PlayDescription="(4:38) 12-R. Gannon pass to 80-J. Rice pushed ob at ARZ 19 for 9 yards (25-C.Chavous)." FirstDownType="P13"/>
+			<Play DownDistanceYardline="1-10-ARZ 19" EarnedFirstDown="True" PlayDescription="(4:23) 25-C. Garner up the middle to ARZ 20 for -1 yards (97-F.Wakefield)."/>
+			<Play PlayDescription="PENALTY on ARZ, Face Mask (15 Yards), 10 yards, enforced at ARZ 20." FirstDownType="X14"/>
+			<Play DownDistanceYardline="1-10-ARZ 10" EarnedFirstDown="True" PlayDescription="(4:02) PENALTY on OAK-72-L. Kennedy, False Start, 5 yards, enforced at ARZ 10 - No Play."/>
+			<Play DownDistanceYardline="1-15-ARZ 15" EarnedFirstDown="False" PlayDescription="(3:43) 12-R. Gannon pass to 42-T. Kirby pushed ob at ARZ 6 for 9 yards (57-R.McKinnon, 42-K.Lassiter)."/>
+			<Play DownDistanceYardline="2-6-ARZ 6" EarnedFirstDown="False" PlayDescription="(3:04) 12-R. Gannon pass intended for 86-R. Williams INTERCEPTED by 24-T.Knight at ARZ 0. 24-T.Knight pushed ob at ARZ 43 for 43 yards (12-R. Gannon)."/>
+			<Play Header="Arizona Cardinals at 2:51"/>
+			<Play DownDistanceYardline="1-10-ARZ 43" EarnedFirstDown="False" PlayDescription="(2:51) 32-M.Pittman left end to ARZ 48 for 5 yards (54-G. Biekert, 91-R. Upshaw)."/>
+			<Play DownDistanceYardline="2-5-ARZ 48" EarnedFirstDown="False" PlayDescription="(2:18) 32-M.Pittman right guard to OAK 46 for 6 yards (57-R. Coleman)." FirstDownType="R17"/>
+			<Play DownDistanceYardline="1-10-OAK 46" EarnedFirstDown="True" PlayDescription="(1:41) 16-J.Plummer pass incomplete to 89-D.Boston."/>
+			<Play DownDistanceYardline="2-10-OAK 46" EarnedFirstDown="False" PlayDescription="(1:34) 16-J.Plummer pass to 89-D.Boston pushed ob at OAK 33 for 13 yards (20-T. James)." FirstDownType="P18"/>
+			<Play PlayDescription="PENALTY on OAK-91-R. Upshaw, Roughing the Passer, 15 yards, enforced at OAK 33." FirstDownType="X19"/>
+			<Play DownDistanceYardline="1-10-OAK 18" EarnedFirstDown="True" PlayDescription="(1:16) 26-T.Jones right tackle to OAK 12 for 6 yards (75-C. Cooper)."/>
+			<Play DownDistanceYardline="2-4-OAK 12" EarnedFirstDown="False" PlayDescription="(:39) 32-M.Pittman right end to OAK 10 for 2 yards (24-C. Woodson)."/>
+			<Play PlayDescription="PENALTY on ARZ-50-J.Starkey, Offensive Holding, 10 yards, enforced at OAK 12 - No Play."/>
+			<Play PlayDescription="Timeout #1 by ARZ at 00:13."/>
+			<Play DownDistanceYardline="2-14-OAK 22" EarnedFirstDown="False" PlayDescription="(:13) 16-J.Plummer pass to 89-D.Boston to OAK 7 for 15 yards (21-E. Allen)."/>
+			<Play PlayDescription="PENALTY on ARZ, Illegal Shift, 5 yards, enforced at OAK 22 - No Play."/>
+			<QuarterSummary Team="Arizona Cardinals" Score="20" TimeOfPossession="5:23" FirstDownsRushing="1" FirstDownsPassing="1" FirstDownsPenalty="1" FirstDownsTotal="3" ThirdDownEfficiency="0/2" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Oakland Raiders" Score="14" TimeOfPossession="9:37" FirstDownsRushing="5" FirstDownsPassing="2" FirstDownsPenalty="1" FirstDownsTotal="8" ThirdDownEfficiency="3/4" FourthDownEfficiency="1/1"/>
+		</_3rdQuarter>
+		<_4thQuarter>
+			<Play Header="Arizona Cardinals continued."/>
+			<Play DownDistanceYardline="2-19-OAK 27" EarnedFirstDown="False" PlayDescription="(15:00) (Shotgun) 32-M.Pittman up the middle to OAK 21 for 6 yards (57-R. Coleman)."/>
+			<Play DownDistanceYardline="3-13-OAK 21" EarnedFirstDown="False" PlayDescription="(14:25) (Shotgun) 16-J.Plummer pass to 82-M.Jenkins to OAK 15 for 6 yards (54-G. Biekert)."/>
+			<Play DownDistanceYardline="4-7-OAK 15" EarnedFirstDown="False" PlayDescription="(13:44) 7-B.Gramatica 33 yard field goal is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 23 OAK 14,  8 plays, 42 yards, 1 penalty,  4:11 drive,  1:20 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 57 yards from ARZ 30 to OAK 13. 42-T. Kirby to OAK 33 for 20 yards (40-P.Tillman, 56-L.Woods)."/>
+			<Play Header="Oakland Raiders at 13:40, (1st play from scrimmage 13:30)"/>
+			<Play DownDistanceYardline="1-10-OAK 33" EarnedFirstDown="False" PlayDescription="(13:30) 12-R. Gannon pass to 80-J. Rice to OAK 42 for 9 yards (25-C.Chavous)."/>
+			<Play DownDistanceYardline="2-1-OAK 42" EarnedFirstDown="False" PlayDescription="(12:56) 81-T. Brown left end pushed ob at ARZ 39 for 19 yards (42-K.Lassiter)." FirstDownType="R15"/>
+			<Play DownDistanceYardline="1-10-ARZ 39" EarnedFirstDown="True" PlayDescription="(12:26) 12-R. Gannon pass to 81-T. Brown pushed ob at ARZ 28 for 11 yards (24-T.Knight)." FirstDownType="P16"/>
+			<Play DownDistanceYardline="1-10-ARZ 28" EarnedFirstDown="True" PlayDescription="(12:03) 47-T. Wheatley left guard to ARZ 22 for 6 yards (57-R.McKinnon)."/>
+			<Play DownDistanceYardline="2-4-ARZ 22" EarnedFirstDown="False" PlayDescription="(11:26) 12-R. Gannon pass to 81-T. Brown for 22 yards, TOUCHDOWN." FirstDownType="P17"/>
+			<Play PlayDescription="11-S. Janikowski extra point is GOOD, Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="ARZ 23 OAK 21,  5 plays, 67 yards,  2:20 drive,  3:40 elapsed"/>
+			<Play Header="11-S. Janikowski kicks 58 yards from OAK 30 to ARZ 12. 82-M.Jenkins to ARZ 30 for 18 yards (26-D. Gibson, 28-R. Jordan)."/>
+			<Play Header="Arizona Cardinals at 11:20, (1st play from scrimmage 11:11)"/>
+			<Play DownDistanceYardline="1-10-ARZ 30" EarnedFirstDown="False" PlayDescription="(11:11) 16-J.Plummer pass incomplete to 89-D.Boston."/>
+			<Play PlayDescription="PENALTY on OAK-21-E. Allen, Defensive Pass Interference, 18 yards, enforced at ARZ 30 - No Play." FirstDownType="X20"/>
+			<Play DownDistanceYardline="1-10-ARZ 48" EarnedFirstDown="True" PlayDescription="(11:05) 26-T.Jones left tackle to OAK 46 for 6 yards (96-D.Russell)."/>
+			<Play DownDistanceYardline="2-4-OAK 46" EarnedFirstDown="False" PlayDescription="(10:26) 26-T.Jones right guard to OAK 47 for -1 yards (96-D.Russell)."/>
+			<Play DownDistanceYardline="3-5-OAK 47" EarnedFirstDown="False" PlayDescription="(9:47) (Shotgun) 16-J.Plummer pass to 89-D.Boston to 50 for -3 yards (24-C. Woodson)."/>
+			<Play DownDistanceYardline="4-8-50" EarnedFirstDown="False" PlayDescription="(9:08) 12-C.Stanley punts 32 yards to OAK 18, Center-86-T.Junkin, fair catch by 81-T. Brown."/>
+			<Play Header="Oakland Raiders at 9:01"/>
+			<Play DownDistanceYardline="1-10-OAK 18" EarnedFirstDown="False" PlayDescription="(9:01) 12-R. Gannon pass to 81-T. Brown to OAK 25 for 7 yards (40-P.Tillman)."/>
+			<Play DownDistanceYardline="2-3-OAK 25" EarnedFirstDown="False" PlayDescription="(8:24) 12-R. Gannon pass to 25-C. Garner to OAK 25 for no gain (24-T.Knight)."/>
+			<Play DownDistanceYardline="3-3-OAK 25" EarnedFirstDown="False" PlayDescription="(7:46) 12-R. Gannon pass incomplete to 86-R. Williams."/>
+			<Play DownDistanceYardline="4-3-OAK 25" EarnedFirstDown="False" PlayDescription="(7:41) 9-S. Lechler punts 44 yards to ARZ 31, Center-68-A.Graham. 84-A.Jackson to OAK 48 for 21 yards (84-J. Porter)."/>
+			<Play Header="Arizona Cardinals at 7:26"/>
+			<Play DownDistanceYardline="1-10-OAK 48" EarnedFirstDown="False" PlayDescription="(7:26) 34-J.Makovicka right guard to OAK 29 for 19 yards (21-E. Allen)." FirstDownType="R21"/>
+			<Play PlayDescription="PENALTY on OAK-21-E. Allen, Face Mask (5 Yards), 5 yards, enforced at OAK 29."/>
+			<Play DownDistanceYardline="1-10-OAK 24" EarnedFirstDown="True" PlayDescription="(6:57) 32-M.Pittman right end to OAK 26 for -2 yards (96-D.Russell)."/>
+			<Play PlayDescription="Timeout #2 by ARZ at 06:12."/>
+			<Play DownDistanceYardline="2-12-OAK 26" EarnedFirstDown="False" PlayDescription="(6:12) 16-J.Plummer pass incomplete to 32-M.Pittman."/>
+			<Play DownDistanceYardline="3-12-OAK 26" EarnedFirstDown="False" PlayDescription="(6:07) (Shotgun) 16-J.Plummer sacked at OAK 30 for -4 yards (91-R. Upshaw; 94-T. Bryant)."/>
+			<Play DownDistanceYardline="4-16-OAK 30" EarnedFirstDown="False" PlayDescription="(5:38) 7-B.Gramatica 48 yard field goal is No Good, Wide Left, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="Oakland Raiders at 5:30"/>
+			<Play DownDistanceYardline="1-10-OAK 38" EarnedFirstDown="False" PlayDescription="(5:30) 25-C. Garner left tackle to OAK 44 for 6 yards (98-R.Davis)."/>
+			<Play DownDistanceYardline="2-4-OAK 44" EarnedFirstDown="False" PlayDescription="(4:54) 12-R. Gannon left tackle to 50 for 6 yards (55-R.Thompson)." FirstDownType="R18"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(4:10) 12-R. Gannon pass to 80-J. Rice pushed ob at ARZ 38 for 12 yards (25-C.Chavous)." FirstDownType="P19"/>
+			<Play DownDistanceYardline="1-10-ARZ 38" EarnedFirstDown="True" PlayDescription="(4:03) 12-R. Gannon pass to 86-R. Williams pushed ob at ARZ 34 for 4 yards (25-C.Chavous)."/>
+			<Play DownDistanceYardline="2-6-ARZ 34" EarnedFirstDown="False" PlayDescription="(3:58) 12-R. Gannon pass to 84-J. Porter to ARZ 21 for 13 yards (40-P.Tillman)." FirstDownType="P20"/>
+			<Play DownDistanceYardline="1-10-ARZ 21" EarnedFirstDown="True" PlayDescription="(3:11) 12-R. Gannon pass to 47-T. Wheatley pushed ob at ARZ 10 for 11 yards (57-R.McKinnon)." FirstDownType="P21"/>
+			<Play DownDistanceYardline="1-10-ARZ 10" EarnedFirstDown="True" PlayDescription="(3:03) 47-T. Wheatley right guard to ARZ 8 for 2 yards (98-R.Davis)."/>
+			<Play DownDistanceYardline="2-8-ARZ 8" EarnedFirstDown="False" PlayDescription="(2:20) 12-R. Gannon right end to ARZ 6 for 2 yards (24-T.Knight)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-6-ARZ 6" EarnedFirstDown="False" PlayDescription="(2:00) 12-R. Gannon sacked at ARZ 7 for -1 yards (57-R.McKinnon)."/>
+			<Play DownDistanceYardline="4-7-ARZ 7" EarnedFirstDown="False" PlayDescription="(1:52) 11-S. Janikowski 24 yard field goal is GOOD, Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="ARZ 23 OAK 24,  10 plays, 55 yards,  3:43 drive, 13:13 elapsed"/>
+			<Play Header="11-S. Janikowski kicks 52 yards from OAK 30 to ARZ 18. 31-M.Shipp to ARZ 30 for 12 yards (55-B. Brooks)."/>
+			<Play Header="Arizona Cardinals at 1:47, (1st play from scrimmage 1:42)"/>
+			<Play DownDistanceYardline="1-10-ARZ 30" EarnedFirstDown="False" PlayDescription="(1:42) (Shotgun) 16-J.Plummer pass incomplete to 32-M.Pittman."/>
+			<Play DownDistanceYardline="2-10-ARZ 30" EarnedFirstDown="False" PlayDescription="(1:39) (Shotgun) 16-J.Plummer pass to 82-M.Jenkins pushed ob at 50 for 20 yards (20-T. James)." FirstDownType="P22"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(1:32) (Shotgun) 16-J.Plummer pass incomplete to 89-D.Boston."/>
+			<Play DownDistanceYardline="2-10-50" EarnedFirstDown="False" PlayDescription="(1:26) 16-J.Plummer pass to 89-D.Boston for 50 yards, TOUCHDOWN." FirstDownType="P23"/>
+			<Play PlayDescription="TWO-POINT CONVERSION ATTEMPT. 16-J.Plummer rushes up the middle. ATTEMPT SUCCEEDS."/>
+			<Play Header="ARZ 31 OAK 24,  4 plays, 70 yards,  0:29 drive, 13:42 elapsed"/>
+			<Play Header="7-B.Gramatica kicks 70 yards from ARZ 30 to OAK 0. 42-T. Kirby to OAK 32 for 32 yards (52-Z.Walz)."/>
+			<Play Header="PENALTY on OAK-37-J. Harris, Offensive Holding, 10 yards, enforced at OAK 32."/>
+			<Play Header="Oakland Raiders at 1:18, (1st play from scrimmage 1:10)"/>
+			<Play DownDistanceYardline="1-10-OAK 22" EarnedFirstDown="False" PlayDescription="(1:10) 12-R. Gannon pass incomplete to 84-J. Porter."/>
+			<Play DownDistanceYardline="2-10-OAK 22" EarnedFirstDown="False" PlayDescription="(1:04) 12-R. Gannon pass incomplete to 25-C. Garner."/>
+			<Play DownDistanceYardline="3-10-OAK 22" EarnedFirstDown="False" PlayDescription="(:58) 12-R. Gannon pass to 80-J. Rice pushed ob at OAK 44 for 22 yards (42-K.Lassiter)." FirstDownType="P22"/>
+			<Play DownDistanceYardline="1-10-OAK 44" EarnedFirstDown="True" PlayDescription="(:53) 12-R. Gannon pass to 25-C. Garner pushed ob at ARZ 46 for 10 yards (40-P.Tillman)." FirstDownType="P23"/>
+			<Play DownDistanceYardline="1-10-ARZ 46" EarnedFirstDown="True" PlayDescription="(:47) 12-R. Gannon pass incomplete to 84-J. Porter."/>
+			<Play DownDistanceYardline="2-10-ARZ 46" EarnedFirstDown="False" PlayDescription="(:43) 12-R. Gannon pass to 80-J. Rice pushed ob at ARZ 10 for 36 yards (42-K.Lassiter)." FirstDownType="P24"/>
+			<Play DownDistanceYardline="1-10-ARZ 10" EarnedFirstDown="True" PlayDescription="(:34) 12-R. Gannon pass incomplete to 86-R. Williams."/>
+			<Play DownDistanceYardline="2-10-ARZ 10" EarnedFirstDown="False" PlayDescription="(:28) 12-R. Gannon pass incomplete to 81-T. Brown."/>
+			<Play DownDistanceYardline="3-10-ARZ 10" EarnedFirstDown="False" PlayDescription="(:23) 12-R. Gannon right end pushed ob at ARZ 2 for 8 yards (24-T.Knight, 45-R.Hill)."/>
+			<Play PlayDescription="Timeout #1 by OAK at 00:15."/>
+			<Play DownDistanceYardline="4-2-ARZ 2" EarnedFirstDown="False" PlayDescription="(:15) 12-R. Gannon pass to 80-J. Rice for 2 yards, TOUCHDOWN." FirstDownType="P25"/>
+			<Play PlayDescription="11-S. Janikowski extra point is GOOD, Center-68-A.Graham, Holder-9-S. Lechler."/>
+			<Play Header="ARZ 31 OAK 31,  10 plays, 78 yards,  1:06 drive, 14:48 elapsed"/>
+			<Play Header="11-S. Janikowski kicks 48 yards from OAK 30 to ARZ 22. 31-M.Shipp to ARZ 46 for 24 yards (53-T. Smith)."/>
+			<Play Header="Arizona Cardinals at 0:12, (1st play from scrimmage 0:07)"/>
+			<Play DownDistanceYardline="1-10-ARZ 46" EarnedFirstDown="False" PlayDescription="(:07) (Shotgun) 16-J.Plummer pass incomplete to 89-D.Boston (21-E. Allen)."/>
+			<QuarterSummary Team="Arizona Cardinals" Score="31" TimeOfPossession="6:16" FirstDownsRushing="1" FirstDownsPassing="2" FirstDownsPenalty="1" FirstDownsTotal="4" ThirdDownEfficiency="0/3" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Oakland Raiders" Score="31" TimeOfPossession="8:44" FirstDownsRushing="2" FirstDownsPassing="9" FirstDownsPenalty="0" FirstDownsTotal="11" ThirdDownEfficiency="1/4" FourthDownEfficiency="1/1"/>
+		</_4thQuarter>
+		<_Overtime1>
+			<Play Header="OAK wins toss, elects to Receive, and ARZ elects to defend the South goal."/>
+			<Play PlayDescription="Oakland Captains: S Wisniewski and T Brown"/>
+			<Play PlayDescription="Arizona Captains: J Plummer, R McKinnon, and M Gruttadauria"/>
+			<Play Header="7-B.Gramatica kicks 75 yards from ARZ 30 to OAK -5. 42-T. Kirby, Touchback."/>
+			<Play Header="Oakland Raiders at 15:00, (1st play from scrimmage 14:56)"/>
+			<Play DownDistanceYardline="1-10-OAK 20" EarnedFirstDown="False" PlayDescription="(14:56) 12-R. Gannon pass to 25-C. Garner to OAK 29 for 9 yards (55-R.Thompson, 57-R.McKinnon)."/>
+			<Play DownDistanceYardline="2-1-OAK 29" EarnedFirstDown="False" PlayDescription="(14:27) 47-T. Wheatley up the middle to OAK 31 for 2 yards (97-F.Wakefield, 98-R.Davis)." FirstDownType="R26"/>
+			<Play DownDistanceYardline="1-10-OAK 31" EarnedFirstDown="True" PlayDescription="(13:49) 12-R. Gannon right tackle to OAK 32 for 1 yard (97-F.Wakefield)."/>
+			<Play DownDistanceYardline="2-9-OAK 32" EarnedFirstDown="False" PlayDescription="(13:07) 12-R. Gannon pass to 47-T. Wheatley to OAK 38 for 6 yards (98-R.Davis)."/>
+			<Play DownDistanceYardline="3-3-OAK 38" EarnedFirstDown="False" PlayDescription="(12:25) 12-R. Gannon pass to 25-C. Garner pushed ob at OAK 40 for 2 yards (24-T.Knight)."/>
+			<Play DownDistanceYardline="4-1-OAK 40" EarnedFirstDown="False" PlayDescription="(12:06) 9-S. Lechler punts 37 yards to ARZ 23, Center-68-A.Graham, downed by OAK-55-B. Brooks."/>
+			<Play PlayDescription="Penalty on OAK-55-B. Brooks, Ineligible Downfield Kick, declined."/>
+			<Play Header="Arizona Cardinals at 11:54"/>
+			<Play DownDistanceYardline="1-10-ARZ 23" EarnedFirstDown="False" PlayDescription="(11:54) 16-J.Plummer pass incomplete to 89-D.Boston."/>
+			<Play DownDistanceYardline="2-10-ARZ 23" EarnedFirstDown="False" PlayDescription="(11:51) (Shotgun) 16-J.Plummer pass to 82-M.Jenkins to ARZ 43 for 20 yards (21-E. Allen)." FirstDownType="P24"/>
+			<Play DownDistanceYardline="1-10-ARZ 43" EarnedFirstDown="True" PlayDescription="(11:14) 16-J.Plummer pass to 84-A.Jackson to ARZ 44 for 1 yard (24-C. Woodson)."/>
+			<Play DownDistanceYardline="2-9-ARZ 44" EarnedFirstDown="False" PlayDescription="(10:36) (Shotgun) 16-J.Plummer pass to 32-M.Pittman to ARZ 47 for 3 yards (20-T. James)."/>
+			<Play DownDistanceYardline="3-6-ARZ 47" EarnedFirstDown="False" PlayDescription="(9:56) PENALTY on ARZ, False Start, 5 yards, enforced at ARZ 47 - No Play."/>
+			<Play DownDistanceYardline="3-11-ARZ 42" EarnedFirstDown="False" PlayDescription="(9:31) (Shotgun) 16-J.Plummer up the middle to ARZ 48 for 6 yards (23-M. Pope)."/>
+			<Play DownDistanceYardline="4-5-ARZ 48" EarnedFirstDown="False" PlayDescription="(8:53) 12-C.Stanley punts 29 yards to OAK 23, Center-86-T.Junkin. 88-D. Dunn to OAK 23 for no gain. FUMBLES, RECOVERED by ARZ-56-L.Woods at OAK 25. 56-L.Woods to OAK 25 for no gain (88-D. Dunn)."/>
+			<Play Header="Arizona Cardinals at 8:42"/>
+			<Play DownDistanceYardline="1-10-OAK 25" EarnedFirstDown="False" PlayDescription="(8:42) 32-M.Pittman to OAK 20 for 5 yards (94-T. Bryant)."/>
+			<Play DownDistanceYardline="2-5-OAK 20" EarnedFirstDown="False" PlayDescription="(8:09) 32-M.Pittman to OAK 18 for 2 yards (90-G. Jackson, 23-M. Pope)."/>
+			<Play PlayDescription="Timeout #1 by OAK at 07:37."/>
+			<Play DownDistanceYardline="3-3-OAK 18" EarnedFirstDown="False" PlayDescription="(7:37) 7-B.Gramatica 36 yard field goal is GOOD, Center-86-T.Junkin, Holder-12-C.Stanley."/>
+			<Play Header="ARZ 31 OAK 31,  3 plays, 7 yards,  1:11 drive,  7:29 elapsed"/>
+			<QuarterSummary Team="Arizona Cardinals" Score="34" TimeOfPossession="4:23" FirstDownsRushing="0" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="1" ThirdDownEfficiency="0/1" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="Oakland Raiders" Score="31" TimeOfPossession="3:06" FirstDownsRushing="1" FirstDownsPassing="0" FirstDownsPenalty="0" FirstDownsTotal="1" ThirdDownEfficiency="0/1" FourthDownEfficiency="0/0"/>
+		</_Overtime1>
+	</PlayByPlay>
+</Gamebook>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gamebook>
+	<GamebookSummary Title="National Football League Game Summary" AuxiliaryTitle="" Copyright="NFL Copyright © 2001 by The National Football League. All rights reserved. This summary and play-by-play is for the express purpose of assisting media in their coverage of the game; any other use of this material is prohibited without the written permission of the National Football League." ScheduleDate="12/16/2001" VisitingTeam="Miami Dolphins" HomeTeam="San Francisco 49ers" StartTime="13:07" TimeZone="PST" Stadium="3COM Park" StadiumType="Outdoor" GameWeather="mostly cloudy" Temperature="52" Humidity="74" WindSpeed="calm" TurfType="Grass" OutdoorWeather="" WindChill="" WindDirection="" Referee="Ron Winter (14)" Umpire="Brian Balliet (48)" HeadLinesman="Sanford Rivers (121)" LineJudge="Ron Marinucci (107)" SideJudge="Ken Baker (91)" BackJudge="Perry Paganelli (46)" FieldJudge="Steve Zimmer (33)" ReplayOfficial="Bill McCabe" VideoOperator="Terry Poulos" Attendance="68,223" GameLength="2:36" VisitorScoreQ1="0" VisitorScoreQ2="0" VisitorScoreQ3="0" VisitorScoreQ4="0" VisitorScoreOT="0" HomeScoreQ1="14" HomeScoreQ2="0" HomeScoreQ3="7" HomeScoreQ4="0" HomeScoreOT="0">
+		<OffensiveStarterVisitor Player="O.Gadsden" Position="WR" UniformNumber="86"/>
+		<OffensiveStarterVisitor Player="S.Folau" Position="LT" UniformNumber="60"/>
+		<OffensiveStarterVisitor Player="H.Irwin" Position="LG" UniformNumber="66"/>
+		<OffensiveStarterVisitor Player="T.Ruddy" Position="C" UniformNumber="61"/>
+		<OffensiveStarterVisitor Player="T.Perry" Position="RG" UniformNumber="75"/>
+		<OffensiveStarterVisitor Player="T.Wade" Position="RT" UniformNumber="71"/>
+		<OffensiveStarterVisitor Player="C.Chambers" Position="WR" UniformNumber="84"/>
+		<OffensiveStarterVisitor Player="J.McKnight" Position="WR" UniformNumber="80"/>
+		<OffensiveStarterVisitor Player="J.Fiedler" Position="QB" UniformNumber="9"/>
+		<OffensiveStarterVisitor Player="L.Smith" Position="RB" UniformNumber="26"/>
+		<OffensiveStarterVisitor Player="R.Konrad" Position="FB" UniformNumber="44"/>
+		<DefensiveStarterVisitor Player="K.Mixon" Position="LE" UniformNumber="79"/>
+		<DefensiveStarterVisitor Player="T.Bowens" Position="LT" UniformNumber="95"/>
+		<DefensiveStarterVisitor Player="J.Haley" Position="RT" UniformNumber="94"/>
+		<DefensiveStarterVisitor Player="J.Taylor" Position="RE" UniformNumber="99"/>
+		<DefensiveStarterVisitor Player="D.Rodgers" Position="WLB" UniformNumber="59"/>
+		<DefensiveStarterVisitor Player="Z.Thomas" Position="MLB" UniformNumber="54"/>
+		<DefensiveStarterVisitor Player="T.Cousin" Position="CB" UniformNumber="21"/>
+		<DefensiveStarterVisitor Player="P.Surtain" Position="LCB" UniformNumber="23"/>
+		<DefensiveStarterVisitor Player="S.Madison" Position="RCB" UniformNumber="29"/>
+		<DefensiveStarterVisitor Player="B.Walker" Position="SS" UniformNumber="45"/>
+		<DefensiveStarterVisitor Player="B.Marion" Position="FS" UniformNumber="31"/>
+		<SubstitutionsVisitor Player="M.Turk" Position="P" UniformNumber="1"/>
+		<SubstitutionsVisitor Player="R.Lucas" Position="QB" UniformNumber="6"/>
+		<SubstitutionsVisitor Player="O.Mare" Position="K" UniformNumber="10"/>
+		<SubstitutionsVisitor Player="J.Fletcher" Position="CB" UniformNumber="24"/>
+		<SubstitutionsVisitor Player="A.Freeman" Position="S" UniformNumber="27"/>
+		<SubstitutionsVisitor Player="D.Dyer" Position="FB" UniformNumber="33"/>
+		<SubstitutionsVisitor Player="T.Minor" Position="RB" UniformNumber="34"/>
+		<SubstitutionsVisitor Player="S.McGarrahan" Position="S" UniformNumber="41"/>
+		<SubstitutionsVisitor Player="T.Hendricks" Position="LB" UniformNumber="51"/>
+		<SubstitutionsVisitor Player="M.Greenwood" Position="LB" UniformNumber="52"/>
+		<SubstitutionsVisitor Player="T.Russell" Position="LB" UniformNumber="56"/>
+		<SubstitutionsVisitor Player="S.Galyon" Position="LB" UniformNumber="58"/>
+		<SubstitutionsVisitor Player="T.Andrew" Position="C" UniformNumber="65"/>
+		<SubstitutionsVisitor Player="J.Weaver" Position="TE" UniformNumber="82"/>
+		<SubstitutionsVisitor Player="H.Goodwin" Position="LB" UniformNumber="83"/>
+		<SubstitutionsVisitor Player="D.Ward" Position="WR" UniformNumber="87"/>
+		<SubstitutionsVisitor Player="J.Ogden" Position="WR" UniformNumber="88"/>
+		<SubstitutionsVisitor Player="E.Perry" Position="TE" UniformNumber="89"/>
+		<SubstitutionsVisitor Player="L.Bromell" Position="DE" UniformNumber="91"/>
+		<SubstitutionsVisitor Player="D.Bowens" Position="DE" UniformNumber="96"/>
+		<SubstitutionsVisitor Player="E.Grant" Position="DT" UniformNumber="97"/>
+		<DidNotPlayVisitor Player="R.Green" Position="S" UniformNumber="40"/>
+		<DidNotPlayVisitor Player="H.Swayne" Position="T" UniformNumber="70"/>
+		<NotActiveVisitor Player="C.McNown" Position="#3QB" UniformNumber="8"/>
+		<NotActiveVisitor Player="S.Wooden" Position="S" UniformNumber="22"/>
+		<NotActiveVisitor Player="J.Johnson" Position="RB" UniformNumber="32"/>
+		<NotActiveVisitor Player="S.Draper" Position="TE" UniformNumber="46"/>
+		<NotActiveVisitor Player="A.Vincent" Position="G" UniformNumber="68"/>
+		<NotActiveVisitor Player="A.Ogunleye" Position="DE" UniformNumber="90"/>
+		<NotActiveVisitor Player="H.Taylor" Position="DT" UniformNumber="98"/>
+		<OffensiveStarterHome Player="T.Owens" Position="WR" UniformNumber="81"/>
+		<OffensiveStarterHome Player="D.Deese" Position="LT" UniformNumber="63"/>
+		<OffensiveStarterHome Player="R.Brown" Position="LG" UniformNumber="65"/>
+		<OffensiveStarterHome Player="J.Newberry" Position="C" UniformNumber="62"/>
+		<OffensiveStarterHome Player="D.Fiore" Position="RG" UniformNumber="74"/>
+		<OffensiveStarterHome Player="S.Gragg" Position="RT" UniformNumber="78"/>
+		<OffensiveStarterHome Player="E.Johnson" Position="TE" UniformNumber="82"/>
+		<OffensiveStarterHome Player="J.Stokes" Position="WR" UniformNumber="83"/>
+		<OffensiveStarterHome Player="J.Garcia" Position="QB" UniformNumber="5"/>
+		<OffensiveStarterHome Player="G.Hearst" Position="RB" UniformNumber="20"/>
+		<OffensiveStarterHome Player="T.Streets" Position="WR" UniformNumber="89"/>
+		<DefensiveStarterHome Player="C.Okeafor" Position="LE" UniformNumber="91"/>
+		<DefensiveStarterHome Player="B.Young" Position="LT" UniformNumber="97"/>
+		<DefensiveStarterHome Player="D.Stubblefield" Position="RT" UniformNumber="94"/>
+		<DefensiveStarterHome Player="A.Carter" Position="RE" UniformNumber="96"/>
+		<DefensiveStarterHome Player="J.Peterson" Position="LOLB" UniformNumber="98"/>
+		<DefensiveStarterHome Player="D.Smith" Position="LILB" UniformNumber="50"/>
+		<DefensiveStarterHome Player="J.Winborn" Position="RILB" UniformNumber="55"/>
+		<DefensiveStarterHome Player="A.Plummer" Position="LC" UniformNumber="29"/>
+		<DefensiveStarterHome Player="J.Webster" Position="RC" UniformNumber="36"/>
+		<DefensiveStarterHome Player="L.Schulters" Position="SS" UniformNumber="30"/>
+		<DefensiveStarterHome Player="Z.Bronson" Position="FS" UniformNumber="31"/>
+		<SubstitutionsHome Player="J.Cortez" Position="K" UniformNumber="6"/>
+		<SubstitutionsHome Player="J.Baker" Position="P" UniformNumber="7"/>
+		<SubstitutionsHome Player="T.Rattay" Position="QB" UniformNumber="13"/>
+		<SubstitutionsHome Player="T.Jackson" Position="FB" UniformNumber="22"/>
+		<SubstitutionsHome Player="J.Williams" Position="CB" UniformNumber="23"/>
+		<SubstitutionsHome Player="G.McCullough" Position="CB" UniformNumber="24"/>
+		<SubstitutionsHome Player="V.Sutherland" Position="KR/HB" UniformNumber="25"/>
+		<SubstitutionsHome Player="R.Holman" Position="CB" UniformNumber="26"/>
+		<SubstitutionsHome Player="P.Smith" Position="RB" UniformNumber="27"/>
+		<SubstitutionsHome Player="K.Barlow" Position="RB" UniformNumber="32"/>
+		<SubstitutionsHome Player="R.Heard" Position="S" UniformNumber="38"/>
+		<SubstitutionsHome Player="F.Beasley" Position="FB" UniformNumber="40"/>
+		<SubstitutionsHome Player="Q.Stewart" Position="LB" UniformNumber="54"/>
+		<SubstitutionsHome Player="T.Killens" Position="LB" UniformNumber="56"/>
+		<SubstitutionsHome Player="B.Lynch" Position="C" UniformNumber="60"/>
+		<SubstitutionsHome Player="D.Costa" Position="T" UniformNumber="76"/>
+		<SubstitutionsHome Player="M.Willig" Position="T" UniformNumber="77"/>
+		<SubstitutionsHome Player="C.Wilson" Position="WR" UniformNumber="84"/>
+		<SubstitutionsHome Player="B.Jennings" Position="TE/LS" UniformNumber="86"/>
+		<SubstitutionsHome Player="J.Swift" Position="TE" UniformNumber="88"/>
+		<SubstitutionsHome Player="B.Setzer" Position="DE" UniformNumber="90"/>
+		<SubstitutionsHome Player="R.McGrew" Position="DT" UniformNumber="92"/>
+		<DidNotPlayHome Player="J.Engelberger" Position="DE" UniformNumber="95"/>
+		<NotActiveHome Player="R.Mirer" Position="3#QB" UniformNumber="3"/>
+		<NotActiveHome Player="A.Parker" Position="CB" UniformNumber="21"/>
+		<NotActiveHome Player="J.Lewis" Position="RB" UniformNumber="43"/>
+		<NotActiveHome Player="J.Ulbrich" Position="LB" UniformNumber="53"/>
+		<NotActiveHome Player="G.Clark" Position="TE" UniformNumber="85"/>
+		<NotActiveHome Player="J.Schlecht" Position="DT" UniformNumber="93"/>
+		<FieldGoalSummaryHome Player="J.Cortez" FieldGoals="41WR"/>
+		<ScoringPlay Team="49ers" Quarter="1" Time="8:46" PlayDescription="K.Barlow 2 yd. run (J.Cortez kick) (7-56, 3:43)" VisitorScore="0" HomeScore="7"/>
+		<ScoringPlay Team="49ers" Quarter="1" Time="0:02" PlayDescription="E.Johnson 12 yd. pass from J.Garcia (J.Cortez kick) (13-64, 6:58)" VisitorScore="0" HomeScore="14"/>
+		<ScoringPlay Team="49ers" Quarter="3" Time="0:51" PlayDescription="K.Barlow 1 yd. run (J.Cortez kick) (17-98,11:05)" VisitorScore="0" HomeScore="21"/>
+	</GamebookSummary>
+	<IndividualStatistics>
+		<RusherVisitor Player="J.Fiedler" Attempts="4" Yards="33" Average="8.3" Touchdowns="0" Long="21"/>
+		<RusherVisitor Player="L.Smith" Attempts="9" Yards="22" Average="2.4" Touchdowns="0" Long="6"/>
+		<RusherVisitor Player="T.Minor" Attempts="2" Yards="12" Average="6.0" Touchdowns="0" Long="7"/>
+		<RusherVisitor Player="Total" Attempts="15" Yards="67" Average="4.5" Touchdowns="0" Long="21"/>
+		<RusherHome Player="G.Hearst" Attempts="26" Yards="103" Average="4.0" Touchdowns="0" Long="23"/>
+		<RusherHome Player="K.Barlow" Attempts="14" Yards="39" Average="2.8" Touchdowns="2" Long="11"/>
+		<RusherHome Player="T.Jackson" Attempts="2" Yards="17" Average="8.5" Touchdowns="0" Long="9"/>
+		<RusherHome Player="F.Beasley" Attempts="3" Yards="1" Average="0.3" Touchdowns="0" Long="2"/>
+		<RusherHome Player="J.Garcia" Attempts="3" Yards="-8" Average="-2.7" Touchdowns="0" Long="2"/>
+		<RusherHome Player="T.Rattay" Attempts="2" Yards="0" Average="0.0" Touchdowns="0" Long="1"/>
+		<RusherHome Player="Total" Attempts="50" Yards="152" Average="3.0" Touchdowns="2" Long="23"/>
+		<PasserVisitor Player="J.Fiedler" Attempts="28" Completions="16" Yards="149" Sacks="6" SackYardage="42" Touchdowns="0" Long="27" Interceptions="3" Rating="32.3"/>
+		<PasserVisitor Player="Total" Attempts="28" Completions="16" Yards="149" Sacks="6" SackYardage="42" Touchdowns="0" Long="27" Interceptions="3" Rating="32.3"/>
+		<PasserHome Player="J.Garcia" Attempts="20" Completions="14" Yards="133" Sacks="0" SackYardage="0" Touchdowns="1" Long="28" Interceptions="0" Rating="104.8"/>
+		<PasserHome Player="Total" Attempts="20" Completions="14" Yards="133" Sacks="0" SackYardage="0" Touchdowns="1" Long="28" Interceptions="0" Rating="104.8"/>
+		<ReceiverVisitor Player="T.Minor" Number="4" Yards="27" Average="6.8" Touchdowns="0" Long="20"/>
+		<ReceiverVisitor Player="O.Gadsden" Number="3" Yards="16" Average="5.3" Touchdowns="0" Long="11"/>
+		<ReceiverVisitor Player="J.McKnight" Number="2" Yards="40" Average="20.0" Touchdowns="0" Long="27"/>
+		<ReceiverVisitor Player="C.Chambers" Number="2" Yards="27" Average="13.5" Touchdowns="0" Long="18"/>
+		<ReceiverVisitor Player="J.Ogden" Number="2" Yards="24" Average="12.0" Touchdowns="0" Long="13"/>
+		<ReceiverVisitor Player="D.Ward" Number="2" Yards="18" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverVisitor Player="L.Smith" Number="1" Yards="-3" Average="-3.0" Touchdowns="0" Long="-3"/>
+		<ReceiverVisitor Player="Total" Number="16" Yards="149" Average="9.3" Touchdowns="0" Long="27"/>
+		<ReceiverHome Player="T.Owens" Number="4" Yards="43" Average="10.8" Touchdowns="0" Long="28"/>
+		<ReceiverHome Player="G.Hearst" Number="3" Yards="20" Average="6.7" Touchdowns="0" Long="11"/>
+		<ReceiverHome Player="J.Stokes" Number="2" Yards="20" Average="10.0" Touchdowns="0" Long="14"/>
+		<ReceiverHome Player="K.Barlow" Number="1" Yards="14" Average="14.0" Touchdowns="0" Long="14"/>
+		<ReceiverHome Player="T.Jackson" Number="1" Yards="13" Average="13.0" Touchdowns="0" Long="13"/>
+		<ReceiverHome Player="E.Johnson" Number="1" Yards="12" Average="12.0" Touchdowns="1" Long="12t"/>
+		<ReceiverHome Player="F.Beasley" Number="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="T.Streets" Number="1" Yards="2" Average="2.0" Touchdowns="0" Long="2"/>
+		<ReceiverHome Player="Total" Number="14" Yards="133" Average="9.5" Touchdowns="1" Long="28"/>
+		<InterceptorVisitor Player="Total" Number="0" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorHome Player="Z.Bronson" Number="2" Yards="0" Average="0.0" Long="0" Touchdowns="0"/>
+		<InterceptorHome Player="J.Webster" Number="1" Yards="16" Average="16.0" Long="16" Touchdowns="0"/>
+		<InterceptorHome Player="Total" Number="3" Yards="16" Average="5.3" Long="16" Touchdowns="0"/>
+		<PunterVisitor Player="M.Turk" Number="6" Yards="197" Average="32.8" Touchbacks="0" Inside20="1" Long="47"/>
+		<PunterVisitor Player="Total" Number="6" Yards="197" Average="32.8" Touchbacks="0" Inside20="1" Long="47"/>
+		<PunterHome Player="J.Baker" Number="4" Yards="154" Average="38.5" Touchbacks="0" Inside20="0" Long="48"/>
+		<PunterHome Player="Total" Number="4" Yards="154" Average="38.5" Touchbacks="0" Inside20="0" Long="48"/>
+		<PuntReturnerVisitor Player="J.Ogden" Number="2" Yards="3" Average="1.5" FairCatches="0" Long="3" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="T.Cousin" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="D.Ward" Number="0" Yards="0" Average="0.0" FairCatches="1" Long="0" Touchdowns="0"/>
+		<PuntReturnerVisitor Player="Returns" Number="3" Yards="3" Average="1.0" FairCatches="1" Long="3" Touchdowns="0"/>
+		<PuntReturnerHome Player="V.Sutherland" Number="2" Yards="4" Average="2.0" FairCatches="1" Long="2" Touchdowns="0"/>
+		<PuntReturnerHome Player="[DOWNED]" Number="2" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="[OUT OF BOUNDS]" Number="1" Yards="0" Average="0.0" FairCatches="0" Long="0" Touchdowns="0"/>
+		<PuntReturnerHome Player="Returns" Number="2" Yards="4" Average="2.0" FairCatches="1" Long="2" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="C.Chambers" Number="4" Yards="87" Average="21.8" FairCatches="0" Long="31" Touchdowns="0"/>
+		<KickOffReturnerVisitor Player="Returns" Number="4" Yards="87" Average="21.8" FairCatches="0" Long="31" Touchdowns="0"/>
+		<KickOffReturnerHome Player="P.Smith" Number="1" Yards="15" Average="15.0" FairCatches="0" Long="15" Touchdowns="0"/>
+		<KickOffReturnerHome Player="Returns" Number="1" Yards="15" Average="15.0" FairCatches="0" Long="15" Touchdowns="0"/>
+		<FumblesVisitor Player="J.McKnight" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="J.Fiedler" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="C.Chambers" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="D.Dyer" Fumbles="0" OwnRecoveries="1" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesVisitor Player="Total" Fumbles="2" OwnRecoveries="1" Yards="0" Touchdowns="0" ForcedFumbles="1" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="Z.Bronson" Fumbles="1" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="L.Schulters" Fumbles="0" OwnRecoveries="1" Yards="5" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="R.Heard" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="2" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="J.Peterson" Fumbles="0" OwnRecoveries="0" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="T.Rattay" Fumbles="1" OwnRecoveries="1" Yards="0" Touchdowns="0" ForcedFumbles="0" OpponentRecoveries="0" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+		<FumblesHome Player="Total" Fumbles="2" OwnRecoveries="2" Yards="5" Touchdowns="0" ForcedFumbles="2" OpponentRecoveries="1" OpponentYards="0" OpponentTouchdowns="0" OutOfBounds="0"/>
+	</IndividualStatistics>
+	<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="12" HomeStats="21"/>
+	<TeamStatistics Description="By Rushing" VisitorStats="4" HomeStats="11"/>
+	<TeamStatistics Description="By Passing" VisitorStats="8" HomeStats="8"/>
+	<TeamStatistics Description="By Penalty" VisitorStats="0" HomeStats="2"/>
+	<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="4-12-33%" HomeStats="7-14-50%"/>
+	<TeamStatistics Description="FOURTH DOWN EFFICIENCY" VisitorStats="0-0-0%" HomeStats="1-2-50%"/>
+	<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="174" HomeStats="285"/>
+	<TeamStatistics Description="Total Offensive Plays (inc. times thrown passing)" VisitorStats="49" HomeStats="70"/>
+	<TeamStatistics Description="Average gain per offensive play" VisitorStats="3.6" HomeStats="4.1"/>
+	<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="67" HomeStats="152"/>
+	<TeamStatistics Description="Total Rushing Plays" VisitorStats="15" HomeStats="50"/>
+	<TeamStatistics Description="Average gain per rushing play" VisitorStats="4.5" HomeStats="3.0"/>
+	<TeamStatistics Description="Tackles for a loss-number and yards" VisitorStats="2-4" HomeStats="4-13"/>
+	<TeamStatistics Description="NET YARDS PASSING" VisitorStats="107" HomeStats="133"/>
+	<TeamStatistics Description="Times thrown - yards lost attempting to pass" VisitorStats="6-42" HomeStats="0-0"/>
+	<TeamStatistics Description="Gross yards passing" VisitorStats="149" HomeStats="133"/>
+	<TeamStatistics Description="PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED" VisitorStats="28-16-3" HomeStats="20-14-0"/>
+	<TeamStatistics Description="Avg gain per pass play (inc.# thrown passing)" VisitorStats="3.1" HomeStats="6.7"/>
+	<TeamStatistics Description="KICKOFFS Number-In End Zone-Touchbacks" VisitorStats="1-0-0" HomeStats="4-0-0"/>
+	<TeamStatistics Description="PUNTS Number and Average" VisitorStats="6-32.8" HomeStats="4-38.5"/>
+	<TeamStatistics Description="Had Blocked" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FGs - PATs Had Blocked" VisitorStats="0-0" HomeStats="0-0"/>
+	<TeamStatistics Description="Net Punting Average" VisitorStats="32.2" HomeStats="37.8"/>
+	<TeamStatistics Description="TOTAL RETURN YARDAGE (Not Including Kickoffs)" VisitorStats="3" HomeStats="20"/>
+	<TeamStatistics Description="No. and Yards Punt Returns" VisitorStats="3-3" HomeStats="2-4"/>
+	<TeamStatistics Description="No. and Yards Kickoff Returns" VisitorStats="4-87" HomeStats="1-15"/>
+	<TeamStatistics Description="No. and Yards Interception Returns" VisitorStats="0-0" HomeStats="3-16"/>
+	<TeamStatistics Description="PENALTIES Number and Yards" VisitorStats="4-27" HomeStats="2-10"/>
+	<TeamStatistics Description="FUMBLES Number and Lost" VisitorStats="2-1" HomeStats="2-0"/>
+	<TeamStatistics Description="TOUCHDOWNS" VisitorStats="0" HomeStats="3"/>
+	<TeamStatistics Description="Rushing" VisitorStats="0" HomeStats="2"/>
+	<TeamStatistics Description="Passing" VisitorStats="0" HomeStats="1"/>
+	<TeamStatistics Description="EXTRA POINTS Made-Attempts" VisitorStats="0-0" HomeStats="3-3"/>
+	<TeamStatistics Description="Kicking Made-Attempts" VisitorStats="0-0" HomeStats="3-3"/>
+	<TeamStatistics Description="FIELD GOALS Made-Attempts" VisitorStats="0-0" HomeStats="0-1"/>
+	<TeamStatistics Description="RED ZONE EFFICIENCY" VisitorStats="0-0-0%" HomeStats="3-3-100%"/>
+	<TeamStatistics Description="GOAL TO GO EFFICIENCY" VisitorStats="0-0-0%" HomeStats="2-2-100%"/>
+	<TeamStatistics Description="SAFETIES" VisitorStats="0" HomeStats="0"/>
+	<TeamStatistics Description="FINAL SCORE" VisitorStats="0" HomeStats="21"/>
+	<TeamStatistics Description="TIME OF POSSESSION" VisitorStats="20:48" HomeStats="39:12"/>
+	<DriveChart AverageDriveStartVisitor="(301) Average MIA 30" KickoffDriveInfoVisitor="Dolphins: 4 - MIA 29" AverageDriveStartHome="(318) Average SF 29" KickoffDriveInfoHome="49ers: 1 - SF 30" TimeOfPossessionTotalVisitor="20:48" TimeOfPossessionTotalHome="39:12" TimeOfPossessionQ1Visitor="3:12" TimeOfPossessionQ1Home="11:48" TimeOfPossessionQ2Visitor="7:15" TimeOfPossessionQ2Home="7:45" TimeOfPossessionQ3Visitor="3:55" TimeOfPossessionQ3Home="11:05" TimeOfPossessionQ4Visitor="6:26" TimeOfPossessionQ4Home="8:34">
+		<DriveVisitor Number="1" Quarter="1" TimeReceived="13:53" TimeLost="12:29" TimeOfPossession="1:24" HowBallObtained="Punt" DriveBegan="MIA 22" PlayCount="3" YardsGained="11" YardsPenalized="0" NetYards="11" FirstDowns="1" LastScrimmage="MIA 33" HowGivenUp="Interception"/>
+		<DriveVisitor Number="2" Quarter="1" TimeReceived="8:46" TimeLost="7:00" TimeOfPossession="1:46" HowBallObtained="Kickoff" DriveBegan="MIA 31" PlayCount="3" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="MIA 30" HowGivenUp="Punt"/>
+		<DriveVisitor Number="3" Quarter="2" TimeReceived="0:02" TimeLost="11:12" TimeOfPossession="3:50" HowBallObtained="Kickoff" DriveBegan="MIA 22" PlayCount="6" YardsGained="30" YardsPenalized="0" NetYards="30" FirstDowns="2" LastScrimmage="SF 48" HowGivenUp="Punt"/>
+		<DriveVisitor Number="4" Quarter="2" TimeReceived="4:52" TimeLost="1:54" TimeOfPossession="2:58" HowBallObtained="Missed FG" DriveBegan="MIA 31" PlayCount="6" YardsGained="15" YardsPenalized="0" NetYards="15" FirstDowns="1" LastScrimmage="SF 45" HowGivenUp="Fumble"/>
+		<DriveVisitor Number="5" Quarter="2" TimeReceived="0:47" TimeLost="0:18" TimeOfPossession="0:29" HowBallObtained="Downs" DriveBegan="MIA 46" PlayCount="3" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="MIA 45" HowGivenUp="Punt"/>
+		<DriveVisitor Number="6" Quarter="3" TimeReceived="15:00" TimeLost="11:56" TimeOfPossession="3:04" HowBallObtained="Kickoff" DriveBegan="MIA 39" PlayCount="6" YardsGained="18" YardsPenalized="0" NetYards="18" FirstDowns="1" LastScrimmage="SF 43" HowGivenUp="Punt"/>
+		<DriveVisitor Number="7" Quarter="4" TimeReceived="0:51" TimeLost="14:44" TimeOfPossession="1:07" HowBallObtained="Kickoff" DriveBegan="MIA 24" PlayCount="3" YardsGained="6" YardsPenalized="0" NetYards="6" FirstDowns="0" LastScrimmage="MIA 30" HowGivenUp="Punt"/>
+		<DriveVisitor Number="8" Quarter="4" TimeReceived="10:59" TimeLost="9:02" TimeOfPossession="1:57" HowBallObtained="Punt" DriveBegan="MIA 27" PlayCount="4" YardsGained="21" YardsPenalized="0" NetYards="21" FirstDowns="1" LastScrimmage="MIA 48" HowGivenUp="Punt"/>
+		<DriveVisitor Number="9" Quarter="4" TimeReceived="7:18" TimeLost="4:31" TimeOfPossession="2:47" HowBallObtained="Punt" DriveBegan="MIA 32" PlayCount="8" YardsGained="42" YardsPenalized="0" NetYards="42" FirstDowns="3" LastScrimmage="SF 26" HowGivenUp="Interception"/>
+		<DriveVisitor Number="10" Quarter="4" TimeReceived="1:45" TimeLost="0:19" TimeOfPossession="1:26" HowBallObtained="Punt" DriveBegan="MIA 27" PlayCount="7" YardsGained="33" YardsPenalized="5" NetYards="38" FirstDowns="3" LastScrimmage="SF 35" HowGivenUp="Interception"/>
+		<DriveHome Number="1" Quarter="1" TimeReceived="15:00" TimeLost="13:53" TimeOfPossession="1:07" HowBallObtained="Kickoff" DriveBegan="SF 30" PlayCount="3" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="SF 30" HowGivenUp="Punt"/>
+		<DriveHome Number="2" Quarter="1" TimeReceived="12:29" TimeLost="8:46" TimeOfPossession="3:43" HowBallObtained="Interception" DriveBegan="SF 44" PlayCount="7" YardsGained="49" YardsPenalized="7" NetYards="56" FirstDowns="4" LastScrimmage="*MIA 2" HowGivenUp="Touchdown"/>
+		<DriveHome Number="3" Quarter="1" TimeReceived="7:00" TimeLost="0:02" TimeOfPossession="6:58" HowBallObtained="Punt" DriveBegan="SF 36" PlayCount="13" YardsGained="59" YardsPenalized="5" NetYards="64" FirstDowns="5" LastScrimmage="*MIA 12" HowGivenUp="Touchdown"/>
+		<DriveHome Number="4" Quarter="2" TimeReceived="11:12" TimeLost="4:52" TimeOfPossession="6:20" HowBallObtained="Punt" DriveBegan="SF 32" PlayCount="11" YardsGained="50" YardsPenalized="-5" NetYards="45" FirstDowns="3" LastScrimmage="MIA 23" HowGivenUp="Missed FG"/>
+		<DriveHome Number="5" Quarter="2" TimeReceived="1:54" TimeLost="0:47" TimeOfPossession="1:07" HowBallObtained="Fumble" DriveBegan="MIA 46" PlayCount="4" YardsGained="0" YardsPenalized="0" NetYards="0" FirstDowns="0" LastScrimmage="MIA 37" HowGivenUp="Downs"/>
+		<DriveHome Number="6" Quarter="2" TimeReceived="0:18" TimeLost="0:00" TimeOfPossession="0:18" HowBallObtained="Punt" DriveBegan="SF 25" PlayCount="1" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="SF 25" HowGivenUp="End of Half"/>
+		<DriveHome Number="7" Quarter="3" TimeReceived="11:56" TimeLost="0:51" TimeOfPossession="11:05" HowBallObtained="Punt" DriveBegan="SF 2" PlayCount="17" YardsGained="98" YardsPenalized="0" NetYards="98" FirstDowns="7" LastScrimmage="*MIA 1" HowGivenUp="Touchdown"/>
+		<DriveHome Number="8" Quarter="4" TimeReceived="14:44" TimeLost="10:59" TimeOfPossession="3:45" HowBallObtained="Punt" DriveBegan="SF 25" PlayCount="5" YardsGained="13" YardsPenalized="5" NetYards="18" FirstDowns="1" LastScrimmage="SF 43" HowGivenUp="Punt"/>
+		<DriveHome Number="9" Quarter="4" TimeReceived="9:02" TimeLost="7:18" TimeOfPossession="1:44" HowBallObtained="Punt" DriveBegan="SF 25" PlayCount="3" YardsGained="4" YardsPenalized="0" NetYards="4" FirstDowns="0" LastScrimmage="SF 29" HowGivenUp="Punt"/>
+		<DriveHome Number="10" Quarter="4" TimeReceived="4:31" TimeLost="1:45" TimeOfPossession="2:46" HowBallObtained="Interception" DriveBegan="SF 25" PlayCount="6" YardsGained="14" YardsPenalized="0" NetYards="14" FirstDowns="1" LastScrimmage="SF 39" HowGivenUp="Punt"/>
+		<DriveHome Number="11" Quarter="4" TimeReceived="0:19" TimeLost="0:00" TimeOfPossession="0:19" HowBallObtained="Interception" DriveBegan="SF 20" PlayCount="1" YardsGained="-1" YardsPenalized="0" NetYards="-1" FirstDowns="0" LastScrimmage="SF 20" HowGivenUp="End of Game"/>
+	</DriveChart>
+	<DefensiveStatistics>
+		<DefenderVisitor Player="Z.Thomas" Tackles="12" Assists="1" Combined="13" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Marion" Tackles="11" Assists="1" Combined="12" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Walker" Tackles="7" Assists="2" Combined="9" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Rodgers" Tackles="4" Assists="2" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Taylor" Tackles="4" Assists="2" Combined="6" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Bowens" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Mixon" Tackles="3" Assists="2" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="P.Surtain" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E.Grant" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="L.Bromell" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Haley" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Madison" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Bowens" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Galyon" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Greenwood" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Cousin" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Dyer" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Hendricks" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.McKnight" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="1" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Ogden" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Wade" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Weaver" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="59" Assists="13" Combined="72" Sacks="0" SackYards="0" Interceptions="0" PassDefences="5" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="3" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="1" SpecialTeamsBlocks="0" MiscellaneousTackles="4" MiscellaneousAssists="0" MiscellaneousForcedFumbles="1" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Winborn" Tackles="7" Assists="2" Combined="9" Sacks="0.5" SackYards="4.5" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Smith" Tackles="4" Assists="3" Combined="7" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Heard" Tackles="5" Assists="1" Combined="6" Sacks="1" SackYards="9" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="1" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Young" Tackles="5" Assists="1" Combined="6" Sacks="0.5" SackYards="3" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Webster" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="1" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Z.Bronson" Tackles="4" Assists="0" Combined="4" Sacks="0" SackYards="0" Interceptions="2" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="C.Okeafor" Tackles="3" Assists="1" Combined="4" Sacks="2.5" SackYards="11" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Plummer" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Carter" Tackles="1" Assists="1" Combined="2" Sacks="0.5" SackYards="4.5" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Holman" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Stubblefield" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="10" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Peterson" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="L.Schulters" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="2" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Jackson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Jennings" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G.McCullough" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Rattay" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="1"/>
+		<DefenderHome Player="Q.Stewart" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="37" Assists="12" Combined="49" Sacks="6" SackYards="42" Interceptions="3" PassDefences="7" ForcedFumbles="1" FumbleRecoveries="2" SpecialTeamsTackles="8" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="1" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="1"/>
+	</DefensiveStatistics>
+	<FirstHalfSummary Title="First Half Summary" PeriodScoresVisitor="0  0 = 0" PeriodScoresHome="14  0 = 14" TimeOfPossessionVisitor="10:27" TimeOfPossessionHome="19:33">
+		<ScoringPlay Team="49ers" Quarter="1" Time="8:46" PlayDescription="K.Barlow 2 yd. run (J.Cortez kick) (7-56, 3:43)" VisitorScore="0" HomeScore="7"/>
+		<ScoringPlay Team="49ers" Quarter="1" Time="0:02" PlayDescription="E.Johnson 12 yd. pass from J.Garcia (J.Cortez kick) (13-64, 6:58)" VisitorScore="0" HomeScore="14"/>
+		<TeamStatistics Description="TOTAL FIRST DOWNS" VisitorStats="4" HomeStats="12"/>
+		<TeamStatistics Description="First Downs Rushing-Passing-by Penalty" VisitorStats="1 - 3 - 0" HomeStats="5 - 6 - 1"/>
+		<TeamStatistics Description="THIRD DOWN EFFICIENCY" VisitorStats="1-5-20%" HomeStats="3-7-43%"/>
+		<TeamStatistics Description="TOTAL NET YARDS" VisitorStats="54" HomeStats="157"/>
+		<TeamStatistics Description="Total Offensive Plays" VisitorStats="21" HomeStats="38"/>
+		<TeamStatistics Description="NET YARDS RUSHING" VisitorStats="29" HomeStats="65"/>
+		<TeamStatistics Description="NET YARDS PASSING" VisitorStats="25" HomeStats="92"/>
+		<TeamStatistics Description="Gross Yards Passing" VisitorStats="53" HomeStats="92"/>
+		<TeamStatistics Description="Times thrown-yards lost attempting to pass" VisitorStats="3-28" HomeStats="0-0"/>
+		<TeamStatistics Description="Pass Attempts-Completions-Had Intercepted" VisitorStats="10 - 7 - 1" HomeStats="17 - 12 - 0"/>
+		<TeamStatistics Description="Punts-Number and Average" VisitorStats="3 - 27.3" HomeStats="1 - 48"/>
+		<TeamStatistics Description="Penalties-Number and Yards" VisitorStats="3 - 22" HomeStats="1 - 5"/>
+		<TeamStatistics Description="Fumbles-Number and Lost" VisitorStats="1 - 1" HomeStats="1 - 0"/>
+		<RusherVisitor Player="L.Smith" Attempts="6" Yards="16" Average="2.7" Touchdowns="0" Long="6"/>
+		<RusherVisitor Player="T.Minor" Attempts="1" Yards="7" Average="7.0" Touchdowns="0" Long="7"/>
+		<RusherVisitor Player="J.Fiedler" Attempts="1" Yards="6" Average="6.0" Touchdowns="0" Long="6"/>
+		<RusherVisitor Player="Total" Attempts="8" Yards="29" Average="3.6" Touchdowns="0" Long="7"/>
+		<RusherHome Player="G.Hearst" Attempts="10" Yards="46" Average="4.6" Touchdowns="0" Long="23"/>
+		<RusherHome Player="K.Barlow" Attempts="6" Yards="16" Average="2.7" Touchdowns="1" Long="11"/>
+		<RusherHome Player="T.Jackson" Attempts="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<RusherHome Player="F.Beasley" Attempts="1" Yards="2" Average="2.0" Touchdowns="0" Long="2"/>
+		<RusherHome Player="J.Garcia" Attempts="3" Yards="-8" Average="-2.7" Touchdowns="0" Long="2"/>
+		<RusherHome Player="Total" Attempts="21" Yards="65" Average="3.1" Touchdowns="1" Long="23"/>
+		<PasserVisitor Player="J.Fiedler" Attempts="10" Completions="7" Yards="53" Sacks="3" SackYardage="28" Touchdowns="0" Long="18" Interceptions="1" Rating="42.9"/>
+		<PasserVisitor Player="Total" Attempts="10" Completions="7" Yards="53" Sacks="3" SackYardage="28" Touchdowns="0" Long="18" Interceptions="1" Rating="42.9"/>
+		<PasserHome Player="J.Garcia" Attempts="17" Completions="12" Yards="92" Sacks="0" SackYardage="0" Touchdowns="1" Long="14" Interceptions="0" Rating="103.1"/>
+		<PasserHome Player="Total" Attempts="17" Completions="12" Yards="92" Sacks="0" SackYardage="0" Touchdowns="1" Long="14" Interceptions="0" Rating="103.1"/>
+		<ReceiverVisitor Player="O.Gadsden" Number="3" Yards="16" Average="5.3" Touchdowns="0" Long="11"/>
+		<ReceiverVisitor Player="C.Chambers" Number="1" Yards="18" Average="18.0" Touchdowns="0" Long="18"/>
+		<ReceiverVisitor Player="J.McKnight" Number="1" Yards="13" Average="13.0" Touchdowns="0" Long="13"/>
+		<ReceiverVisitor Player="D.Ward" Number="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverVisitor Player="L.Smith" Number="1" Yards="-3" Average="-3.0" Touchdowns="0" Long="-3"/>
+		<ReceiverVisitor Player="Total" Number="7" Yards="53" Average="7.6" Touchdowns="0" Long="18"/>
+		<ReceiverHome Player="G.Hearst" Number="3" Yards="20" Average="6.7" Touchdowns="0" Long="11"/>
+		<ReceiverHome Player="T.Owens" Number="3" Yards="15" Average="5.0" Touchdowns="0" Long="10"/>
+		<ReceiverHome Player="J.Stokes" Number="2" Yards="20" Average="10.0" Touchdowns="0" Long="14"/>
+		<ReceiverHome Player="K.Barlow" Number="1" Yards="14" Average="14.0" Touchdowns="0" Long="14"/>
+		<ReceiverHome Player="E.Johnson" Number="1" Yards="12" Average="12.0" Touchdowns="1" Long="12t"/>
+		<ReceiverHome Player="F.Beasley" Number="1" Yards="9" Average="9.0" Touchdowns="0" Long="9"/>
+		<ReceiverHome Player="T.Streets" Number="1" Yards="2" Average="2.0" Touchdowns="0" Long="2"/>
+		<ReceiverHome Player="Total" Number="12" Yards="92" Average="7.7" Touchdowns="1" Long="14"/>
+		<DefenderVisitor Player="Z.Thomas" Tackles="7" Assists="1" Combined="8" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Marion" Tackles="5" Assists="0" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="D.Rodgers" Tackles="4" Assists="1" Combined="5" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="B.Walker" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Bowens" Tackles="3" Assists="0" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="K.Mixon" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Taylor" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="P.Surtain" Tackles="1" Assists="1" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="M.Greenwood" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Haley" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="S.Madison" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="E.Grant" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Hendricks" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.McKnight" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="1" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="T.Wade" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="J.Weaver" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="1" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderVisitor Player="Total" Tackles="30" Assists="5" Combined="35" Sacks="0" SackYards="0" Interceptions="0" PassDefences="4" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="2" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="3" MiscellaneousAssists="0" MiscellaneousForcedFumbles="1" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Winborn" Tackles="5" Assists="1" Combined="6" Sacks="0.5" SackYards="4.5" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="B.Young" Tackles="3" Assists="1" Combined="4" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Smith" Tackles="2" Assists="1" Combined="3" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Z.Bronson" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="1" PassDefences="1" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Webster" Tackles="2" Assists="0" Combined="2" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Carter" Tackles="1" Assists="1" Combined="2" Sacks="0.5" SackYards="4.5" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Heard" Tackles="1" Assists="1" Combined="2" Sacks="1" SackYards="9" Interceptions="0" PassDefences="0" ForcedFumbles="1" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="A.Plummer" Tackles="1" Assists="0" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="D.Stubblefield" Tackles="1" Assists="0" Combined="1" Sacks="1" SackYards="10" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="L.Schulters" Tackles="0" Assists="1" Combined="1" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="R.Holman" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="0" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="T.Jackson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="G.McCullough" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Peterson" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="1" SpecialTeamsTackles="0" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="J.Williams" Tackles="0" Assists="0" Combined="0" Sacks="0" SackYards="0" Interceptions="0" PassDefences="0" ForcedFumbles="0" FumbleRecoveries="0" SpecialTeamsTackles="1" SpecialTeamsAssists="0" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+		<DefenderHome Player="Total" Tackles="18" Assists="6" Combined="24" Sacks="3" SackYards="28" Interceptions="1" PassDefences="1" ForcedFumbles="1" FumbleRecoveries="2" SpecialTeamsTackles="3" SpecialTeamsAssists="1" SpecialTeamsForcedFumbles="0" SpecialTeamsFumbleRecoveries="0" SpecialTeamsBlocks="0" MiscellaneousTackles="0" MiscellaneousAssists="0" MiscellaneousForcedFumbles="0" MiscellaneousFumbleRecoveries="0"/>
+	</FirstHalfSummary>
+	<PlayByPlay>
+		<_1stQuarter>
+			<Play Header="SF wins toss, elects to Receive, and MIA elects to defend the South goal."/>
+			<Play Header="10-O.Mare kicks 55 yards from MIA 30 to SF 15. 27-P.Smith to SF 30 for 15 yards (51-T.Hendricks)."/>
+			<Play Header="San Francisco 49ers at 15:00, (1st play from scrimmage 14:53)"/>
+			<Play DownDistanceYardline="1-10-SF 30" EarnedFirstDown="False" PlayDescription="(14:53) 20-G.Hearst right end to SF 30 for no gain (54-Z.Thomas, 23-P.Surtain)."/>
+			<Play DownDistanceYardline="2-10-SF 30" EarnedFirstDown="False" PlayDescription="(14:12) 5-J.Garcia pass incomplete to 40-F.Beasley (79-K.Mixon)."/>
+			<Play DownDistanceYardline="3-10-SF 30" EarnedFirstDown="False" PlayDescription="(14:08) 5-J.Garcia pass incomplete to 83-J.Stokes (29-S.Madison)."/>
+			<Play DownDistanceYardline="4-10-SF 30" EarnedFirstDown="False" PlayDescription="(14:03) 7-J.Baker punts 48 yards to MIA 22, Center-86-B.Jennings. 88-J.Ogden to MIA 22 for no gain (24-G.McCullough)."/>
+			<Play Header="Miami Dolphins at 13:53"/>
+			<Play DownDistanceYardline="1-10-MIA 22" EarnedFirstDown="False" PlayDescription="(13:53) 9-J.Fiedler up the middle to MIA 28 for 6 yards (55-J.Winborn)."/>
+			<Play DownDistanceYardline="2-4-MIA 28" EarnedFirstDown="False" PlayDescription="(13:14) 26-L.Smith right end pushed ob at MIA 33 for 5 yards (50-D.Smith)." FirstDownType="R1"/>
+			<Play DownDistanceYardline="1-10-MIA 33" EarnedFirstDown="True" PlayDescription="(12:42) 9-J.Fiedler pass intended for 80-J.McKnight INTERCEPTED by 31-Z.Bronson at SF 34. 31-Z.Bronson to SF 34 for no gain (80-J.McKnight). FUMBLES (80-J.McKnight), touched at SF 34, recovered by SF-30-L.Schulters at SF 39. 30-L.Schulters to SF 44 for 5 yards (82-J.Weaver). Five yards of loose ball yardage."/>
+			<Play Header="San Francisco 49ers at 12:29"/>
+			<Play DownDistanceYardline="1-10-SF 44" EarnedFirstDown="False" PlayDescription="(12:29) 20-G.Hearst up the middle to SF 49 for 5 yards (95-T.Bowens)."/>
+			<Play DownDistanceYardline="2-5-SF 49" EarnedFirstDown="False" PlayDescription="(12:29) 20-G.Hearst right end to MIA 28 for 23 yards (31-B.Marion, 54-Z.Thomas)." FirstDownType="R1"/>
+			<Play DownDistanceYardline="1-10-MIA 28" EarnedFirstDown="True" PlayDescription="(11:09) 20-G.Hearst left guard to MIA 23 for 5 yards (52-M.Greenwood)."/>
+			<Play DownDistanceYardline="2-5-MIA 23" EarnedFirstDown="False" PlayDescription="(10:29) 5-J.Garcia pass to 20-G.Hearst to MIA 12 for 11 yards (79-K.Mixon)." FirstDownType="P2"/>
+			<Play DownDistanceYardline="1-10-MIA 12" EarnedFirstDown="True" PlayDescription="(9:46) 5-J.Garcia pass to 81-T.Owens pushed ob at MIA 13 for -1 yards (31-B.Marion)."/>
+			<Play PlayDescription="PENALTY on MIA-54-Z.Thomas, Unnecessary Roughness, 7 yards, enforced at MIA 13." FirstDownType="X3"/>
+			<Play DownDistanceYardline="1-6-MIA 6" EarnedFirstDown="True" PlayDescription="(9:26) 32-K.Barlow left guard to MIA 2 for 4 yards (59-D.Rodgers)."/>
+			<Play DownDistanceYardline="2-2-MIA 2" EarnedFirstDown="False" PlayDescription="(8:49) 32-K.Barlow up the middle for 2 yards, TOUCHDOWN." FirstDownType="R4"/>
+			<Play PlayDescription="6-J.Cortez extra point is GOOD, Center-86-B.Jennings, Holder-7-J.Baker."/>
+			<Play Header="MIA 0 SF 7,  7 plays, 56 yards, 1 penalty,  3:43 drive,  6:14 elapsed"/>
+			<Play Header="6-J.Cortez kicks 56 yards from SF 30 to MIA 14. 84-C.Chambers to MIA 31 for 17 yards (23-J.Williams)."/>
+			<Play Header="Miami Dolphins at 8:46, (1st play from scrimmage 8:37)"/>
+			<Play DownDistanceYardline="1-10-MIA 31" EarnedFirstDown="False" PlayDescription="(8:37) 26-L.Smith right guard to MIA 29 for -2 yards (97-B.Young)."/>
+			<Play DownDistanceYardline="2-12-MIA 29" EarnedFirstDown="False" PlayDescription="(7:57) 26-L.Smith right tackle to MIA 30 for 1 yard (96-A.Carter)."/>
+			<Play DownDistanceYardline="3-11-MIA 30" EarnedFirstDown="False" PlayDescription="(7:15) (Shotgun) 9-J.Fiedler pass incomplete to 84-C.Chambers."/>
+			<Play DownDistanceYardline="4-11-MIA 30" EarnedFirstDown="False" PlayDescription="(7:08) 1-M.Turk punts 36 yards to SF 34, Center-89-E.Perry. 25-V.Sutherland to SF 36 for 2 yards (51-T.Hendricks)."/>
+			<Play Header="San Francisco 49ers at 7:00"/>
+			<Play DownDistanceYardline="1-10-SF 36" EarnedFirstDown="False" PlayDescription="(7:00) 32-K.Barlow right guard to SF 47 for 11 yards (23-P.Surtain)." FirstDownType="R5"/>
+			<Play DownDistanceYardline="1-10-SF 47" EarnedFirstDown="True" PlayDescription="(6:23) 5-J.Garcia pass to 32-K.Barlow to MIA 39 for 14 yards (54-Z.Thomas). Caught at MIA 49" FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-MIA 39" EarnedFirstDown="True" PlayDescription="(5:47) 32-K.Barlow up the middle to MIA 40 for -1 yards (95-T.Bowens)."/>
+			<Play DownDistanceYardline="2-11-MIA 40" EarnedFirstDown="False" PlayDescription="(5:04) 5-J.Garcia pass incomplete to 81-T.Owens."/>
+			<Play DownDistanceYardline="3-11-MIA 40" EarnedFirstDown="False" PlayDescription="(4:58) 5-J.Garcia pass to 20-G.Hearst pushed ob at MIA 31 for 9 yards (31-B.Marion)."/>
+			<Play DownDistanceYardline="4-2-MIA 31" EarnedFirstDown="False" PlayDescription="(4:27) 5-J.Garcia pass to 81-T.Owens to MIA 25 for 6 yards (31-B.Marion)." FirstDownType="P7"/>
+			<Play DownDistanceYardline="1-10-MIA 25" EarnedFirstDown="True" PlayDescription="(3:47) 32-K.Barlow up the middle to MIA 25 for no gain (45-B.Walker)."/>
+			<Play PlayDescription="PENALTY on MIA-45-B.Walker, Face Mask (5 Yards), 5 yards, enforced at MIA 25."/>
+			<Play DownDistanceYardline="1-5-MIA 20" EarnedFirstDown="False" PlayDescription="(3:21) 20-G.Hearst up the middle to MIA 19 for 1 yard (94-J.Haley, 59-D.Rodgers)."/>
+			<Play DownDistanceYardline="2-4-MIA 19" EarnedFirstDown="False" PlayDescription="(2:44) 20-G.Hearst left guard to MIA 16 for 3 yards (54-Z.Thomas, 45-B.Walker)."/>
+			<Play PlayDescription="Timeout #1 by SF at 02:06."/>
+			<Play DownDistanceYardline="3-1-MIA 16" EarnedFirstDown="False" PlayDescription="(2:06) 40-F.Beasley up the middle to MIA 14 for 2 yards (59-D.Rodgers)." FirstDownType="R8"/>
+			<Play DownDistanceYardline="1-10-MIA 14" EarnedFirstDown="True" PlayDescription="(1:23) 5-J.Garcia up the middle to MIA 12 for 2 yards (59-D.Rodgers)."/>
+			<Play DownDistanceYardline="2-8-MIA 12" EarnedFirstDown="False" PlayDescription="(:46) 32-K.Barlow up the middle to MIA 12 for no gain (95-T.Bowens)."/>
+			<Play DownDistanceYardline="3-8-MIA 12" EarnedFirstDown="False" PlayDescription="(:07) 5-J.Garcia pass to 82-E.Johnson for 12 yards, TOUCHDOWN." FirstDownType="P9"/>
+			<Play PlayDescription="6-J.Cortez extra point is GOOD, Center-86-B.Jennings, Holder-7-J.Baker."/>
+			<Play Header="MIA 0 SF 14,  13 plays, 64 yards, 1 penalty,  6:58 drive, 14:58 elapsed"/>
+			<Play Header="6-J.Cortez kicks 61 yards from SF 30 to MIA 9. 84-C.Chambers to MIA 32 for 23 yards (22-T.Jackson, 26-R.Holman)."/>
+			<Play Header="PENALTY on MIA-27-A.Freeman, Offensive Holding, 10 yards, enforced at MIA 32."/>
+			<QuarterSummary Team="Miami Dolphins" Score="0" TimeOfPossession="3:12" FirstDownsRushing="1" FirstDownsPassing="0" FirstDownsPenalty="0" FirstDownsTotal="1" ThirdDownEfficiency="0/1" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="San Francisco 49ers" Score="14" TimeOfPossession="11:48" FirstDownsRushing="4" FirstDownsPassing="4" FirstDownsPenalty="1" FirstDownsTotal="9" ThirdDownEfficiency="2/4" FourthDownEfficiency="1/1"/>
+		</_1stQuarter>
+		<_2ndQuarter>
+			<Play Header="Miami Dolphins continued."/>
+			<Play Header="Miami Dolphins Q1-00:02, (1st play from scrimmage 15:00)"/>
+			<Play DownDistanceYardline="1-10-MIA 22" EarnedFirstDown="False" PlayDescription="(15:00) 9-J.Fiedler pass to 80-J.McKnight to MIA 35 for 13 yards (29-A.Plummer)." FirstDownType="P2"/>
+			<Play DownDistanceYardline="1-10-MIA 35" EarnedFirstDown="True" PlayDescription="(14:21) 9-J.Fiedler pass to 26-L.Smith to MIA 32 for -3 yards (97-B.Young)."/>
+			<Play DownDistanceYardline="2-13-MIA 32" EarnedFirstDown="False" PlayDescription="(13:39) (Shotgun) 9-J.Fiedler pass to 84-C.Chambers to 50 for 18 yards (31-Z.Bronson, 55-J.Winborn). Caught at MIA 41" FirstDownType="P3"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(13:00) 26-L.Smith up the middle to SF 46 for 4 yards (97-B.Young)."/>
+			<Play DownDistanceYardline="2-6-SF 46" EarnedFirstDown="False" PlayDescription="(12:20) 9-J.Fiedler sacked at MIA 45 for -9 yards (55-J.Winborn/ 96-A.Carter)."/>
+			<Play DownDistanceYardline="3-15-MIA 45" EarnedFirstDown="False" PlayDescription="(11:49) (Shotgun) 34-T.Minor up the middle to SF 48 for 7 yards (55-J.Winborn)."/>
+			<Play DownDistanceYardline="4-8-SF 48" EarnedFirstDown="False" PlayDescription="(11:19) 1-M.Turk punts 16 yards to SF 32, Center-89-E.Perry, out of bounds."/>
+			<Play Header="San Francisco 49ers at 11:12"/>
+			<Play DownDistanceYardline="1-10-SF 32" EarnedFirstDown="False" PlayDescription="(11:12) 20-G.Hearst left guard to SF 36 for 4 yards (79-K.Mixon)."/>
+			<Play DownDistanceYardline="2-6-SF 36" EarnedFirstDown="False" PlayDescription="(10:33) 5-J.Garcia pass to 40-F.Beasley to SF 45 for 9 yards (31-B.Marion)." FirstDownType="P10"/>
+			<Play DownDistanceYardline="1-10-SF 45" EarnedFirstDown="True" PlayDescription="(9:48) 5-J.Garcia pass incomplete to 82-E.Johnson (94-J.Haley). Haley bats ball at line."/>
+			<Play DownDistanceYardline="2-10-SF 45" EarnedFirstDown="False" PlayDescription="(9:48) PENALTY on SF-83-J.Stokes, False Start, 5 yards, enforced at SF 45 - No Play."/>
+			<Play DownDistanceYardline="2-15-SF 40" EarnedFirstDown="False" PlayDescription="(9:43) 5-J.Garcia pass to 83-J.Stokes pushed ob at MIA 46 for 14 yards (45-B.Walker)."/>
+			<Play DownDistanceYardline="3-1-MIA 46" EarnedFirstDown="False" PlayDescription="(9:17) 5-J.Garcia pass to 81-T.Owens to MIA 36 for 10 yards (29-S.Madison). Caught at MIA 39" FirstDownType="P11"/>
+			<Play DownDistanceYardline="1-10-MIA 36" EarnedFirstDown="True" PlayDescription="(8:37) 20-G.Hearst up the middle to MIA 34 for 2 yards (99-J.Taylor)."/>
+			<Play DownDistanceYardline="2-8-MIA 34" EarnedFirstDown="False" PlayDescription="(7:52) 22-T.Jackson right guard to MIA 25 for 9 yards (99-J.Taylor)." FirstDownType="R12"/>
+			<Play DownDistanceYardline="1-10-MIA 25" EarnedFirstDown="True" PlayDescription="(7:06) 5-J.Garcia pass to 89-T.Streets to MIA 23 for 2 yards (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="2-8-MIA 23" EarnedFirstDown="False" PlayDescription="(6:22) 20-G.Hearst left guard to MIA 23 for no gain (45-B.Walker, 97-E.Grant)."/>
+			<Play DownDistanceYardline="3-8-MIA 23" EarnedFirstDown="False" PlayDescription="(5:34) (Shotgun) 5-J.Garcia pass to 20-G.Hearst to MIA 23 for no gain (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="4-8-MIA 23" EarnedFirstDown="False" PlayDescription="(4:56) 6-J.Cortez 41 yard field goal is No Good, Wide Right, Center-86-B.Jennings, Holder-7-J.Baker."/>
+			<Play Header="Miami Dolphins at 4:52"/>
+			<Play DownDistanceYardline="1-10-MIA 31" EarnedFirstDown="False" PlayDescription="(4:52) 26-L.Smith left end pushed ob at MIA 37 for 6 yards (55-J.Winborn, 50-D.Smith)."/>
+			<Play DownDistanceYardline="2-4-MIA 37" EarnedFirstDown="False" PlayDescription="(4:26) 26-L.Smith right guard to MIA 39 for 2 yards (50-D.Smith, 30-L.Schulters)."/>
+			<Play DownDistanceYardline="3-2-MIA 39" EarnedFirstDown="False" PlayDescription="(3:42) (Shotgun) 9-J.Fiedler pass to 86-O.Gadsden to 50 for 11 yards (31-Z.Bronson, 38-R.Heard). Caught at MIA 46" FirstDownType="P4"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(3:02) 9-J.Fiedler pass to 86-O.Gadsden pushed ob at SF 45 for 5 yards (36-J.Webster)."/>
+			<Play DownDistanceYardline="2-5-SF 45" EarnedFirstDown="False" PlayDescription="(2:18) 9-J.Fiedler pass to 86-O.Gadsden to SF 45 for no gain (36-J.Webster, 97-B.Young)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-5-SF 45" EarnedFirstDown="False" PlayDescription="(2:00) (Shotgun) 9-J.Fiedler sacked at MIA 46 for -9 yards (38-R.Heard). FUMBLES (38-R.Heard), RECOVERED by SF-98-J.Peterson at MIA 46. 98-J.Peterson to MIA 46 for no gain (71-T.Wade)."/>
+			<Play Header="San Francisco 49ers at 1:54"/>
+			<Play DownDistanceYardline="1-10-MIA 46" EarnedFirstDown="False" PlayDescription="(1:54) 20-G.Hearst right end ran ob at MIA 43 for 3 yards (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="2-7-MIA 43" EarnedFirstDown="False" PlayDescription="(1:49) 5-J.Garcia pass incomplete to 83-J.Stokes (23-P.Surtain)."/>
+			<Play DownDistanceYardline="3-7-MIA 43" EarnedFirstDown="False" PlayDescription="(1:43) 5-J.Garcia pass to 83-J.Stokes to MIA 37 for 6 yards (54-Z.Thomas)."/>
+			<Play PlayDescription="Timeout #2 by SF at 00:57."/>
+			<Play DownDistanceYardline="4-1-MIA 37" EarnedFirstDown="False" PlayDescription="(:57) 5-J.Garcia to MIA 46 for -9 yards (59-D.Rodgers)."/>
+			<Play Header="Miami Dolphins at 0:47"/>
+			<Play DownDistanceYardline="1-10-MIA 46" EarnedFirstDown="False" PlayDescription="(:47) (Shotgun) 9-J.Fiedler pass to 87-D.Ward to SF 45 for 9 yards (55-J.Winborn)."/>
+			<Play PlayDescription="Timeout #1 by MIA at 00:41."/>
+			<Play DownDistanceYardline="2-1-SF 45" EarnedFirstDown="False" PlayDescription="(:41) (Shotgun) 9-J.Fiedler pass incomplete to 86-O.Gadsden."/>
+			<Play DownDistanceYardline="3-1-SF 45" EarnedFirstDown="False" PlayDescription="(:37) (Shotgun) 9-J.Fiedler sacked at MIA 45 for -10 yards (94-D.Stubblefield)."/>
+			<Play PlayDescription="Timeout #3 by SF at 00:32."/>
+			<Play DownDistanceYardline="4-11-MIA 45" EarnedFirstDown="False" PlayDescription="(:32) 1-M.Turk punts 30 yards to SF 25, Center-89-E.Perry, downed by MIA-41-S.McGarrahan."/>
+			<Play Header="San Francisco 49ers at 0:18"/>
+			<Play DownDistanceYardline="1-10-SF 25" EarnedFirstDown="False" PlayDescription="(:18) 5-J.Garcia up the middle to SF 24 for -1 yards."/>
+			<QuarterSummary Team="Miami Dolphins" Score="0" TimeOfPossession="7:15" FirstDownsRushing="0" FirstDownsPassing="3" FirstDownsPenalty="0" FirstDownsTotal="3" ThirdDownEfficiency="1/4" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="San Francisco 49ers" Score="14" TimeOfPossession="7:45" FirstDownsRushing="1" FirstDownsPassing="2" FirstDownsPenalty="0" FirstDownsTotal="3" ThirdDownEfficiency="1/3" FourthDownEfficiency="0/1"/>
+		</_2ndQuarter>
+		<_3rdQuarter>
+			<Play Header="MIA elects to Receive, and SF elects to Kick."/>
+			<Play Header="6-J.Cortez kicks 62 yards from SF 30 to MIA 8. 84-C.Chambers to MIA 39 for 31 yards (22-T.Jackson)."/>
+			<Play Header="Miami Dolphins at 15:00, (1st play from scrimmage 14:48)"/>
+			<Play DownDistanceYardline="1-10-MIA 39" EarnedFirstDown="False" PlayDescription="(14:48) 26-L.Smith right guard to MIA 41 for 2 yards (50-D.Smith, 98-J.Peterson)."/>
+			<Play DownDistanceYardline="2-8-MIA 41" EarnedFirstDown="False" PlayDescription="(14:09) 9-J.Fiedler pass incomplete to 84-C.Chambers."/>
+			<Play DownDistanceYardline="3-8-MIA 41" EarnedFirstDown="False" PlayDescription="(14:04) (Shotgun) 9-J.Fiedler pass to 87-D.Ward to 50 for 9 yards (38-R.Heard)." FirstDownType="P5"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(13:24) 9-J.Fiedler pass incomplete to 86-O.Gadsden (36-J.Webster)."/>
+			<Play DownDistanceYardline="2-10-50" EarnedFirstDown="False" PlayDescription="(13:20) 9-J.Fiedler pass to 84-C.Chambers to SF 41 for 9 yards (29-A.Plummer)."/>
+			<Play DownDistanceYardline="3-1-SF 41" EarnedFirstDown="False" PlayDescription="(12:40) R.Lucas in at QB. 26-L.Smith right end to SF 43 for -2 yards (91-C.Okeafor, 50-D.Smith)."/>
+			<Play DownDistanceYardline="4-3-SF 43" EarnedFirstDown="False" PlayDescription="(12:02) 1-M.Turk punts 41 yards to SF 2, Center-89-E.Perry, downed by MIA-21-T.Cousin."/>
+			<Play Header="San Francisco 49ers at 11:56"/>
+			<Play DownDistanceYardline="1-10-SF 2" EarnedFirstDown="False" PlayDescription="(11:56) 20-G.Hearst right guard to SF 7 for 5 yards (99-J.Taylor)."/>
+			<Play DownDistanceYardline="2-5-SF 7" EarnedFirstDown="False" PlayDescription="(11:23) 20-G.Hearst up the middle to SF 5 for -2 yards (99-J.Taylor, 79-K.Mixon)."/>
+			<Play DownDistanceYardline="3-7-SF 5" EarnedFirstDown="False" PlayDescription="(10:38) 20-G.Hearst up the middle to SF 14 for 9 yards (31-B.Marion)." FirstDownType="R13"/>
+			<Play DownDistanceYardline="1-10-SF 14" EarnedFirstDown="True" PlayDescription="(9:54) 20-G.Hearst up the middle to SF 16 for 2 yards (94-J.Haley)."/>
+			<Play DownDistanceYardline="2-8-SF 16" EarnedFirstDown="False" PlayDescription="(9:13) 5-J.Garcia pass to 81-T.Owens to SF 44 for 28 yards (23-P.Surtain). Caught at SF41." FirstDownType="P14"/>
+			<Play DownDistanceYardline="1-10-SF 44" EarnedFirstDown="True" PlayDescription="(8:27) 20-G.Hearst left tackle to SF 46 for 2 yards (31-B.Marion, 99-J.Taylor)."/>
+			<Play DownDistanceYardline="2-8-SF 46" EarnedFirstDown="False" PlayDescription="(7:45) 20-G.Hearst up the middle to MIA 45 for 9 yards (54-Z.Thomas, 31-B.Marion)." FirstDownType="R15"/>
+			<Play DownDistanceYardline="1-10-MIA 45" EarnedFirstDown="True" PlayDescription="(7:00) 32-K.Barlow left tackle to MIA 41 for 4 yards (31-B.Marion)."/>
+			<Play DownDistanceYardline="2-6-MIA 41" EarnedFirstDown="False" PlayDescription="(6:23) 40-F.Beasley right guard to MIA 42 for -1 yards (95-T.Bowens)."/>
+			<Play DownDistanceYardline="3-7-MIA 42" EarnedFirstDown="False" PlayDescription="(5:40) 5-J.Garcia pass to 22-T.Jackson to MIA 29 for 13 yards (96-D.Bowens, 29-S.Madison)." FirstDownType="P16"/>
+			<Play DownDistanceYardline="1-10-MIA 29" EarnedFirstDown="True" PlayDescription="(4:50) 32-K.Barlow right guard to MIA 28 for 1 yard (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="2-9-MIA 28" EarnedFirstDown="False" PlayDescription="(4:13) 20-G.Hearst right end pushed ob at MIA 14 for 14 yards (45-B.Walker)." FirstDownType="R17"/>
+			<Play DownDistanceYardline="1-10-MIA 14" EarnedFirstDown="True" PlayDescription="(3:44) 32-K.Barlow right end to MIA 9 for 5 yards (31-B.Marion, 45-B.Walker)."/>
+			<Play DownDistanceYardline="2-5-MIA 9" EarnedFirstDown="False" PlayDescription="(3:00) 32-K.Barlow up the middle to MIA 1 for 8 yards (31-B.Marion)." FirstDownType="R18"/>
+			<Play DownDistanceYardline="1-1-MIA 1" EarnedFirstDown="True" PlayDescription="(2:21) 32-K.Barlow up the middle to MIA 1 for no gain (45-B.Walker)."/>
+			<Play DownDistanceYardline="2-1-MIA 1" EarnedFirstDown="False" PlayDescription="(1:36) 40-F.Beasley left guard to MIA 1 for no gain (58-S.Galyon)."/>
+			<Play PlayDescription="Timeout #1 by MIA at 00:56."/>
+			<Play DownDistanceYardline="3-1-MIA 1" EarnedFirstDown="False" PlayDescription="(:56) 32-K.Barlow up the middle for 1 yard, TOUCHDOWN." FirstDownType="R19"/>
+			<Play PlayDescription="6-J.Cortez extra point is GOOD, Center-86-B.Jennings, Holder-7-J.Baker."/>
+			<Play Header="MIA 0 SF 21,  17 plays, 98 yards, 11:05 drive, 14:09 elapsed"/>
+			<Play Header="6-J.Cortez kicks 62 yards from SF 30 to MIA 8. 84-C.Chambers to MIA 26 for 18 yards (38-R.Heard). FUMBLES (38-R.Heard), recovered by MIA-33-D.Dyer at MIA 24. 33-D.Dyer to MIA 24 for no gain (54-Q.Stewart). McCullough injured on play. Chambers credited with 16 yards on return."/>
+			<Play Header="Miami Dolphins at 0:51, (1st play from scrimmage 0:38)"/>
+			<Play DownDistanceYardline="1-10-MIA 24" EarnedFirstDown="False" PlayDescription="(:38) 26-L.Smith left guard to MIA 30 for 6 yards (50-D.Smith)."/>
+			<Play DownDistanceYardline="2-4-MIA 30" EarnedFirstDown="False" PlayDescription="(:06) (Shotgun) 9-J.Fiedler pass incomplete to 82-J.Weaver (30-L.Schulters)."/>
+			<QuarterSummary Team="Miami Dolphins" Score="0" TimeOfPossession="3:55" FirstDownsRushing="0" FirstDownsPassing="1" FirstDownsPenalty="0" FirstDownsTotal="1" ThirdDownEfficiency="1/2" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="San Francisco 49ers" Score="21" TimeOfPossession="11:05" FirstDownsRushing="5" FirstDownsPassing="2" FirstDownsPenalty="0" FirstDownsTotal="7" ThirdDownEfficiency="3/3" FourthDownEfficiency="0/0"/>
+		</_3rdQuarter>
+		<_4thQuarter>
+			<Play Header="Miami Dolphins continued."/>
+			<Play DownDistanceYardline="3-4-MIA 30" EarnedFirstDown="False" PlayDescription="(15:00) (Shotgun) 9-J.Fiedler pass incomplete to 84-C.Chambers."/>
+			<Play DownDistanceYardline="4-4-MIA 30" EarnedFirstDown="False" PlayDescription="(14:52) 1-M.Turk punts 47 yards to SF 23, Center-89-E.Perry. 25-V.Sutherland to SF 25 for 2 yards (21-T.Cousin)."/>
+			<Play Header="San Francisco 49ers at 14:44"/>
+			<Play DownDistanceYardline="1-10-SF 25" EarnedFirstDown="False" PlayDescription="(14:44) 20-G.Hearst up the middle to SF 27 for 2 yards (95-T.Bowens, 99-J.Taylor)."/>
+			<Play DownDistanceYardline="2-8-SF 27" EarnedFirstDown="False" PlayDescription="(14:01) 20-G.Hearst left guard to SF 30 for 3 yards (45-B.Walker)."/>
+			<Play DownDistanceYardline="3-5-SF 30" EarnedFirstDown="False" PlayDescription="(13:22) 5-J.Garcia pass incomplete to 83-J.Stokes (23-P.Surtain)."/>
+			<Play PlayDescription="PENALTY on MIA-23-P.Surtain, Illegal Use of Hands, 5 yards, enforced at SF 30 - No Play." FirstDownType="X20"/>
+			<Play DownDistanceYardline="1-10-SF 35" EarnedFirstDown="True" PlayDescription="(13:18) 20-G.Hearst right guard to SF 35 for no gain (45-B.Walker, 79-K.Mixon)."/>
+			<Play DownDistanceYardline="2-10-SF 35" EarnedFirstDown="False" PlayDescription="(12:36) 20-G.Hearst left end to SF 35 for no gain (97-E.Grant)."/>
+			<Play DownDistanceYardline="3-10-SF 35" EarnedFirstDown="False" PlayDescription="(11:52) 22-T.Jackson left guard to SF 43 for 8 yards (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="4-2-SF 43" EarnedFirstDown="False" PlayDescription="(11:09) 7-J.Baker punts 30 yards to MIA 27, Center-86-B.Jennings. 21-T.Cousin to MIA 27 for no gain (23-J.Williams)."/>
+			<Play Header="Miami Dolphins at 10:59"/>
+			<Play DownDistanceYardline="1-10-MIA 27" EarnedFirstDown="False" PlayDescription="(10:59) 9-J.Fiedler pass to 80-J.McKnight to SF 46 for 27 yards (36-J.Webster, 50-D.Smith)." FirstDownType="P6"/>
+			<Play DownDistanceYardline="1-10-SF 46" EarnedFirstDown="True" PlayDescription="(10:20) 9-J.Fiedler pass to 34-T.Minor to SF 46 for no gain (97-B.Young)."/>
+			<Play DownDistanceYardline="2-10-SF 46" EarnedFirstDown="False" PlayDescription="(9:39) 9-J.Fiedler sacked at MIA 48 for -6 yards (97-B.Young/ 91-C.Okeafor). B. Young injured on play."/>
+			<Play DownDistanceYardline="3-16-MIA 48" EarnedFirstDown="False" PlayDescription="(9:17) (Shotgun) 9-J.Fiedler pass incomplete to 84-C.Chambers (30-L.Schulters)."/>
+			<Play DownDistanceYardline="4-16-MIA 48" EarnedFirstDown="False" PlayDescription="(9:10) 1-M.Turk punts 27 yards to SF 25, Center-89-E.Perry, fair catch by 25-V.Sutherland."/>
+			<Play Header="San Francisco 49ers at 9:02"/>
+			<Play DownDistanceYardline="1-10-SF 25" EarnedFirstDown="False" PlayDescription="(9:02) 32-K.Barlow right end to SF 27 for 2 yards (23-P.Surtain)."/>
+			<Play DownDistanceYardline="2-8-SF 27" EarnedFirstDown="False" PlayDescription="(8:20) 32-K.Barlow right guard to SF 29 for 2 yards (91-L.Bromell)."/>
+			<Play DownDistanceYardline="3-6-SF 29" EarnedFirstDown="False" PlayDescription="(7:36) 5-J.Garcia pass incomplete to 82-E.Johnson (96-D.Bowens)."/>
+			<Play DownDistanceYardline="4-6-SF 29" EarnedFirstDown="False" PlayDescription="(7:30) 7-J.Baker punts 42 yards to MIA 29, Center-86-B.Jennings. 88-J.Ogden to MIA 32 for 3 yards (86-B.Jennings)."/>
+			<Play Header="Miami Dolphins at 7:18"/>
+			<Play DownDistanceYardline="1-10-MIA 32" EarnedFirstDown="False" PlayDescription="(7:18) (Shotgun) 9-J.Fiedler pass to 88-J.Ogden to MIA 43 for 11 yards (38-R.Heard)." FirstDownType="P7"/>
+			<Play DownDistanceYardline="1-10-MIA 43" EarnedFirstDown="True" PlayDescription="(6:55) (Shotgun) 9-J.Fiedler pass to 34-T.Minor to MIA 46 for 3 yards (38-R.Heard)."/>
+			<Play DownDistanceYardline="2-7-MIA 46" EarnedFirstDown="False" PlayDescription="(6:34) (Shotgun) 9-J.Fiedler sacked at MIA 43 for -3 yards (91-C.Okeafor)."/>
+			<Play DownDistanceYardline="3-10-MIA 43" EarnedFirstDown="False" PlayDescription="(6:20) (Shotgun) 9-J.Fiedler up the middle to SF 36 for 21 yards (31-Z.Bronson)." FirstDownType="R8"/>
+			<Play DownDistanceYardline="1-10-SF 36" EarnedFirstDown="True" PlayDescription="(5:51) (Shotgun) 34-T.Minor left guard to SF 31 for 5 yards (26-R.Holman, 55-J.Winborn)."/>
+			<Play DownDistanceYardline="2-5-SF 31" EarnedFirstDown="False" PlayDescription="(5:28) (Shotgun) 9-J.Fiedler pass to 34-T.Minor to SF 27 for 4 yards (38-R.Heard, 36-J.Webster)."/>
+			<Play DownDistanceYardline="3-1-SF 27" EarnedFirstDown="False" PlayDescription="(5:28) 9-J.Fiedler up the middle to SF 26 for 1 yard (55-J.Winborn)." FirstDownType="R9"/>
+			<Play DownDistanceYardline="1-10-SF 26" EarnedFirstDown="True" PlayDescription="(4:43) (Shotgun) 9-J.Fiedler pass intended for 88-J.Ogden INTERCEPTED by 36-J.Webster at SF 9. 36-J.Webster to SF 25 for 16 yards (88-J.Ogden)."/>
+			<Play Header="San Francisco 49ers at 4:31"/>
+			<Play DownDistanceYardline="1-10-SF 25" EarnedFirstDown="False" PlayDescription="(4:31) 20-G.Hearst right guard to SF 33 for 8 yards (31-B.Marion). Rattay in at QB."/>
+			<Play DownDistanceYardline="2-2-SF 33" EarnedFirstDown="False" PlayDescription="(3:48) 20-G.Hearst up the middle to SF 34 for 1 yard (54-Z.Thomas)."/>
+			<Play DownDistanceYardline="3-1-SF 34" EarnedFirstDown="False" PlayDescription="(3:04) 13-T.Rattay FUMBLES (Aborted) at SF 34, and recovers at SF 35. 13-T.Rattay to SF 35 for no gain (97-E.Grant). T.Rattay credited with a gain of 1 yard on the rush." FirstDownType="R21"/>
+			<Play DownDistanceYardline="1-10-SF 35" EarnedFirstDown="True" PlayDescription="(2:18) 20-G.Hearst up the middle to SF 37 for 2 yards (91-L.Bromell)."/>
+			<Play PlayDescription="Timeout #2 by MIA at 02:09."/>
+			<Play DownDistanceYardline="2-8-SF 37" EarnedFirstDown="False" PlayDescription="(2:09) 20-G.Hearst right end to SF 39 for 2 yards (79-K.Mixon, 59-D.Rodgers)."/>
+			<Play Header="Two-Minute Warning"/>
+			<Play DownDistanceYardline="3-6-SF 39" EarnedFirstDown="False" PlayDescription="(2:00) 20-G.Hearst up the middle to SF 39 for no gain (54-Z.Thomas)."/>
+			<Play PlayDescription="Timeout #3 by MIA at 01:52."/>
+			<Play DownDistanceYardline="4-6-SF 39" EarnedFirstDown="False" PlayDescription="(1:51) 7-J.Baker punts 34 yards to MIA 27, Center-86-B.Jennings, fair catch by 87-D.Ward."/>
+			<Play Header="Miami Dolphins at 1:45"/>
+			<Play DownDistanceYardline="1-10-MIA 27" EarnedFirstDown="False" PlayDescription="(1:45) PENALTY on SF-97-B.Young, Encroachment, 5 yards, enforced at MIA 27 - No Play."/>
+			<Play DownDistanceYardline="1-5-MIA 32" EarnedFirstDown="False" PlayDescription="(1:45) (Shotgun) 9-J.Fiedler up the middle to MIA 37 for 5 yards (55-J.Winborn)." FirstDownType="R10"/>
+			<Play DownDistanceYardline="1-10-MIA 37" EarnedFirstDown="True" PlayDescription="(1:25) (Shotgun) 9-J.Fiedler pass to 88-J.Ogden to 50 for 13 yards (36-J.Webster)." FirstDownType="P11"/>
+			<Play DownDistanceYardline="1-10-50" EarnedFirstDown="True" PlayDescription="(1:07) (Shotgun) 9-J.Fiedler pass incomplete to 80-J.McKnight (96-A.Carter)."/>
+			<Play DownDistanceYardline="2-10-50" EarnedFirstDown="False" PlayDescription="(1:03) (Shotgun) 9-J.Fiedler pass to 34-T.Minor to SF 30 for 20 yards (31-Z.Bronson)." FirstDownType="P12"/>
+			<Play DownDistanceYardline="1-10-SF 30" EarnedFirstDown="True" PlayDescription="(:39) 9-J.Fiedler pass incomplete. Pass spiked."/>
+			<Play DownDistanceYardline="2-10-SF 30" EarnedFirstDown="False" PlayDescription="(:39) (Shotgun) 9-J.Fiedler sacked at SF 35 for -5 yards (91-C.Okeafor)."/>
+			<Play DownDistanceYardline="3-15-SF 35" EarnedFirstDown="False" PlayDescription="(:26) (Shotgun) 9-J.Fiedler pass intended for 84-C.Chambers INTERCEPTED by 31-Z.Bronson at SF -1. Touchback."/>
+			<Play Header="San Francisco 49ers at 0:19"/>
+			<Play DownDistanceYardline="1-10-SF 20" EarnedFirstDown="False" PlayDescription="(:19) 13-T.Rattay up the middle to SF 19 for -1 yards. Rattay kneels down."/>
+			<QuarterSummary Team="Miami Dolphins" Score="0" TimeOfPossession="6:26" FirstDownsRushing="3" FirstDownsPassing="4" FirstDownsPenalty="0" FirstDownsTotal="7" ThirdDownEfficiency="2/5" FourthDownEfficiency="0/0"/>
+			<QuarterSummary Team="San Francisco 49ers" Score="21" TimeOfPossession="8:34" FirstDownsRushing="1" FirstDownsPassing="0" FirstDownsPenalty="1" FirstDownsTotal="2" ThirdDownEfficiency="1/4" FourthDownEfficiency="0/0"/>
+		</_4thQuarter>
+	</PlayByPlay>
+</Gamebook>
