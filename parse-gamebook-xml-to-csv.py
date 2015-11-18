@@ -184,7 +184,7 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         back_judge = get_xml_attribute(gamebook_summary, 'BackJudge')
         field_judge = get_xml_attribute(gamebook_summary, 'FieldJudge')
         replay_official = get_xml_attribute(gamebook_summary, 'ReplayOfficial')
-        attendance = get_xml_attribute(gamebook_summary, 'Attendance')
+        attendance = get_xml_attribute(gamebook_summary, 'Attendance').replace(',','')
         game_length = get_xml_attribute(gamebook_summary, 'GameLength')
         visitor_score_q1 = get_xml_attribute(gamebook_summary, 'VisitorScoreQ1')
         visitor_score_q2 = get_xml_attribute(gamebook_summary, 'VisitorScoreQ2')
@@ -341,7 +341,7 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         home_interceptors_xml = individual_stats_dom.getElementsByTagName('InterceptorHome')
         home_interceptor_stats = get_interceptor_stats('Total', home_interceptors_xml)
 
-        output = [season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type]
+        output = [season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type,schedule_date,start_time,time_zone,game_weather,temp,humidity,windspeed,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated]
         for qb_stat in qb_stat_descs:
             output.append(away_qb_stats[qb_stat])
             output.append(home_qb_stats[qb_stat])
@@ -361,7 +361,7 @@ rare_stat_descs = ['fumbles', 'interceptions', 'punt returns', 'kickoff returns'
 rare_stat_with_dash_descs = ['rushing made-attempts', 'passing made-attempts']
 
 # print csv header
-header = "season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type"
+header = "season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type,schedule_date,start_time,time_zone,game_weather,temp,humidity,windspeed,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated"
 for qb_stat in qb_stat_descs:
     header += ",away_qb_" + replace_periods_and_spaces(qb_stat)
     header += ",home_qb_" + replace_periods_and_spaces(qb_stat)
