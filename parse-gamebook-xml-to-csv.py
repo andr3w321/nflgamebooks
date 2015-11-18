@@ -5,12 +5,15 @@ import xml.dom.minidom as xml
 from nfldb import standard_team
 from stadium import standard_stadium
 
-
 ''' Sort the given list in the way that humans expect. '''
 def sort_nicely( l ): 
   convert = lambda text: int(text) if text.isdigit() else text 
   alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
   l.sort( key=alphanum_key ) 
+
+''' Removes periods and replaces spaces with _'''
+def replace_periods_and_spaces(str):
+    return str.replace(' ', '_').replace('.', '').replace('(','').replace(')','').replace('#','n').replace('average','avg')
 
 '''
 Returns a list of all filenames in a dir
@@ -98,7 +101,7 @@ def save_and_print_new(value, values):
 
 ''' Given a QB name and array of passers_xml, returns a json object of that qbs stats for the game '''
 def get_qb_stats(qb_name, passers_xml, rushers_xml):
-    qb_stats = {'Name': '', 'Pass Attempts': '', 'Completions': '', 'Pass Yards': '', 'Sacks': '', 'SackYardage': '', 'Pass TDs': '', 'Long Pass': '', 'Interceptions': '', 'Rating': '', 'Rush Attempts': '', 'Rush Yards': '', 'Yards Per Rush': '', 'Rush TDs': '', 'Long Rush': ''}
+    qb_stats = {'name': '', 'pass attempts': '', 'completions': '', 'pass yards': '', 'sacks': '', 'sack yardage': '', 'pass tds': '', 'long pass': '', 'interceptions': '', 'rating': '', 'rush attempts': '', 'rush yards': '', 'yards per rush': '', 'rush tds': '', 'long rush': ''}
     for passer_xml in passers_xml:
         player_name = get_xml_attribute(passer_xml, 'Player')
         # edge case, some starting qb position will be wrong so the qb_name will be blank, try assigning it
@@ -106,24 +109,24 @@ def get_qb_stats(qb_name, passers_xml, rushers_xml):
             qb_name = player_name
             sys.stderr.write("Error: blank QB name, using {}\n".format(qb_name))
         if player_name == qb_name:
-            qb_stats['Name'] = player_name
-            qb_stats['Pass Attempts'] = get_xml_attribute(passer_xml, 'Attempts')
-            qb_stats['Completions'] = get_xml_attribute(passer_xml, 'Completions')
-            qb_stats['Pass Yards'] = get_xml_attribute(passer_xml, 'Yards')
-            qb_stats['Sacks'] = get_xml_attribute(passer_xml, 'Sacks')
-            qb_stats['SackYardage'] = get_xml_attribute(passer_xml, 'SackYardage')
-            qb_stats['Pass TDs'] = get_xml_attribute(passer_xml, 'Touchdowns')
-            qb_stats['Long Pass'] = get_xml_attribute(passer_xml, 'Long')
-            qb_stats['Interceptions'] = get_xml_attribute(passer_xml, 'Interceptions')
-            qb_stats['Rating'] = get_xml_attribute(passer_xml, 'Rating')
+            qb_stats['name'] = player_name
+            qb_stats['pass attempts'] = get_xml_attribute(passer_xml, 'Attempts')
+            qb_stats['completions'] = get_xml_attribute(passer_xml, 'Completions')
+            qb_stats['pass yards'] = get_xml_attribute(passer_xml, 'Yards')
+            qb_stats['sacks'] = get_xml_attribute(passer_xml, 'Sacks')
+            qb_stats['sack yardage'] = get_xml_attribute(passer_xml, 'SackYardage')
+            qb_stats['pass tds'] = get_xml_attribute(passer_xml, 'Touchdowns')
+            qb_stats['long pass'] = re.sub('t', '', get_xml_attribute(passer_xml, 'Long'))
+            qb_stats['interceptions'] = get_xml_attribute(passer_xml, 'Interceptions')
+            qb_stats['rating'] = get_xml_attribute(passer_xml, 'Rating')
     for rusher_xml in rushers_xml:
         player_name = get_xml_attribute(rusher_xml, 'Player')
         if player_name == qb_name:
-            qb_stats['Rush Attempts'] = get_xml_attribute(rusher_xml, 'Attempts')
-            qb_stats['Rush Yards'] = get_xml_attribute(rusher_xml, 'Yards')
-            qb_stats['Yards Per Rush'] = get_xml_attribute(rusher_xml, 'Average')
-            qb_stats['Rush TDs'] = get_xml_attribute(rusher_xml, 'Touchdowns')
-            qb_stats['Long Rush'] = get_xml_attribute(rusher_xml, 'Long')
+            qb_stats['rush attempts'] = get_xml_attribute(rusher_xml, 'Attempts')
+            qb_stats['rush yards'] = get_xml_attribute(rusher_xml, 'Yards')
+            qb_stats['yards per rush'] = get_xml_attribute(rusher_xml, 'Average')
+            qb_stats['rush tds'] = get_xml_attribute(rusher_xml, 'Touchdowns')
+            qb_stats['long rush'] = re.sub('t', '', get_xml_attribute(rusher_xml, 'Long'))
     return qb_stats
 
 ''' Given an interceptor name and array of passers_xml, returns a json object of that incterceptors stats for the game '''
@@ -154,8 +157,8 @@ def print_ary_as_csv_line(ary):
 def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs):
     for xml_file in xml_filenames:
         # raw game summary data
-        year,week,stype,gamekey = xml_file.split('.xml')[0].split('-')
-        sys.stderr.write("{}-{}-{}-{}.xml\n".format(year, week, stype, gamekey))
+        season_year,week,season_type,gamekey = xml_file.split('.xml')[0].split('-')
+        sys.stderr.write("{}-{}-{}-{}.xml\n".format(season_year, week, season_type, gamekey))
         dom = get_dom(gamebooks_path, xml_file)
         gamebook_summary = dom.getElementsByTagName('GamebookSummary')[0]
         schedule_date = get_xml_attribute(gamebook_summary, 'ScheduleDate')
@@ -250,22 +253,22 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         home_team_stats['times thrown'], home_team_stats['yards lost attempting to pass'] = home_team_stats['times thrown - yards lost attempting to pass'].split('-')
         away_team_stats['pass attempts'], away_team_stats['completions'], away_team_stats['had intercepted'] = away_team_stats['pass attempts-completions-had intercepted'].split('-')
         home_team_stats['pass attempts'], home_team_stats['completions'], home_team_stats['had intercepted'] = home_team_stats['pass attempts-completions-had intercepted'].split('-')
-        away_team_stats['no. kickoffs'], away_team_stats['no. kickoffs in endzone'], away_team_stats['no. kickoffs touchbacks'] = away_team_stats['kickoffs number-in end zone-touchbacks'].split('-')
-        home_team_stats['no. kickoffs'], home_team_stats['no. kickoffs in endzone'], home_team_stats['no. kickoffs touchbacks'] = home_team_stats['kickoffs number-in end zone-touchbacks'].split('-')
-        away_team_stats['no. punts'], away_team_stats['avg punt'] = away_team_stats['punts number and average'].split('-')
-        home_team_stats['no. punts'], home_team_stats['avg punt'] = home_team_stats['punts number and average'].split('-')
+        away_team_stats['n kickoffs'], away_team_stats['n kickoffs in endzone'], away_team_stats['n kickoffs touchbacks'] = away_team_stats['kickoffs number-in end zone-touchbacks'].split('-')
+        home_team_stats['n kickoffs'], home_team_stats['n kickoffs in endzone'], home_team_stats['n kickoffs touchbacks'] = home_team_stats['kickoffs number-in end zone-touchbacks'].split('-')
+        away_team_stats['n punts'], away_team_stats['avg punt'] = away_team_stats['punts number and average'].split('-')
+        home_team_stats['n punts'], home_team_stats['avg punt'] = home_team_stats['punts number and average'].split('-')
         away_team_stats['fgs had blocked'], away_team_stats['pats had blocked'] = away_team_stats['fgs - pats had blocked'].split('-')
         home_team_stats['fgs had blocked'], home_team_stats['pats had blocked'] = home_team_stats['fgs - pats had blocked'].split('-')
-        away_team_stats['no. punt returns'], away_team_stats['yards punt returns'] = away_team_stats['no. and yards punt returns'].split('-')
-        home_team_stats['no. punt returns'], home_team_stats['yards punt returns'] = home_team_stats['no. and yards punt returns'].split('-')
-        away_team_stats['no. kickoff returns'], away_team_stats['yards kickoff returns'] = away_team_stats['no. and yards kickoff returns'].split('-')
-        home_team_stats['no. kickoff returns'], home_team_stats['yards kickoff returns'] = home_team_stats['no. and yards kickoff returns'].split('-')
-        away_team_stats['no. interception returns'], away_team_stats['yards interception returns'] = away_team_stats['no. and yards interception returns'].split('-')
-        home_team_stats['no. interception returns'], home_team_stats['yards interception returns'] = home_team_stats['no. and yards interception returns'].split('-')
-        away_team_stats['no. penalties'], away_team_stats['penalty yards'] = away_team_stats['penalties number and yards'].split('-')
-        home_team_stats['no. penalties'], home_team_stats['penalty yards'] = home_team_stats['penalties number and yards'].split('-')
-        away_team_stats['no. fumbles'], away_team_stats['no. fumbles lost'] = away_team_stats['fumbles number and lost'].split('-')
-        home_team_stats['no. fumbles'], home_team_stats['no. fumbles lost'] = home_team_stats['fumbles number and lost'].split('-')
+        away_team_stats['n punt returns'], away_team_stats['yards punt returns'] = away_team_stats['no. and yards punt returns'].split('-')
+        home_team_stats['n punt returns'], home_team_stats['yards punt returns'] = home_team_stats['no. and yards punt returns'].split('-')
+        away_team_stats['n kickoff returns'], away_team_stats['yards kickoff returns'] = away_team_stats['no. and yards kickoff returns'].split('-')
+        home_team_stats['n kickoff returns'], home_team_stats['yards kickoff returns'] = home_team_stats['no. and yards kickoff returns'].split('-')
+        away_team_stats['n interception returns'], away_team_stats['yards interception returns'] = away_team_stats['no. and yards interception returns'].split('-')
+        home_team_stats['n interception returns'], home_team_stats['yards interception returns'] = home_team_stats['no. and yards interception returns'].split('-')
+        away_team_stats['n penalties'], away_team_stats['penalty yards'] = away_team_stats['penalties number and yards'].split('-')
+        home_team_stats['n penalties'], home_team_stats['penalty yards'] = home_team_stats['penalties number and yards'].split('-')
+        away_team_stats['n fumbles'], away_team_stats['n fumbles lost'] = away_team_stats['fumbles number and lost'].split('-')
+        home_team_stats['n fumbles'], home_team_stats['n fumbles lost'] = home_team_stats['fumbles number and lost'].split('-')
         away_team_stats['extra points made'], away_team_stats['extra points attempts'] = away_team_stats['extra points made-attempts'].split('-')
         home_team_stats['extra points made'], home_team_stats['extra points attempts'] = home_team_stats['extra points made-attempts'].split('-')
         away_team_stats['kicking made'], away_team_stats['kicking attempts'] = away_team_stats['kicking made-attempts'].split('-')
@@ -338,7 +341,7 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         home_interceptors_xml = individual_stats_dom.getElementsByTagName('InterceptorHome')
         home_interceptor_stats = get_interceptor_stats('Total', home_interceptors_xml)
 
-        output = [year,week,stype,gamekey,away_team,home_team,stadium,stadium_type,turf_type]
+        output = [season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type]
         for qb_stat in qb_stat_descs:
             output.append(away_qb_stats[qb_stat])
             output.append(home_qb_stats[qb_stat])
@@ -351,25 +354,31 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
 
         print_ary_as_csv_line(output)
 
-qb_stat_descs = ['Name', 'Pass Attempts', 'Completions', 'Pass Yards', 'Sacks', 'SackYardage', 'Pass TDs', 'Long Pass', 'Interceptions', 'Rating', 'Rush Attempts', 'Rush Yards', 'Yards Per Rush', 'Rush TDs', 'Long Rush']
-stat_descs = ['third downs converted', 'third downs', 'third down convert percent', 'fourth downs converted', 'fourth downs', 'fourth down convert percent', 'tackles for a loss', 'tackles for a loss yardage', 'times thrown', 'yards lost attempting to pass', 'pass attempts', 'completions', 'had intercepted', 'no. kickoffs', 'no. kickoffs in endzone', 'no. kickoffs touchbacks', 'no. punts', 'avg punt', 'fgs had blocked', 'pats had blocked', 'no. punt returns', 'yards punt returns', 'no. kickoff returns', 'yards kickoff returns', 'no. interception returns', 'yards interception returns', 'no. penalties', 'penalty yards', 'no. fumbles', 'no. fumbles lost', 'extra points made', 'extra points attempts', 'kicking made', 'kicking attempts', 'field goals made', 'field goals attempts', 'red zone converts', 'red zone attempts', 'red zone convert percentage', 'goal to go converts', 'goal to go attempts', 'goal to go convert percentage', 'time of possession', 'total first downs', 'by rushing', 'by passing', 'by penalty', 'total net yards', 'total offensive plays (inc. times thrown passing)', 'average gain per offensive play', 'net yards rushing', 'total rushing plays', 'average gain per rushing play', 'net yards passing', 'gross yards passing', 'avg gain per pass play (inc.# thrown passing)', 'had blocked', 'net punting average', 'total return yardage (not including kickoffs)', 'touchdowns', 'rushing', 'passing', 'safeties', 'final score']
+qb_stat_descs = ['name', 'pass attempts', 'completions', 'pass yards', 'sacks', 'sack yardage', 'pass tds', 'long pass', 'interceptions', 'rating', 'rush attempts', 'rush yards', 'yards per rush', 'rush tds', 'long rush']
+stat_descs = ['third downs converted', 'third downs', 'third down convert percent', 'fourth downs converted', 'fourth downs', 'fourth down convert percent', 'tackles for a loss', 'tackles for a loss yardage', 'times thrown', 'yards lost attempting to pass', 'pass attempts', 'completions', 'had intercepted', 'n kickoffs', 'n kickoffs in endzone', 'n kickoffs touchbacks', 'n punts', 'avg punt', 'fgs had blocked', 'pats had blocked', 'n punt returns', 'yards punt returns', 'n kickoff returns', 'yards kickoff returns', 'n interception returns', 'yards interception returns', 'n penalties', 'penalty yards', 'n fumbles', 'n fumbles lost', 'extra points made', 'extra points attempts', 'kicking made', 'kicking attempts', 'field goals made', 'field goals attempts', 'red zone converts', 'red zone attempts', 'red zone convert percentage', 'goal to go converts', 'goal to go attempts', 'goal to go convert percentage', 'time of possession', 'total first downs', 'by rushing', 'by passing', 'by penalty', 'total net yards', 'total offensive plays (inc. times thrown passing)', 'average gain per offensive play', 'net yards rushing', 'total rushing plays', 'average gain per rushing play', 'net yards passing', 'gross yards passing', 'avg gain per pass play (inc.# thrown passing)', 'had blocked', 'net punting average', 'total return yardage (not including kickoffs)', 'touchdowns', 'rushing', 'passing', 'safeties', 'final score']
 stat_with_dash_descs = ['third down efficiency', 'fourth down efficiency', 'tackles for a loss-number and yards', 'times thrown - yards lost attempting to pass', 'pass attempts-completions-had intercepted', 'kickoffs number-in end zone-touchbacks', 'punts number and average', 'fgs - pats had blocked', 'no. and yards punt returns', 'no. and yards kickoff returns', 'no. and yards interception returns', 'penalties number and yards', 'fumbles number and lost', 'extra points made-attempts', 'kicking made-attempts', 'field goals made-attempts', 'red zone efficiency', 'goal to go efficiency']
 rare_stat_descs = ['fumbles', 'interceptions', 'punt returns', 'kickoff returns', 'other (blocked kicks, etc.)']
 rare_stat_with_dash_descs = ['rushing made-attempts', 'passing made-attempts']
 
 # print csv header
-header = "year,week,stype,gamekey,away_team,home_team,stadium,stadium_type,turf_type"
+header = "season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type"
 for qb_stat in qb_stat_descs:
-    header += ",away_qb_" + qb_stat
-    header += ",home_qb_" + qb_stat
+    header += ",away_qb_" + replace_periods_and_spaces(qb_stat)
+    header += ",home_qb_" + replace_periods_and_spaces(qb_stat)
 for stat in stat_descs + rare_stat_descs:
-    # remove comma from blocked kicks field 
+    if stat == 'by passing' or stat == 'by rushing' or stat == 'by penalty':
+        stat = 'first_downs_' + stat
+    # remove comma from blocked kicks field prepend tds_by
     if stat == "other (blocked kicks, etc.)":
-        stat = "other (blocked kicks etc.)"
-    header += ",away_" + stat
-    header += ",home_" + stat
-header += ',away 2pt conv rush made,away 2pt conv rush att,away 2pt conv pass made,away 2pt conv pass att'
-header += ',home 2pt conv rush made,home 2pt conv rush att,home 2pt conv pass made,home 2pt conv pass att'
+        stat = "tds_by_other_blocked_kicks_etc"
+    if stat == 'rushing' or stat == 'passing' or stat == 'fumbles' or stat == 'interceptions' or stat == 'punt returns' or stat == 'kickoff returns':
+        stat = 'tds_by_' + stat
+    if stat == 'times thrown':
+        stat = 'times_thrown_yards_lost'
+    header += ",away_" + replace_periods_and_spaces(stat)
+    header += ",home_" + replace_periods_and_spaces(stat)
+header += ',away_2pt_conv_rush_made,away_2pt_conv_rush_att,away_2pt_conv_pass_made,away_2pt_conv_pass_att'
+header += ',home_2pt_conv_rush_made,home_2pt_conv_rush_att,home_2pt_conv_pass_made,home_2pt_conv_pass_att'
 print header
 
 # get gamebook filenames in a sorted list
@@ -381,43 +390,3 @@ for year in years:
     sort_nicely(xml_filenames)
     print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#known_team_stat_descriptions = ['Average Drive Start', 'Average gain per offensive play', 'Average gain per rushing play', 'Avg gain per pass play (inc.# thrown passing)', 'By Passing', 'By Penalty', 'By Rushing', 'EXTRA POINTS Made-Attempts', 'FGs - PATs Had Blocked', 'FIELD GOALS Made-Attempts', 'FINAL SCORE', 'FOURTH DOWN EFFICIENCY', 'FUMBLES Number and Lost', 'First Downs Rushing-Passing-by Penalty', 'Fumbles', 'Fumbles-Number and Lost', 'GOAL TO GO EFFICIENCY', 'Gross Yards Passing', 'Gross yards passing', 'Had Blocked', 'Interceptions', 'KICKOFFS Number-In End Zone-Touchbacks', 'Kicking Made-Attempts', 'Kickoff Returns', 'NET YARDS PASSING', 'NET YARDS RUSHING', 'Net Punting Average', 'No. and Yards Interception Returns', 'No. and Yards Kickoff Returns', 'No. and Yards Punt Returns', 'Other (Blocked Kicks, etc.)', 'PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED', 'PENALTIES Number and Yards', 'PUNTS Number and Average', 'Pass Attempts-Completions-Had Intercepted', 'Passing', 'Passing Made-Attempts', 'Penalties-Number and Yards', 'Punt Returns', 'Punts-Number and Average', 'RED ZONE EFFICIENCY', 'Red Zone Efficiency', 'Rushing', 'Rushing Made-Attempts', 'SAFETIES', 'THIRD DOWN EFFICIENCY', 'TIME OF POSSESSION', 'TOTAL FIRST DOWNS', 'TOTAL NET YARDS', 'TOTAL RETURN YARDAGE (Not Including Kickoffs)', 'TOUCHDOWNS', 'Tackles for a loss-number and yards', 'Times thrown - yards lost attempting to pass', 'Times thrown-yards lost attempting to pass', 'Total Offensive Plays', 'Total Offensive Plays (inc. times thrown passing)', 'Total Rushing Plays']
-
-
-
-# print in csv friendly format
-#output = [gsis_id,year,week,stype,gamekey,home_team,away_team,schedule_date,start_time,time_zone,stadium,game_weather,temp,humidity,windspeed,turf_type,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated]
-
-'''
-for stat in known_team_stat_descriptions:
-    if stat != 'Fumbles' and stat != 'Interceptions' and stat != 'Kickoff Returns' and stat != 'Other (Blocked Kicks, etc.)' and stat != 'Passing Made-Attempts' and stat != 'Punt Returns' and stat != 'Rushing Made-Attempts':
-        output.append(home_team_stats[stat])
-        output.append(away_team_stats[stat])
-'''
-
-# print csv header line
-#print "gsis_id,year,week,stype,gamekey,home_team,away_team,schedule_date,start_time,time_zone,stadium,game_weather,temp,humidity,windspeed,turf_type,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated"
-
-#known_team_stat_descriptions = ['Average Drive Start', 'Average gain per offensive play', 'Average gain per rushing play', 'Avg gain per pass play (inc.# thrown passing)', 'By Passing', 'By Penalty', 'By Rushing', 'EXTRA POINTS Made-Attempts', 'FGs - PATs Had Blocked', 'FIELD GOALS Made-Attempts', 'FINAL SCORE', 'FOURTH DOWN EFFICIENCY', 'FUMBLES Number and Lost', 'First Downs Rushing-Passing-by Penalty', 'Fumbles', 'Fumbles-Number and Lost', 'GOAL TO GO EFFICIENCY', 'Gross Yards Passing', 'Gross yards passing', 'Had Blocked', 'Interceptions', 'KICKOFFS Number-In End Zone-Touchbacks', 'Kicking Made-Attempts', 'Kickoff Returns', 'NET YARDS PASSING', 'NET YARDS RUSHING', 'Net Punting Average', 'No. and Yards Interception Returns', 'No. and Yards Kickoff Returns', 'No. and Yards Punt Returns', 'Other (Blocked Kicks. etc.)', 'PASS ATTEMPTS-COMPLETIONS-HAD INTERCEPTED', 'PENALTIES Number and Yards', 'PUNTS Number and Average', 'Pass Attempts-Completions-Had Intercepted', 'Passing', 'Passing Made-Attempts', 'Penalties-Number and Yards', 'Punt Returns', 'Punts-Number and Average', 'RED ZONE EFFICIENCY', 'Red Zone Efficiency', 'Rushing', 'Rushing Made-Attempts', 'SAFETIES', 'THIRD DOWN EFFICIENCY', 'TIME OF POSSESSION', 'TOTAL FIRST DOWNS', 'TOTAL NET YARDS', 'TOTAL RETURN YARDAGE (Not Including Kickoffs)', 'TOUCHDOWNS', 'Tackles for a loss-number and yards', 'Times thrown - yards lost attempting to pass', 'Times thrown-yards lost attempting to pass', 'Total Offensive Plays', 'Total Offensive Plays (inc. times thrown passing)', 'Total Rushing Plays']
