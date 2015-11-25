@@ -15,6 +15,17 @@ def sort_nicely( l ):
 def replace_periods_and_spaces(str):
     return str.replace(' ', '_').replace('.', '').replace('(','').replace(')','').replace('#','n').replace('average','avg')
 
+''' Converts a short season_type to long season_type '''
+def short_to_long_stype(stype):
+    if stype == 'Reg':
+        return 'Regular'
+    elif stype == 'Pre':
+        return 'Preseason'
+    elif stype == 'Post':
+        return 'Postseason'
+    else:
+        sys.stderr.write("Invalid season type: {}\n".format(stype))
+
 '''
 Returns a list of all filenames in a dir
 that starts with a given string 
@@ -127,7 +138,14 @@ def get_qb_stats(qb_name, passers_xml, rushers_xml):
             qb_stats['yards per rush'] = get_xml_attribute(rusher_xml, 'Average')
             qb_stats['rush tds'] = get_xml_attribute(rusher_xml, 'Touchdowns')
             qb_stats['long rush'] = re.sub('t', '', get_xml_attribute(rusher_xml, 'Long'))
-    return qb_stats
+    # edge case, some starting qb names will be wrong, if at this point qb_name is still blank the original qb_name must have been wrong
+    # try again using a blank qb_name
+    if qb_stats['name'] == '':
+        # warning can recursively loop forever
+        sys.stderr.write("No qb stats found for {}\n".format(qb_name))
+        return get_qb_stats('', passers_xml, rushers_xml)
+    else:
+        return qb_stats
 
 ''' Given an interceptor name and array of passers_xml, returns a json object of that incterceptors stats for the game '''
 def get_interceptor_stats(interceptor_name, interceptors_xml):
@@ -159,6 +177,7 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         # raw game summary data
         season_year,week,season_type,gamekey = xml_file.split('.xml')[0].split('-')
         sys.stderr.write("{}-{}-{}-{}.xml\n".format(season_year, week, season_type, gamekey))
+        season_type = short_to_long_stype(season_type)
         dom = get_dom(gamebooks_path, xml_file)
         gamebook_summary = dom.getElementsByTagName('GamebookSummary')[0]
         schedule_date = get_xml_attribute(gamebook_summary, 'ScheduleDate')
