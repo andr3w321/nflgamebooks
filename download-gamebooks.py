@@ -52,7 +52,7 @@ years = [2015]
 for year in years:
     q = nfldb.Query(db)
     #q.game(season_year=year)
-    q.game(season_year=year, week=11, season_type='Regular')
+    q.game(season_year=year, week=13, season_type='Regular')
     games = sorted(q.as_games(), key=lambda g: g.gsis_id)
     for game in games:
         download_xml(game.season_year, game.week, convert_season_type(game.season_type), game.gamekey)

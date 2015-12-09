@@ -403,9 +403,11 @@ print header
 # get gamebook filenames in a sorted list
 gamebooks_path = './gamebook-xml'
 #xml_filenames = get_filenames(gamebooks_path, "2015-08-Reg-56621", ".xml")
-years = range(2001, 2016)
+#years = range(2001, 2016)
+years = [2015]
 for year in years:
-    xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")
+    #xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")
+    xml_filenames = get_filenames(gamebooks_path, str(year) + "-13", ".xml")
     sort_nicely(xml_filenames)
     print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs)
 
