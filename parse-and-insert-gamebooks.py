@@ -4,6 +4,7 @@ import sys
 import xml.dom.minidom as xml
 from nfldb import standard_team
 from stadium import standard_stadium
+import psycopg2
 
 ''' Sort the given list in the way that humans expect. '''
 def sort_nicely( l ): 
@@ -172,7 +173,40 @@ def print_ary_as_csv_line(ary):
             line += ","
     print line
 
-def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs):
+''' Given the array of gamebook data, insert it into the db '''
+def upsert_gamebook(output):
+    # replace blank strings with None
+    for i in range(0, len(output)):
+        if output[i] == '':
+            output[i] = None
+    # unpack a few fields from output array
+    season_year,week,season_type,gamekey = output[0], output[1], output[2], output[3]
+    # select
+    SQL = """SELECT season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type,schedule_date,start_time,time_zone,game_weather,temp,humidity,windspeed,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated,away_qb_name,home_qb_name,away_qb_pass_attempts,home_qb_pass_attempts,away_qb_completions,home_qb_completions,away_qb_pass_yards,home_qb_pass_yards,away_qb_sacks,home_qb_sacks,away_qb_sack_yardage,home_qb_sack_yardage,away_qb_pass_tds,home_qb_pass_tds,away_qb_long_pass,home_qb_long_pass,away_qb_interceptions,home_qb_interceptions,away_qb_rating,home_qb_rating,away_qb_rush_attempts,home_qb_rush_attempts,away_qb_rush_yards,home_qb_rush_yards,away_qb_yards_per_rush,home_qb_yards_per_rush,away_qb_rush_tds,home_qb_rush_tds,away_qb_long_rush,home_qb_long_rush,away_third_downs_converted,home_third_downs_converted,away_third_downs,home_third_downs,away_third_down_convert_percent,home_third_down_convert_percent,away_fourth_downs_converted,home_fourth_downs_converted,away_fourth_downs,home_fourth_downs,away_fourth_down_convert_percent,home_fourth_down_convert_percent,away_tackles_for_a_loss,home_tackles_for_a_loss,away_tackles_for_a_loss_yardage,home_tackles_for_a_loss_yardage,away_times_thrown_yards_lost,home_times_thrown_yards_lost,away_yards_lost_attempting_to_pass,home_yards_lost_attempting_to_pass,away_pass_attempts,home_pass_attempts,away_completions,home_completions,away_had_intercepted,home_had_intercepted,away_n_kickoffs,home_n_kickoffs,away_n_kickoffs_in_endzone,home_n_kickoffs_in_endzone,away_n_kickoffs_touchbacks,home_n_kickoffs_touchbacks,away_n_punts,home_n_punts,away_avg_punt,home_avg_punt,away_fgs_had_blocked,home_fgs_had_blocked,away_pats_had_blocked,home_pats_had_blocked,away_n_punt_returns,home_n_punt_returns,away_yards_punt_returns,home_yards_punt_returns,away_n_kickoff_returns,home_n_kickoff_returns,away_yards_kickoff_returns,home_yards_kickoff_returns,away_n_interception_returns,home_n_interception_returns,away_yards_interception_returns,home_yards_interception_returns,away_n_penalties,home_n_penalties,away_penalty_yards,home_penalty_yards,away_n_fumbles,home_n_fumbles,away_n_fumbles_lost,home_n_fumbles_lost,away_extra_points_made,home_extra_points_made,away_extra_points_attempts,home_extra_points_attempts,away_kicking_made,home_kicking_made,away_kicking_attempts,home_kicking_attempts,away_field_goals_made,home_field_goals_made,away_field_goals_attempts,home_field_goals_attempts,away_red_zone_converts,home_red_zone_converts,away_red_zone_attempts,home_red_zone_attempts,away_red_zone_convert_percentage,home_red_zone_convert_percentage,away_goal_to_go_converts,home_goal_to_go_converts,away_goal_to_go_attempts,home_goal_to_go_attempts,away_goal_to_go_convert_percentage,home_goal_to_go_convert_percentage,away_time_of_possession,home_time_of_possession,away_total_first_downs,home_total_first_downs,away_first_downs_by_rushing,home_first_downs_by_rushing,away_first_downs_by_passing,home_first_downs_by_passing,away_first_downs_by_penalty,home_first_downs_by_penalty,away_total_net_yards,home_total_net_yards,away_total_offensive_plays_inc_times_thrown_passing,home_total_offensive_plays_inc_times_thrown_passing,away_avg_gain_per_offensive_play,home_avg_gain_per_offensive_play,away_net_yards_rushing,home_net_yards_rushing,away_total_rushing_plays,home_total_rushing_plays,away_avg_gain_per_rushing_play,home_avg_gain_per_rushing_play,away_net_yards_passing,home_net_yards_passing,away_gross_yards_passing,home_gross_yards_passing,away_avg_gain_per_pass_play_incn_thrown_passing,home_avg_gain_per_pass_play_incn_thrown_passing,away_had_blocked,home_had_blocked,away_net_punting_avg,home_net_punting_avg,away_total_return_yardage_not_including_kickoffs,home_total_return_yardage_not_including_kickoffs,away_touchdowns,home_touchdowns,away_tds_by_rushing,home_tds_by_rushing,away_tds_by_passing,home_tds_by_passing,away_safeties,home_safeties,away_final_score,home_final_score,away_tds_by_fumbles,home_tds_by_fumbles,away_tds_by_interceptions,home_tds_by_interceptions,away_tds_by_punt_returns,home_tds_by_punt_returns,away_tds_by_kickoff_returns,home_tds_by_kickoff_returns,away_tds_by_other_blocked_kicks_etc,home_tds_by_other_blocked_kicks_etc,away_2pt_conv_rush_made,away_2pt_conv_rush_att,away_2pt_conv_pass_made,away_2pt_conv_pass_att,home_2pt_conv_rush_made,home_2pt_conv_rush_att,home_2pt_conv_pass_made,home_2pt_conv_pass_att FROM gamebook WHERE season_year = %s AND week = %s AND season_type = %s AND gamekey = %s;"""
+    data = (season_year, week, season_type, gamekey)
+    cur.execute(SQL, data)
+    db_output = cur.fetchone()
+    # compare
+    if db_output != None:
+        #print [str(i) for i in db_output]
+        #print [str(i) for i in db_output] == [str(i) for i in output]
+        #print [str(i) for i in output]
+        #print len(db_output), len(output)
+        #for i in range(0,len(output)):
+            #if str(output[i]) != str(db_output[i]):
+                #print i, output[i], db_output[i]
+        SQL = """DELETE FROM gamebook WHERE season_year = %s AND week = %s AND season_type = %s AND gamekey = %s;"""
+        data = (season_year, week, season_type, gamekey)
+        cur.execute(SQL, data)
+        #sys.stderr.write("DELETING {} gamebook {}-{}-{}-{} from db\n".format(cur.rowcount, season_year, week, season_type, gamekey))
+    # insert
+    SQL = """INSERT INTO gamebook(season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type,schedule_date,start_time,time_zone,game_weather,temp,humidity,windspeed,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated,away_qb_name,home_qb_name,away_qb_pass_attempts,home_qb_pass_attempts,away_qb_completions,home_qb_completions,away_qb_pass_yards,home_qb_pass_yards,away_qb_sacks,home_qb_sacks,away_qb_sack_yardage,home_qb_sack_yardage,away_qb_pass_tds,home_qb_pass_tds,away_qb_long_pass,home_qb_long_pass,away_qb_interceptions,home_qb_interceptions,away_qb_rating,home_qb_rating,away_qb_rush_attempts,home_qb_rush_attempts,away_qb_rush_yards,home_qb_rush_yards,away_qb_yards_per_rush,home_qb_yards_per_rush,away_qb_rush_tds,home_qb_rush_tds,away_qb_long_rush,home_qb_long_rush,away_third_downs_converted,home_third_downs_converted,away_third_downs,home_third_downs,away_third_down_convert_percent,home_third_down_convert_percent,away_fourth_downs_converted,home_fourth_downs_converted,away_fourth_downs,home_fourth_downs,away_fourth_down_convert_percent,home_fourth_down_convert_percent,away_tackles_for_a_loss,home_tackles_for_a_loss,away_tackles_for_a_loss_yardage,home_tackles_for_a_loss_yardage,away_times_thrown_yards_lost,home_times_thrown_yards_lost,away_yards_lost_attempting_to_pass,home_yards_lost_attempting_to_pass,away_pass_attempts,home_pass_attempts,away_completions,home_completions,away_had_intercepted,home_had_intercepted,away_n_kickoffs,home_n_kickoffs,away_n_kickoffs_in_endzone,home_n_kickoffs_in_endzone,away_n_kickoffs_touchbacks,home_n_kickoffs_touchbacks,away_n_punts,home_n_punts,away_avg_punt,home_avg_punt,away_fgs_had_blocked,home_fgs_had_blocked,away_pats_had_blocked,home_pats_had_blocked,away_n_punt_returns,home_n_punt_returns,away_yards_punt_returns,home_yards_punt_returns,away_n_kickoff_returns,home_n_kickoff_returns,away_yards_kickoff_returns,home_yards_kickoff_returns,away_n_interception_returns,home_n_interception_returns,away_yards_interception_returns,home_yards_interception_returns,away_n_penalties,home_n_penalties,away_penalty_yards,home_penalty_yards,away_n_fumbles,home_n_fumbles,away_n_fumbles_lost,home_n_fumbles_lost,away_extra_points_made,home_extra_points_made,away_extra_points_attempts,home_extra_points_attempts,away_kicking_made,home_kicking_made,away_kicking_attempts,home_kicking_attempts,away_field_goals_made,home_field_goals_made,away_field_goals_attempts,home_field_goals_attempts,away_red_zone_converts,home_red_zone_converts,away_red_zone_attempts,home_red_zone_attempts,away_red_zone_convert_percentage,home_red_zone_convert_percentage,away_goal_to_go_converts,home_goal_to_go_converts,away_goal_to_go_attempts,home_goal_to_go_attempts,away_goal_to_go_convert_percentage,home_goal_to_go_convert_percentage,away_time_of_possession,home_time_of_possession,away_total_first_downs,home_total_first_downs,away_first_downs_by_rushing,home_first_downs_by_rushing,away_first_downs_by_passing,home_first_downs_by_passing,away_first_downs_by_penalty,home_first_downs_by_penalty,away_total_net_yards,home_total_net_yards,away_total_offensive_plays_inc_times_thrown_passing,home_total_offensive_plays_inc_times_thrown_passing,away_avg_gain_per_offensive_play,home_avg_gain_per_offensive_play,away_net_yards_rushing,home_net_yards_rushing,away_total_rushing_plays,home_total_rushing_plays,away_avg_gain_per_rushing_play,home_avg_gain_per_rushing_play,away_net_yards_passing,home_net_yards_passing,away_gross_yards_passing,home_gross_yards_passing,away_avg_gain_per_pass_play_incn_thrown_passing,home_avg_gain_per_pass_play_incn_thrown_passing,away_had_blocked,home_had_blocked,away_net_punting_avg,home_net_punting_avg,away_total_return_yardage_not_including_kickoffs,home_total_return_yardage_not_including_kickoffs,away_touchdowns,home_touchdowns,away_tds_by_rushing,home_tds_by_rushing,away_tds_by_passing,home_tds_by_passing,away_safeties,home_safeties,away_final_score,home_final_score,away_tds_by_fumbles,home_tds_by_fumbles,away_tds_by_interceptions,home_tds_by_interceptions,away_tds_by_punt_returns,home_tds_by_punt_returns,away_tds_by_kickoff_returns,home_tds_by_kickoff_returns,away_tds_by_other_blocked_kicks_etc,home_tds_by_other_blocked_kicks_etc,away_2pt_conv_rush_made,away_2pt_conv_rush_att,away_2pt_conv_pass_made,away_2pt_conv_pass_att,home_2pt_conv_rush_made,home_2pt_conv_rush_att,home_2pt_conv_pass_made,home_2pt_conv_pass_att) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);"""
+    data = (tuple(output))
+    cur.execute(SQL, data)
+    #sys.stderr.write("INSERTING {} gamebook {}-{}-{}-{} from db\n".format(cur.rowcount, season_year, week, season_type, gamekey))
+
+''' Given a list of xml filenames for gamebooks, parse out the data, then insert it into db '''
+def parse_upsert_xmls(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs):
     for xml_file in xml_filenames:
         # raw game summary data
         season_year,week,season_type,gamekey = xml_file.split('.xml')[0].split('-')
@@ -371,15 +405,16 @@ def print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_d
         output += [away_team_stats['2pt conv rush made'], away_team_stats['2pt conv rush att'], away_team_stats['2pt conv pass made'], away_team_stats['2pt conv pass att']]
         output += [home_team_stats['2pt conv rush made'], home_team_stats['2pt conv rush att'], home_team_stats['2pt conv pass made'], home_team_stats['2pt conv pass att']]
 
-        print_ary_as_csv_line(output)
+        upsert_gamebook(output)
 
+###Compile the sql column names as a csv
 qb_stat_descs = ['name', 'pass attempts', 'completions', 'pass yards', 'sacks', 'sack yardage', 'pass tds', 'long pass', 'interceptions', 'rating', 'rush attempts', 'rush yards', 'yards per rush', 'rush tds', 'long rush']
 stat_descs = ['third downs converted', 'third downs', 'third down convert percent', 'fourth downs converted', 'fourth downs', 'fourth down convert percent', 'tackles for a loss', 'tackles for a loss yardage', 'times thrown', 'yards lost attempting to pass', 'pass attempts', 'completions', 'had intercepted', 'n kickoffs', 'n kickoffs in endzone', 'n kickoffs touchbacks', 'n punts', 'avg punt', 'fgs had blocked', 'pats had blocked', 'n punt returns', 'yards punt returns', 'n kickoff returns', 'yards kickoff returns', 'n interception returns', 'yards interception returns', 'n penalties', 'penalty yards', 'n fumbles', 'n fumbles lost', 'extra points made', 'extra points attempts', 'kicking made', 'kicking attempts', 'field goals made', 'field goals attempts', 'red zone converts', 'red zone attempts', 'red zone convert percentage', 'goal to go converts', 'goal to go attempts', 'goal to go convert percentage', 'time of possession', 'total first downs', 'by rushing', 'by passing', 'by penalty', 'total net yards', 'total offensive plays (inc. times thrown passing)', 'average gain per offensive play', 'net yards rushing', 'total rushing plays', 'average gain per rushing play', 'net yards passing', 'gross yards passing', 'avg gain per pass play (inc.# thrown passing)', 'had blocked', 'net punting average', 'total return yardage (not including kickoffs)', 'touchdowns', 'rushing', 'passing', 'safeties', 'final score']
 stat_with_dash_descs = ['third down efficiency', 'fourth down efficiency', 'tackles for a loss-number and yards', 'times thrown - yards lost attempting to pass', 'pass attempts-completions-had intercepted', 'kickoffs number-in end zone-touchbacks', 'punts number and average', 'fgs - pats had blocked', 'no. and yards punt returns', 'no. and yards kickoff returns', 'no. and yards interception returns', 'penalties number and yards', 'fumbles number and lost', 'extra points made-attempts', 'kicking made-attempts', 'field goals made-attempts', 'red zone efficiency', 'goal to go efficiency']
 rare_stat_descs = ['fumbles', 'interceptions', 'punt returns', 'kickoff returns', 'other (blocked kicks, etc.)']
 rare_stat_with_dash_descs = ['rushing made-attempts', 'passing made-attempts']
 
-# print csv header
+# print the column names
 header = "season_year,week,season_type,gamekey,away_team,home_team,stadium,stadium_type,turf_type,schedule_date,start_time,time_zone,game_weather,temp,humidity,windspeed,outdoor_weather,wind_chill,wind_direction,referee,umpire,head_linesman,line_judge,side_judge,back_judge,field_judge,replay_official,attendance,game_length,visitor_score_q1,visitor_score_q2,visitor_score_q3,visitor_score_q4,visitor_score_ot,home_score_q1,home_score_q2,home_score_q3,home_score_q4,home_score_ot,last_updated"
 for qb_stat in qb_stat_descs:
     header += ",away_qb_" + replace_periods_and_spaces(qb_stat)
@@ -398,16 +433,28 @@ for stat in stat_descs + rare_stat_descs:
     header += ",home_" + replace_periods_and_spaces(stat)
 header += ',away_2pt_conv_rush_made,away_2pt_conv_rush_att,away_2pt_conv_pass_made,away_2pt_conv_pass_att'
 header += ',home_2pt_conv_rush_made,home_2pt_conv_rush_att,home_2pt_conv_pass_made,home_2pt_conv_pass_att'
-print header
+#print header
 
+### DB connect
+try:
+    conn = psycopg2.connect("host=localhost dbname=nfldb user=nfldb")
+except:
+    print "I am unable to connect to the datbase."
+cur = conn.cursor()
+
+### Begin parsing the gamebooks
 # get gamebook filenames in a sorted list
 gamebooks_path = './gamebook-xml'
 #xml_filenames = get_filenames(gamebooks_path, "2015-08-Reg-56621", ".xml")
 #years = range(2001, 2016)
 years = [2015]
 for year in years:
-    #xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")
-    xml_filenames = get_filenames(gamebooks_path, str(year) + "-01-Post", ".xml")
+    xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")
+    #xml_filenames = get_filenames(gamebooks_path, str(year) + "-05-Post", ".xml")
     sort_nicely(xml_filenames)
-    print_xmls_as_csv(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs)
+    parse_upsert_xmls(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs)
 
+### DB close
+conn.commit()
+cur.close()
+conn.close()

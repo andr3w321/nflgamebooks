@@ -217,5 +217,3 @@ CREATE TABLE gamebook(
 	home_2pt_conv_pass_made INTEGER,
 	home_2pt_conv_pass_att INTEGER
 );
-
-\copy gamebook FROM './output.csv' DELIMITER ',' CSV HEADER;
