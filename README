@@ -1,0 +1,14 @@
+This project downloads NFL gamebooks and parses them and inserts them into a db.  It is used in conjunction with @Burntsushi's wonderful NFLDB project.  
+
+To get started
+1. Install NFLDB
+2. Run the DB migrations with
+psql -U nfldb nfldb < ./db_migrations/create-gamebook-drive-table.sql
+psql -U nfldb nfldb < ./db_migrations/create-gamebook-table.sql
+psql -U nfldb nfldb < ./stadiums/create-stadium-table.sql
+3. Edit line ~511 of `parse-and-insert-gamebooks.py` to `years = range(2002, 2016)` and comment out line ~512 `years = [2016]`
+4. Edit line ~514 to read `xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")`
+5. Run `python parse-and-insert-gamebooks.py` 
+6. Once complete you can edit back the changes in steps 3-4 to perform a weekly update
+
+Notes: There's still lots of data in the gamebooks xml I have not finished parsing from the xml.  I welcome pull requests.  This project is not nearly as complete or polished as @burntsushi's NFLDB.  Occasionally the stadium names are typod in the gamebooks and you will need to modify stadium.py to add the alias.

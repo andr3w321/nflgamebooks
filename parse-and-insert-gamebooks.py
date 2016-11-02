@@ -511,7 +511,7 @@ gamebooks_path = './gamebook-xml'
 #years = range(2002, 2016)
 years = [2016]
 for year in years:
-    xml_filenames = get_filenames(gamebooks_path, str(year), ".xml")
+    xml_filenames = get_filenames(gamebooks_path, str(year) + "-08-Reg", ".xml")
     sort_nicely(xml_filenames)
     parse_upsert_xmls(xml_filenames, qb_stat_descs, stat_descs, stat_with_dash_descs, rare_stat_descs, rare_stat_with_dash_descs)
 
